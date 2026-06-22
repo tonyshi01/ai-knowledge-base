@@ -24,9 +24,9 @@ REQUIRED_FIELDS: dict[str, type] = {
     "status": str,
 }
 
-ID_PATTERN = re.compile(r"^[a-z]+-\d{8}-\d{3}$")
+ID_PATTERN = re.compile(r"^\d{8}-\d{3}$")
 URL_PATTERN = re.compile(r"^https?://")
-VALID_STATUSES = {"draft", "review", "published", "archived"}
+VALID_STATUSES = {"pending", "reviewed", "published", "archived"}
 VALID_AUDIENCES = {"beginner", "intermediate", "advanced"}
 
 
@@ -52,7 +52,7 @@ def check_id_format(data: object, path: str, errors: list[str]) -> None:
     if not ID_PATTERN.match(value):
         errors.append(
             f"  [{path}] ID 格式错误: {value!r} "
-            f"(期望模式: {{source}}-{{YYYYMMDD}}-{{NNN}}, 例如 github-20260317-001)"
+            f"(期望模式: YYYYMMDD-NNN, 例如 20260317-001)"
         )
 
 
@@ -97,13 +97,13 @@ def check_score(data: object, path: str, errors: list[str]) -> None:
     value = data.get("score")
     if value is None:
         return
-    if not isinstance(value, int):
+    if not isinstance(value, int | float):
         errors.append(
-            f"  [{path}] score 类型错误: 期望 int, 实际 {type(value).__name__}"
+            f"  [{path}] score 类型错误: 期望 int|float, 实际 {type(value).__name__}"
         )
         return
-    if value < 1 or value > 10:
-        errors.append(f"  [{path}] score 超出范围: {value} (有效范围: 1-10)")
+    if not (0 <= value <= 1):
+        errors.append(f"  [{path}] score 超出范围: {value} (有效范围: 0-1)")
 
 
 def check_audience(data: object, path: str, errors: list[str]) -> None:

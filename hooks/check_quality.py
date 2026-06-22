@@ -73,6 +73,11 @@ STANDARD_TAGS = {
     "security", "framework", "sandbox", "automation", "workflow",
     "typeScript", "python", "go", "rust", "shell",
     "open-source", "mit", "apache",
+    "langchain", "orchestration", "engineering-practices", "development-workflow",
+    "skills", "cost-reduction", "context-engineering", "web-scraping",
+    "developer-tools", "tree-sitter", "vllm", "video-production", "creative-tools",
+    "vulnerability-detection", "isolation", "vercel", "typescript",
+    "prompt-engineering", "system-prompt", "reverse-engineering",
 }
 
 NOISE_WORDS_CN = [
@@ -91,10 +96,10 @@ NOISE_PATTERNS: list[re.Pattern] = (
     + [re.compile(w, re.IGNORECASE) for w in NOISE_WORDS_EN]
 )
 
-# Score field mapping: 1-10 -> 0-25
+# Score field mapping: float 0.0-1.0 -> 0-25
 DEPTH_MAP = {
-    1: 0, 2: 3, 3: 5, 4: 8, 5: 10,
-    6: 13, 7: 16, 8: 19, 9: 22, 10: 25,
+    0.0: 0, 0.1: 3, 0.2: 5, 0.3: 8, 0.4: 10,
+    0.5: 13, 0.6: 16, 0.7: 19, 0.8: 22, 0.9: 23, 1.0: 25,
 }
 
 
@@ -140,10 +145,13 @@ def score_summary(data: dict) -> DimensionScore:
 
 def score_depth(data: dict) -> DimensionScore:
     raw = data.get("score")
-    if not isinstance(raw, int):
+    if not isinstance(raw, int | float):
         return DimensionScore("技术深度", 0, MAX_DEPTH, "缺少 score 字段")
 
-    mapped = DEPTH_MAP.get(raw, 0)
+    # Round to nearest 0.1 and look up
+    bucket = round(raw * 10) / 10
+    bucket = max(0.0, min(1.0, bucket))
+    mapped = DEPTH_MAP.get(bucket, 0)
     detail = f"score={raw} → {mapped} 分"
     return DimensionScore("技术深度", float(mapped), MAX_DEPTH, detail)
 

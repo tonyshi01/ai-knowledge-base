@@ -1,6 +1,10 @@
 ---
 name: github-trending
-description: 当需要采集 GitHub 热门开源项目时使用此技能
+description: >
+  当用户说「这周 GitHub 上有什么好项目」「帮我扫一下 trending」「看看最近什么开源项目火」
+  「找 AI/LLM/Agent 相关的热门仓库」「采集 GitHub 趋势」「爬取热门开源项目」「推荐本周值得关注的项目」
+  「Top 50 trending repos」时使用此技能。
+  也供其他 skill 需要获取 GitHub 热门项目列表时调用。
 allowed-tools:
   - Read
   - Grep
@@ -8,101 +12,89 @@ allowed-tools:
   - WebFetch
 ---
 
-# GitHub Trending 采集技能
+# github-trending · 趋势采集
 
-采集 GitHub Trending 上的热门开源项目，提取关键信息并输出结构化 JSON。
+抓 `github.com/trending` 全文解析，过 topics 筛子，吐出结构化 JSON。
 
-## 使用场景
+## 步骤
 
-- 每日采集 GitHub Trending 热门项目
-- 筛选 AI/LLM/Agent 领域相关项目
-- 生成结构化知识条目供后续分析
+### 1. 抓取
 
-## 执行步骤
+WebFetch 爬 `https://github.com/trending?since=weekly`。
 
-### 1. 搜索热门仓库
+失败时返回空数组 `[]`，不抛。
 
-通过 GitHub API 获取 Trending 仓库列表：
+### 2. 解析
 
-```
-GET https://api.github.com/search/repositories?q=...&sort=stars&order=desc
-```
+从 HTML 提取全部仓库行，每条产出：
 
-优先使用 GitHub 官方 API（需配置 `GITHUB_TOKEN`），备选方案为 WebFetch 抓取 `https://github.com/trending` 页面。
+- `name` — `owner/repo`
+- `url` — `https://github.com/{name}`
+- `stars` — 整数，剔除逗号
+- `topics` — 页面标签列表
+- `description` — 英文描述
 
-### 2. 提取信息
+### 3. 过筛
 
-从搜索结果中提取以下字段：
-
-| 字段 | 说明 |
-|------|------|
-| `name` | 仓库全名（`owner/repo`） |
-| `url` | 仓库地址 |
-| `stars` | Star 总数 |
-| `language` | 主要编程语言 |
-| `topics` | 仓库标签列表 |
-| `description` | 英文描述 |
-
-### 3. 过滤
-
-**纳入条件**（满足任一即可）：
-- 项目描述或 topics 包含 `AI`、`LLM`、`Agent`、`GPT`、`Claude`、`RAG`、`MCP`、`embedding`、`vector`、`machine learning`、`deep learning`、`NLP`、`langchain`、`Copilot` 等关键词
-- 项目明显属于 AI 工具/框架/模型/应用
-- 项目作者或组织为知名 AI 团队（OpenAI、Anthropic、Google DeepMind、Meta AI、Hugging Face 等）
-
-**排除条件**（满足任一即跳过）：
-- Awesome 列表（`awesome-*` 仓库）
-- 与 AI/LLM/Agent 完全无关的项目
-- 非技术类项目
-
-### 4. 去重
-
-与 `knowledge/articles/` 中已有条目比对，按 URL 去重，已存在则跳过。
-
-### 5. 撰写中文摘要
-
-每条摘要遵循固定公式：
+保留 `topics` 与以下任一词匹配的行：
 
 ```
-{项目名} 是一个{项目类型}，{做什么}。{为什么值得关注}。
+ai, llm, agent, ml, deep-learning, nlp, llm, gpt, claude,
+rag, mcp, embedding, vector, langchain, copilot
 ```
 
-示例：
-> headroom 是一个 LLM 上下文压缩工具，在工具输出到达大模型前进行智能压缩。可减少 60-95% 的 token 消耗，提供 Library/Proxy/MCP 三种集成方式。
+**完成标准**: 全部 50 行逐一检查过，无遗漏。
 
-### 6. 排序
+### 4. 输出
 
-按 Star 总数从高到低排序，取 Top 15。
+stdout 打印 JSON 数组。字段顺序稳定：`name, url, stars, topics, description`。
 
-### 7. 输出 JSON
+```json
+[
+  {
+    "name": "chopratejas/headroom",
+    "url": "https://github.com/chopratejas/headroom",
+    "stars": 45122,
+    "topics": ["llm", "compression", "mcp", "agent"],
+    "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM."
+  }
+]
+```
 
-将结果写入 `knowledge/raw/github-trending-YYYY-MM-DD.json`。
+## 边界
 
-## 输出格式
+- 不调 GitHub API（rate limit 紧），只走 HTML
+- 不落盘、不入库，只 stdout
+- 不做去重——caller 负责
+- 单次执行 < 10s；超时则返回 `[]`
+- 输出必须通过 jsonschema 校验（见 [`schema.json`](#file-schemajson)）
+
+## 参考
+
+### 筛词表
+
+```
+ai, llm, agent, ml, deep-learning, nlp, gpt, claude,
+rag, mcp, embedding, vector, langchain, copilot
+```
+
+### schema.json
 
 ```json
 {
-  "source": "github_trending",
-  "skill": "github-trending",
-  "collected_at": "2026-06-22T08:00:00+08:00",
-  "items": [
-    {
-      "name": "chopratejas/headroom",
-      "url": "https://github.com/chopratejas/headroom",
-      "summary": "headroom 是一个 LLM 上下文压缩工具，在工具输出到达大模型前进行智能压缩。可减少 60-95% 的 token 消耗，提供 Library/Proxy/MCP 三种集成方式。",
-      "stars": 44800,
-      "language": "Python",
-      "topics": ["llm", "compression", "mcp", "agent"]
-    }
-  ]
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["name", "url", "stars", "topics", "description"],
+    "properties": {
+      "name":        {"type": "string", "pattern": "^[^/]+/[^/]+$"},
+      "url":         {"type": "string", "format": "uri"},
+      "stars":       {"type": "integer", "minimum": 0},
+      "topics":      {"type": "array", "items": {"type": "string"}},
+      "description": {"type": "string"}
+    },
+    "additionalProperties": false
+  }
 }
 ```
-
-## 注意事项
-
-- 优先使用 GitHub API 以获得结构化数据，API 限流时降级为页面抓取
-- `GITHUB_TOKEN` 从环境变量读取，禁止硬编码
-- 摘要必须真实反映项目功能，不编造数据
-- 过滤时宁可多收录后由分析环节筛除，不可遗漏相关项目
-- 写入文件前确保 `knowledge/raw/` 目录存在
-- YYYY-MM-DD 使用采集当日的 UTC+8 日期
