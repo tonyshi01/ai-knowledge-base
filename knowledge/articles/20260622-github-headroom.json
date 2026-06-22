@@ -1,0 +1,17 @@
+{
+  "id": "20260622-001",
+  "title": "chopratejas/headroom",
+  "source": "github_trending",
+  "source_url": "https://github.com/chopratejas/headroom",
+  "summary": "AI Agent 上下文压缩层，在工具输出、日志、文件和 RAG 片段到达 LLM 前进行压缩，可减少 60-95% 的 token 消耗，同时保持回答质量不变。提供库、代理和 MCP Server 三种使用方式。",
+  "highlights": [
+    "6 种压缩算法 + 可逆 CCR 缓存，支持 Library/Proxy/MCP/Agent Wrap 四种集成模式",
+    "经基准测试压缩率 47-92% 且准确率无损，总星数达 44.8k"
+  ],
+  "tags": ["token-optimization", "LLM", "MCP", "cost-reduction", "context-engineering"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 8
+}

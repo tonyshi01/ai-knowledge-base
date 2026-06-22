@@ -1,0 +1,17 @@
+{
+  "id": "20260622-011",
+  "title": "vercel/eve",
+  "source": "github_trending",
+  "source_url": "https://github.com/vercel/eve",
+  "summary": "Vercel 新推出的 Agent 构建框架，帮助开发者快速构建和部署 AI Agent，TypeScript 编写。",
+  "highlights": [
+    "Vercel 官方发布，6 天内获 2.1k 星增长迅猛",
+    "TypeScript 编写，与 Vercel 生态深度集成"
+  ],
+  "tags": ["Agent", "framework", "Vercel", "TypeScript"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 7
+}

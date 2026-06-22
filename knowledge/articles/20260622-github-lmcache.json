@@ -1,0 +1,17 @@
+{
+  "id": "20260622-010",
+  "title": "LMCache/LMCache",
+  "source": "github_trending",
+  "source_url": "https://github.com/LMCache/LMCache",
+  "summary": "加速 LLM 推理的 KV 缓存层，通过高效的缓存策略显著降低大语言模型推理延迟，模型无关的缓存层方案。",
+  "highlights": [
+    "模型无关的 KV 缓存优化，适用于各类 LLM",
+    "显著降低推理延迟，提升 LLM 服务吞吐性能"
+  ],
+  "tags": ["LLM", "inference", "caching", "performance"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 7
+}

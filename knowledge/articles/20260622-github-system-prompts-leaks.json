@@ -1,0 +1,17 @@
+{
+  "id": "20260622-008",
+  "title": "asgeirtj/system_prompts_leaks",
+  "source": "github_trending",
+  "source_url": "https://github.com/asgeirtj/system_prompts_leaks",
+  "summary": "收集并公开 Anthropic、OpenAI、Google、xAI 等公司最新 AI 模型的系统提示词，涵盖 Claude、ChatGPT、Gemini、Grok 等，定期更新。",
+  "highlights": [
+    "覆盖 Claude、ChatGPT、Gemini、Grok 等主流模型的系统提示词",
+    "持续更新，是 Prompt Engineering 研究和竞品分析的重要参考"
+  ],
+  "tags": ["prompt-engineering", "system-prompt", "LLM", "reverse-engineering"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 6
+}

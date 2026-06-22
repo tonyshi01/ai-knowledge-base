@@ -1,0 +1,17 @@
+{
+  "id": "20260622-002",
+  "title": "Panniantong/Agent-Reach",
+  "source": "github_trending",
+  "source_url": "https://github.com/Panniantong/Agent-Reach",
+  "summary": "为 AI Agent 提供互联网访问能力的 CLI 工具，一条命令即可读取和搜索 Twitter、Reddit、YouTube、GitHub、B站、小红书等平台，无需任何 API 费用。",
+  "highlights": [
+    "CLI 一键访问十余社交媒体和内容平台",
+    "零 API 费用，大幅降低 Agent 获取外部信息的门槛"
+  ],
+  "tags": ["Agent", "web-scraping", "multi-platform", "automation"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 7
+}

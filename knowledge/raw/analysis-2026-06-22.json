@@ -1,0 +1,159 @@
+{
+  "source": "github_trending",
+  "skill": "tech-summary",
+  "analyzed_at": "2026-06-22T08:30:00+08:00",
+  "items": [
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "summary": "面向 AI 编码 Agent 的生产级工程技能集合。",
+      "highlights": [
+        "Google Chrome 团队 Addy Osmani 创建，64.9k 星，7k+ Fork",
+        "24 个技能 + 8 个斜杠命令，覆盖 spec→ship 完整流程",
+        "兼容 Claude Code、Cursor、Gemini CLI、OpenCode 等 10+ 平台"
+      ],
+      "score": 8,
+      "score_reason": "直接有帮助：定义了 Agent 技能工程标准，可立即用于提升 Agent 代码质量",
+      "tags": ["engineering-practices", "Agent", "development-workflow", "skills"]
+    },
+    {
+      "name": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "summary": "AI Agent 上下文压缩层，减少 60-95% token 消耗。",
+      "highlights": [
+        "6 种压缩算法 + 可逆 CCR 缓存，四种集成模式",
+        "经基准测试压缩率 47-92% 且准确率无损",
+        "已适配 Claude Code、Codex、Cursor、Copilot 等主流 Agent"
+      ],
+      "score": 8,
+      "score_reason": "直接有帮助：显著降低 LLM 调用成本，集成方式灵活，即装即用",
+      "tags": ["token-optimization", "LLM", "MCP", "cost-reduction"]
+    },
+    {
+      "name": "asgeirtj/system_prompts_leaks",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "summary": "收集主流 AI 模型的系统提示词，定期更新。",
+      "highlights": [
+        "覆盖 Claude/ChatGPT/Gemini/Grok/Codex 等全部主流模型",
+        "44.6k 星，7.3k Fork，社区关注度极高"
+      ],
+      "score": 6,
+      "score_reason": "值得了解：Prompt Engineering 参考价值高，但属被动收集而非技术创新",
+      "tags": ["prompt-engineering", "system-prompt", "LLM", "reverse-engineering"]
+    },
+    {
+      "name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "summary": "AI Agent 互联网访问 CLI 工具，零 API 费。",
+      "highlights": [
+        "一条命令访问 Twitter/Reddit/YouTube/GitHub/B站/小红书等平台",
+        "零 API 费用，37.1k 星，MCP 协议原生支持"
+      ],
+      "score": 7,
+      "score_reason": "直接有帮助：填补 Agent 互联网数据获取空白，CLI 设计降低使用门槛",
+      "tags": ["Agent", "web-scraping", "MCP", "automation"]
+    },
+    {
+      "name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "summary": "Google Research 出品的时间序列基础预测模型。",
+      "highlights": [
+        "Google Research 官方出品，25k 星",
+        "预训练基础模型，可直接用于各类时序预测无需微调"
+      ],
+      "score": 5,
+      "score_reason": "值得了解：时序预测领域重要工作，但与 LLM/Agent 核心方向相关性较弱",
+      "tags": ["time-series", "foundation-model", "forecasting"]
+    },
+    {
+      "name": "DeusData/codebase-memory-mcp",
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "summary": "将代码库索引为知识图谱的 MCP 服务器。",
+      "highlights": [
+        "158 种语言，Linux 内核（28M LOC）3 分钟全索引",
+        "毫秒级查询，99% token 节省，单静态二进制零依赖",
+        "14 个 MCP 工具，自动适配 11 种编码 Agent"
+      ],
+      "score": 8,
+      "score_reason": "直接有帮助：大幅提升编码 Agent 代码理解效率，技术指标业界领先",
+      "tags": ["MCP", "code-intelligence", "knowledge-graph", "developer-tools"]
+    },
+    {
+      "name": "LMCache/LMCache",
+      "url": "https://github.com/LMCache/LMCache",
+      "summary": "加速 LLM 推理的 KV 缓存层，降低延迟。",
+      "highlights": [
+        "模型无关的 KV 缓存设计，支持 CUDA/ROCm/AMD 多平台",
+        "与 vLLM 集成，生产环境可直接部署"
+      ],
+      "score": 7,
+      "score_reason": "直接有帮助：降低 LLM 推理延迟的实用方案，对推理服务场景价值高",
+      "tags": ["LLM", "inference", "caching", "vllm"]
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "summary": "开源 Agent 视频制作系统，12 管线 52 工具。",
+      "highlights": [
+        "全球首个开源 Agent 驱动视频制作系统",
+        "12 条流水线 + 52 个工具 + 500+ Agent 技能的大规模系统"
+      ],
+      "score": 5,
+      "score_reason": "值得了解：创意方向创新，但视频制作属小众应用场景",
+      "tags": ["Agent", "video-production", "multimodal", "creative-tools"]
+    },
+    {
+      "name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "summary": "NVIDIA 出品，AI Agent 技能安全扫描器。",
+      "highlights": [
+        "NVIDIA 官方项目，64 种漏洞模式覆盖 16 个类别",
+        "两阶段检测（静态分析 + LLM 语义评估），精度 87%"
+      ],
+      "score": 7,
+      "score_reason": "直接有帮助：Agent 技能安全审查刚需工具，NVIDIA 背书增强可信度",
+      "tags": ["Agent", "security", "vulnerability-detection"]
+    },
+    {
+      "name": "withastro/flue",
+      "url": "https://github.com/withastro/flue",
+      "summary": "Astro 团队开发的沙箱 Agent 框架。",
+      "highlights": [
+        "Astro 团队出品，品质保证",
+        "沙箱隔离机制保障不可信 Agent 代码安全执行"
+      ],
+      "score": 7,
+      "score_reason": "直接有帮助：Agent 沙箱安全是刚需，Astro 团队的技术口碑加分",
+      "tags": ["Agent", "sandbox", "security", "isolation"]
+    },
+    {
+      "name": "vercel/eve",
+      "url": "https://github.com/vercel/eve",
+      "summary": "Vercel 新推出的 Agent 构建框架。",
+      "highlights": [
+        "Vercel 官方发布，6 天内获 2.1k 星增长迅猛",
+        "TypeScript 编写，与 Vercel 生态深度集成"
+      ],
+      "score": 7,
+      "score_reason": "直接有帮助：Vercel 生态的 Agent 框架有潜力成为主流选择，值得早期跟进",
+      "tags": ["Agent", "framework", "Vercel", "TypeScript"]
+    }
+  ],
+  "trends": {
+    "common_themes": [
+      "Agent 工具生态全面爆发：11 个项目中有 7 个直接面向 Agent 场景",
+      "MCP 协议成为 Agent 工具标准接口：多个项目原生支持 MCP",
+      "Agent 安全受重视：SkillSpector（安全扫描）+ flue（沙箱）+ eve（沙箱）同时出现"
+    ],
+    "emerging_concepts": [
+      "可逆上下文压缩（CCR）：headroom 提出的可还原压缩方案，平衡 token 节省与信息完整",
+      "Agent 技能安全扫描：NVIDIA SkillSpector 开辟 Agent 安全审计新赛道",
+      "沙箱化 Agent 执行：flue 和 eve 同时关注 Agent 隔离运行环境"
+    ],
+    "notable_projects": [
+      "agent-skills（8分）：定义 Agent 技能工程标准，64.9k 星社区验证",
+      "headroom（8分）：压缩技术成熟度高，44.8k 星，可降低 60-95% 成本",
+      "codebase-memory-mcp（8分）：代码智能领域技术指标最佳，158 语言支持"
+    ]
+  }
+}

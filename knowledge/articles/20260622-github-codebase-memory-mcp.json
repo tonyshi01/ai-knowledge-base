@@ -1,0 +1,17 @@
+{
+  "id": "20260622-003",
+  "title": "DeusData/codebase-memory-mcp",
+  "source": "github_trending",
+  "source_url": "https://github.com/DeusData/codebase-memory-mcp",
+  "summary": "高性能代码智能 MCP 服务器，将代码库索引为持久化知识图谱，支持 158 种语言、毫秒级查询、99% token 节省，单一静态二进制文件零依赖运行。",
+  "highlights": [
+    "Linux 内核（28M LOC）3 分钟全索引，亚毫秒查询",
+    "14 个 MCP 工具，自动适配 11 种编码 Agent"
+  ],
+  "tags": ["MCP", "code-intelligence", "knowledge-graph", "developer-tools"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 8
+}

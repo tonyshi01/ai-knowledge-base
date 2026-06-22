@@ -17,29 +17,71 @@ AI Knowledge Base 是一个自动化知识管理助手，每日从 GitHub Trendi
 
 ## 编码规范
 
-- **代码风格**：遵循 PEP 8，使用 `snake_case` 命名
-- **文档注释**：强制使用 Google 风格 docstring
-- **类型标注**：所有函数参数和返回值必须标注类型
-- **日志**：使用 `logging` 模块，禁止裸 `print()` 输出
-- **错误处理**：异常需捕获并记录，禁止吞异常或 pass 留空
-- **导入顺序**：标准库 → 第三方库 → 本地模块，每类之间空一行
+### 要做什么
 
-**Google 风格 docstring 示例**：
+- **格式化**
+  - Python: Black
+  - TypeScript: Prettier（`semi: true`, `singleQuote: true`）
+- **Python 类型标注**（PEP 484）
+  - 语法：Python 3.12 新语法（`list[X]`、`dict[str, X]`、`X | Y`、`X | None`），禁止旧写法
+  - 范围：所有函数签名（参数 + 返回值）全部标注，不区分公开/私有
+  - 变量：非显而易见时才标注
+  - 检查器：mypy（与 CI 联动）
+- **TypeScript 严格模式**
+  - `tsconfig.json` 开启 `strict: true` + `noUncheckedIndexedAccess`
+  - 禁止 `any`（ESLint `@typescript-eslint/no-explicit-any: error`），第三方类型缺失用 `.d.ts` 补齐
+- **文档注释**
+  - 所有公开导出函数必须有文档
+  - Python: Google 风格 docstring（`Args:` / `Returns:` / `Raises:` 必写）
+  - TypeScript: JSDoc（`@param` / `@returns` / `@throws` 必写）
+  - CI 强制：ruff（`pydocstyle`）+ `eslint-plugin-jsdoc`，缺则 fail
+  - 非导出内部函数（`_` 前缀或模块私有）不强制
+- **日志规范**
+  - Python: `logging` 模块，禁止 `print()`；级别：`info`（日常）/ `debug`（开发）/ `warning`（非中断异常）/ `error`（中断）
+  - TypeScript: `console.log` 即可，不引入第三方 logger
+  - 格式：`2026-06-22T10:00:00 INFO [模块名] 消息`
+- **错误处理**
+  - Python: 每个 `try` 必须捕获具体异常类型，禁止 `except:` 留空；LangGraph node 内捕获异常返回 `{"error": ...}` 状态，不抛到图层面
+  - TypeScript: `async/await` + try/catch，禁止裸 `.then()` / `.catch()` 链
+- **命名规范**
+  - Python: `snake_case`（函数/变量）、`PascalCase`（类）、`UPPER_SNAKE_CASE`（常量）
+  - TypeScript: `camelCase`（变量/函数）、`PascalCase`（类型/接口/类）、`UPPER_SNAKE_CASE`（常量）
+- **导入顺序**
+  - Python: 标准库 → 第三方库 → 本地模块，每类之间空一行
+  - TypeScript: 外部库 → 内部模块 → 相对路径引入，每类之间空一行
+- **异步**
+  - Python: 使用 `asyncio` / `async def`
+  - TypeScript: 优先使用 `async/await`，避免裸 `.then()` / `.catch()`
 
-```python
-def fetch_trending(top_n: int) -> list[dict]:
-    """从 GitHub Trending 获取热门仓库列表.
+### 不做什么
 
-    Args:
-        top_n: 返回的仓库数量上限.
+- **不用魔法字符串**：同一字面量在业务逻辑中出现 ≥2 次即视作魔法字符串
+  - Python 用 `StrEnum`（3.11+），TypeScript 用 `const enum` 或 `as const`
+  - 落地：Code Review + 类型约束（传枚举而非裸 `str`）
+- **不允许 TODO / FIXME / HACK / XXX 提交到 main**
+  - pre-commit 钩子拦截（lefthook），仅阻止推往 `main`
+  - 例外出：`TODO(ISSUE-123): ...`（带 issue 编号的计划内事项允许）
 
-    Returns:
-        每个元素包含 repo 名称、描述、star 数等信息的字典列表.
+### 边界 & 验收
 
-    Raises:
-        ConnectionError: 当请求 GitHub 超时时抛出.
-    """
-```
+- 单测框架：pytest（Python）+ vitest（TypeScript）
+- 要求：分支覆盖率（branch coverage）> 80%
+- 粒度：全局平均 > 80%，单模块最低 ≥ 60%
+- 不计入：`__init__.py`、脚手架/配置文件、`*.d.ts`、测试文件本身
+
+### 怎么验证
+
+- CI 平台：GitHub Actions
+- PR 触发（push 到 main 额外触发一次）
+- Python:
+  - `ruff check .`（fail on error）
+  - `mypy .`
+  - `pytest --cov --cov-branch --cov-fail-under=81`
+- TypeScript:
+  - `eslint src/`
+  - `tsc --noEmit`
+  - `vitest run --coverage`
+- 额外：`pre-commit run --all-files`（确保本地 pre-commit 配置与 CI 一致）
 
 ## 项目结构
 

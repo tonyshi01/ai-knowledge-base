@@ -1,0 +1,17 @@
+{
+  "id": "20260622-009",
+  "title": "withastro/flue",
+  "source": "github_trending",
+  "source_url": "https://github.com/withastro/flue",
+  "summary": "Astro 团队开发的沙箱 Agent 框架，为 AI Agent 提供安全的隔离运行环境，防止恶意代码影响宿主系统。",
+  "highlights": [
+    "Astro 团队出品，品质有保障",
+    "沙箱隔离机制保障不可信 Agent 代码的安全执行"
+  ],
+  "tags": ["Agent", "sandbox", "security", "isolation"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 7
+}

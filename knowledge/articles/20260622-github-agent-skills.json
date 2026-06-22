@@ -1,0 +1,17 @@
+{
+  "id": "20260622-004",
+  "title": "addyosmani/agent-skills",
+  "source": "github_trending",
+  "source_url": "https://github.com/addyosmani/agent-skills",
+  "summary": "面向 AI 编码 Agent 的生产级工程技能集合，包含 24 个技能覆盖 spec→plan→build→verify→review→ship 完整开发生命周期，总星数 64.9k。",
+  "highlights": [
+    "8 个斜杠命令覆盖从需求定义到生产发布的完整流程",
+    "兼容 Claude Code、Cursor、Gemini CLI、OpenCode 等 10+ Agent 平台"
+  ],
+  "tags": ["Agent", "engineering-practices", "code-generation", "development-workflow"],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 8
+}

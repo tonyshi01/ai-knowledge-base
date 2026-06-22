@@ -1,0 +1,17 @@
+{
+  "id": "20260622-005",
+  "title": "google-research/timesfm",
+  "source": "github_trending",
+  "source_url": "https://github.com/google-research/timesfm",
+  "summary": "Google Research 开发的时间序列基础模型 TimesFM，专为时间序列预测任务预训练，可直接用于各类时序预测场景。",
+  "highlights": [
+    "Google Research 出品的时序基础模型，无需微调即可直接使用",
+    "适用于多种时间序列预测任务，降低领域应用门槛"
+  ],
+  "tags": ["time-series", "foundation-model", "forecasting", "Google"],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-22T08:00:00+08:00",
+  "status": "pending",
+  "score": 5
+}
