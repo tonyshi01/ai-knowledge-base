@@ -11,6 +11,8 @@ Usage:
     python pipeline/pipeline.py --sources github --limit 5
     python pipeline/pipeline.py --sources rss --limit 10 --dry-run
     python pipeline/pipeline.py --verbose
+    python pipeline/pipeline.py --step 1                  # collect raw only
+    python pipeline/pipeline.py --step 2 --step 3 --step 4  # analyze + save
 """
 
 from __future__ import annotations
@@ -30,9 +32,9 @@ from typing import Any
 import httpx
 
 try:
-    from model_client import chat_with_retry, create_provider
+    from model_client import chat_with_retry, create_provider, get_tracker
 except ImportError:
-    from pipeline.model_client import chat_with_retry, create_provider
+    from pipeline.model_client import chat_with_retry, create_provider, get_tracker
 
 logger = logging.getLogger("pipeline")
 
@@ -467,8 +469,33 @@ def _save_raw(items: list[dict]) -> Path:
 
 
 # ---------------------------------------------------------------------------
-# Pipeline orchestrator
+# Step runners
 # ---------------------------------------------------------------------------
+
+
+def _load_latest_raw() -> list[dict]:
+    """Load items from the most recent raw data file."""
+    if not RAW_DIR.is_dir():
+        logger.error("Raw directory not found: %s", RAW_DIR)
+        return []
+
+    raw_files = sorted(RAW_DIR.glob("pipeline-raw-*.json"), reverse=True)
+    if not raw_files:
+        logger.error("No raw data files found in %s", RAW_DIR)
+        return []
+
+    latest = raw_files[0]
+    logger.info("Loading raw data from %s", latest)
+    try:
+        with open(latest) as f:
+            data = json.load(f)
+        items: list[dict] = data.get("items", [])
+        logger.info("  Loaded %d items", len(items))
+        return items
+    except (json.JSONDecodeError, OSError) as e:
+        logger.error("Failed to load raw data: %s", e)
+        return []
+
 
 SOURCE_HANDLERS: dict[str, Any] = {
     "github": collect_github,
@@ -480,81 +507,97 @@ def run_pipeline(
     sources: list[str],
     limit: int,
     dry_run: bool = False,
+    steps: set[int] | None = None,
 ) -> int:
-    """Execute the full pipeline: collect → analyze → organize → save.
+    """Execute pipeline steps: collect → analyze → organize → save.
 
     Args:
         sources: Source names to enable (``github``, ``rss``).
         limit: Maximum items per source.
         dry_run: Skip file writes when ``True``.
+        steps: Subset of steps to run. ``None`` means all 4 steps.
 
     Returns:
         Number of articles produced.
     """
+    if steps is None:
+        steps = {1, 2, 3, 4}
+
     logger.info("=" * 50)
-    logger.info("Pipeline start  sources=%s limit=%d dry_run=%s", ",".join(sources), limit, dry_run)
+    step_list = sorted(steps)
+    logger.info("Pipeline start  steps=%s sources=%s limit=%d dry_run=%s",
+                step_list, ",".join(sources), limit, dry_run)
     logger.info("=" * 50)
+
+    data: list[dict] = []
 
     # Step 1 — Collect
-    logger.info("")
-    logger.info("─" * 40)
-    logger.info("Step 1/4: Collect")
-    logger.info("─" * 40)
+    if 1 in steps:
+        logger.info("")
+        logger.info("─" * 40)
+        logger.info("Step 1/4: Collect")
+        logger.info("─" * 40)
 
-    all_raw: list[dict] = []
-    for name in sources:
-        handler = SOURCE_HANDLERS.get(name)
-        if handler is None:
-            logger.warning("Unknown source: %s (skip)", name)
-            continue
-        logger.info("Collecting from: %s", name)
-        items = handler(limit)
-        logger.info("  Collected %d items from %s", len(items), name)
-        all_raw.extend(items)
+        for name in sources:
+            handler = SOURCE_HANDLERS.get(name)
+            if handler is None:
+                logger.warning("Unknown source: %s (skip)", name)
+                continue
+            logger.info("Collecting from: %s", name)
+            items = handler(limit)
+            logger.info("  Collected %d items from %s", len(items), name)
+            data.extend(items)
 
-    if not all_raw:
-        logger.warning("No items collected, aborting")
-        return 0
+        if not data:
+            logger.warning("No items collected, aborting")
+            return 0
 
-    raw_path = _save_raw(all_raw)
-    logger.info("Raw data saved to %s", raw_path)
+        raw_path = _save_raw(data)
+        logger.info("Raw data saved to %s", raw_path)
+    elif 2 in steps:
+        data = _load_latest_raw()
+        if not data:
+            return 0
 
     # Step 2 — Analyze
-    logger.info("")
-    logger.info("─" * 40)
-    logger.info("Step 2/4: Analyze (%d items)", len(all_raw))
-    logger.info("─" * 40)
+    if 2 in steps:
+        logger.info("")
+        logger.info("─" * 40)
+        logger.info("Step 2/4: Analyze (%d items)", len(data))
+        logger.info("─" * 40)
 
-    analyzed = analyze_items(all_raw)
+        data = analyze_items(data)
 
     # Step 3 — Organize
-    logger.info("")
-    logger.info("─" * 40)
-    logger.info("Step 3/4: Organize (%d items → dedup)", len(analyzed))
-    logger.info("─" * 40)
+    if 3 in steps:
+        logger.info("")
+        logger.info("─" * 40)
+        logger.info("Step 3/4: Organize (%d items → dedup)", len(data))
+        logger.info("─" * 40)
 
-    organized = organize_items(analyzed)
-    logger.info("  %d unique items after dedup", len(organized))
+        data = organize_items(data)
+        logger.info("  %d unique items after dedup", len(data))
 
-    if not organized:
-        logger.warning("No items after dedup, aborting")
-        return 0
+        if not data:
+            logger.warning("No items after dedup, aborting")
+            return 0
 
     # Step 4 — Save
-    logger.info("")
-    logger.info("─" * 40)
-    logger.info("Step 4/4: Save (%d articles)", len(organized))
-    logger.info("─" * 40)
+    if 4 in steps:
+        logger.info("")
+        logger.info("─" * 40)
+        logger.info("Step 4/4: Save (%d articles)", len(data))
+        logger.info("─" * 40)
 
-    saved = save_items(organized, dry_run=dry_run)
-    logger.info("  %d files %s", len(saved), "(dry-run, not written)" if dry_run else "written")
+        saved = save_items(data, dry_run=dry_run)
+        logger.info("  %d files %s", len(saved), "(dry-run, not written)" if dry_run else "written")
 
     logger.info("")
     logger.info("=" * 50)
-    logger.info("Pipeline complete  articles=%d files=%s", len(organized), "dry-run" if dry_run else str(len(saved)))
+    logger.info("Pipeline complete  steps=%s articles=%d", step_list, len(data))
     logger.info("=" * 50)
 
-    return len(organized)
+    return len(data)
 
 
 # ---------------------------------------------------------------------------
@@ -578,6 +621,13 @@ def build_parser() -> argparse.ArgumentParser:
         type=int,
         default=10,
         help="Maximum items per source. Default: 10",
+    )
+    parser.add_argument(
+        "--step",
+        type=int,
+        action="append",
+        choices=[1, 2, 3, 4],
+        help="Step(s) to run (1=collect, 2=analyze, 3=organize, 4=save). Can be repeated. Default: all 4 steps",
     )
     parser.add_argument(
         "--dry-run",
@@ -608,11 +658,23 @@ def main() -> None:
         logger.error("No sources specified")
         sys.exit(1)
 
+    steps = set(args.step) if args.step else None
+
+    try:
+        tracker = get_tracker()
+    except ImportError:
+        tracker = None
+
     count = run_pipeline(
         sources=source_list,
         limit=args.limit,
         dry_run=args.dry_run,
+        steps=steps,
     )
+
+    if tracker:
+        tracker.report()
+
     sys.exit(0 if count > 0 else 1)
 
 

@@ -13,7 +13,7 @@ import os
 import time
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
-from typing import Literal
+from typing import Any, Literal
 
 import httpx
 
@@ -43,6 +43,14 @@ class LLMResponse:
     content: str
     usage: Usage = field(default_factory=lambda: Usage(0, 0))
 
+    def __getitem__(self, key: str) -> Any:
+        if key == "content":
+            return self.content
+        if key == "usage":
+            return self.usage
+        msg = f"LLMResponse has no field {key!r}"
+        raise KeyError(msg)
+
 
 # ---------------------------------------------------------------------------
 # Provider registry — model → (input_price_per_1k, output_price_per_1k) in USD
@@ -57,6 +65,19 @@ MODEL_PRICES: dict[str, tuple[float, float]] = {
     "gpt-4o": (0.00250, 0.01000),
     "gpt-4.1-mini": (0.00100, 0.00400),
     "gpt-4.1-nano": (0.00010, 0.00040),
+}
+
+# Cost in RMB per 1M tokens for the default model of each provider
+PROVIDER_PRICES_RMB: dict[str, tuple[float, float]] = {
+    "deepseek": (1.0, 2.0),
+    "qwen": (4.0, 12.0),
+    "openai": (150.0, 600.0),
+}
+
+PROVIDER_DEFAULT_MODEL: dict[str, str] = {
+    "deepseek": "deepseek-chat",
+    "qwen": "qwen-plus",
+    "openai": "gpt-4o-mini",
 }
 
 DEFAULT_PROVIDER_CONFIG: dict[str, dict[str, str]] = {
@@ -87,6 +108,11 @@ class LLMProvider(ABC):
     Subclasses must implement :meth:`chat` which sends messages to the model
     and returns a structured response.
     """
+
+    @property
+    @abstractmethod
+    def name(self) -> str:
+        """Provider name identifier (e.g. ``deepseek``, ``qwen``, ``openai``)."""
 
     @abstractmethod
     def chat(
@@ -136,12 +162,22 @@ class OpenAICompatibleProvider(LLMProvider):
         api_key: str,
         base_url: str,
         default_model: str = "deepseek-chat",
+        name: str = "deepseek",
         timeout: float = 60.0,
     ) -> None:
         self._api_key = api_key
         self._base_url = base_url.rstrip("/")
         self._default_model = default_model
+        self._name = name
         self._timeout = timeout
+
+    # ------------------------------------------------------------------
+    # Properties
+    # ------------------------------------------------------------------
+
+    @property
+    def name(self) -> str:
+        return self._name
 
     # ------------------------------------------------------------------
     # Public API
@@ -266,7 +302,144 @@ def create_provider(name: str | None = None) -> LLMProvider:
         base_url,
         model,
     )
-    return OpenAICompatibleProvider(api_key=api_key, base_url=base_url, default_model=model)
+    return OpenAICompatibleProvider(
+        api_key=api_key,
+        base_url=base_url,
+        default_model=model,
+        name=provider_name,
+    )
+
+
+# ---------------------------------------------------------------------------
+# Cost Tracker
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class _ProviderStats:
+    calls: int = 0
+    prompt_tokens: int = 0
+    completion_tokens: int = 0
+
+
+class CostTracker:
+    """Tracks LLM token usage and estimates cost across providers.
+
+    Usage:
+        >>> tracker = CostTracker()
+        >>> tracker.record(Usage(100, 50), "deepseek")
+        >>> tracker.record(Usage(200, 80), "deepseek")
+        >>> tracker.estimated_cost("deepseek")
+        0.00056
+        >>> tracker.report()
+    """
+
+    def __init__(self) -> None:
+        self._providers: dict[str, _ProviderStats] = {}
+
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """Record a single LLM API call.
+
+        Args:
+            usage: Token usage from the response.
+            provider: Provider name (``deepseek``, ``qwen``, ``openai``).
+        """
+        stats = self._providers.setdefault(provider, _ProviderStats())
+        stats.calls += 1
+        stats.prompt_tokens += usage.prompt_tokens
+        stats.completion_tokens += usage.completion_tokens
+
+    def estimated_cost(self, provider: str) -> float:
+        """Return cumulative estimated cost in RMB for a provider.
+
+        Args:
+            provider: Provider name.
+
+        Returns:
+            Cost in RMB.
+        """
+        stats = self._providers.get(provider)
+        if stats is None:
+            return 0.0
+
+        prices = PROVIDER_PRICES_RMB.get(provider)
+        if prices is None:
+            logger.warning("Unknown provider %r for cost estimate", provider)
+            return 0.0
+
+        input_price, output_price = prices
+        return (stats.prompt_tokens / 1_000_000 * input_price) + (
+            stats.completion_tokens / 1_000_000 * output_price
+        )
+
+    def report(self, provider: str | None = None) -> str:
+        """Print and return a cost report.
+
+        Args:
+            provider: When set, report only for this provider.
+                When ``None``, report for all tracked providers.
+
+        Returns:
+            Formatted report string.
+        """
+        providers = [provider] if provider else sorted(self._providers)
+        lines: list[str] = [
+            "=" * 55,
+            "  LLM Cost Report",
+            "=" * 55,
+            f"  {'Provider':<12} {'Calls':>6} {'Prompt':>8} {'Output':>8} {'Total':>8}  {'Cost(¥)':>10}",
+            "  " + "-" * 53,
+        ]
+
+        total_cost = 0.0
+        total_prompt = 0
+        total_completion = 0
+        total_calls = 0
+
+        for prov in providers:
+            stats = self._providers.get(prov)
+            if stats is None:
+                continue
+            cost = self.estimated_cost(prov)
+            total_cost += cost
+            total_calls += stats.calls
+            total_prompt += stats.prompt_tokens
+            total_completion += stats.completion_tokens
+            lines.append(
+                f"  {prov:<12} {stats.calls:>6} {stats.prompt_tokens:>8,} "
+                f"{stats.completion_tokens:>8,} {stats.prompt_tokens + stats.completion_tokens:>8,} "
+                f"¥{cost:>8.4f}"
+            )
+
+        lines.append("  " + "-" * 53)
+        lines.append(
+            f"  {'TOTAL':<12} {total_calls:>6} {total_prompt:>8,} "
+            f"{total_completion:>8,} {total_prompt + total_completion:>8,} "
+            f"¥{total_cost:>8.4f}"
+        )
+        lines.append("=" * 55)
+
+        report = "\n".join(lines)
+        logger.info("\n%s", report)
+        print(f"\n{report}")
+        return report
+
+
+# Global singleton used by the pipeline
+_tracker: CostTracker = CostTracker()
+
+
+def get_tracker() -> CostTracker:
+    """Return the global :class:`CostTracker` instance.
+
+    Returns:
+        The global tracker used by :func:`chat_with_retry`.
+    """
+    return _tracker
 
 
 # ---------------------------------------------------------------------------
@@ -312,12 +485,15 @@ def chat_with_retry(
     last_exc: Exception | None = None
     for attempt in range(1 + max_retries):
         try:
-            return provider.chat(
+            resp = provider.chat(
                 messages,
                 model=model,
                 temperature=temperature,
                 max_tokens=max_tokens,
             )
+            if resp.usage.total_tokens > 0:
+                _tracker.record(resp.usage, provider.name)
+            return resp
         except httpx.HTTPStatusError as e:
             if e.response.status_code < 500:
                 raise
@@ -438,6 +614,56 @@ def quick_chat(
 
 
 # ---------------------------------------------------------------------------
+# Convenience exports
+# ---------------------------------------------------------------------------
+
+def chat(
+    prompt: str | list[dict[str, str]],
+    *,
+    provider: LLMProvider | None = None,
+    model: str | None = None,
+    temperature: float = 0.7,
+    max_tokens: int | None = None,
+    max_retries: int = 3,
+    base_delay: float = 2.0,
+) -> LLMResponse:
+    """Send a chat prompt with automatic retry and cost tracking.
+
+    Accepts either a plain string (single user message) or a list of
+    message dicts for multi-turn conversations.
+
+    Args:
+        prompt: Plain string user message, or list of ``{"role": ..., "content": ...}`` dicts.
+        provider: Provider instance. Auto-created when ``None``.
+        model: Model override.
+        temperature: Sampling temperature.
+        max_tokens: Maximum output tokens.
+        max_retries: Maximum number of retry attempts.
+        base_delay: Initial backoff delay in seconds.
+
+    Returns:
+        LLM response.
+    """
+    messages: list[dict[str, str]]
+    if isinstance(prompt, str):
+        messages = [{"role": "user", "content": prompt}]
+    else:
+        messages = prompt
+
+    return chat_with_retry(
+        messages,
+        provider=provider,
+        model=model,
+        temperature=temperature,
+        max_tokens=max_tokens,
+        max_retries=max_retries,
+        base_delay=base_delay,
+    )
+
+
+tracker = get_tracker()
+
+# ---------------------------------------------------------------------------
 # Smoke test
 # ---------------------------------------------------------------------------
 
@@ -465,6 +691,8 @@ if __name__ == "__main__":
 
         quick = quick_chat("What is 2+2?")
         logger.info("Quick: %s", quick.content)
+
+        _tracker.report()
 
     except Exception:
         logger.exception("Smoke test failed")
