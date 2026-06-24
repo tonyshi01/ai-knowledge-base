@@ -1,0 +1,18 @@
+{
+  "id": "20260624-026",
+  "title": "DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers",
+  "source": "hacker_news",
+  "source_url": "https://github.com/End2End-Diffusion/diffusion-bench",
+  "summary": "DiffusionBench 是一个用于全面评估生成式扩散变换器的基准测试工具。",
+  "translated_summary": "DiffusionBench is a benchmark tool for holistic evaluation of generative diffusion transformers.",
+  "tags": [
+    "diffusion transformers",
+    "benchmark",
+    "evaluation"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "status": "pending",
+  "score": 0.7
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260624-025",
+  "title": "Qwen-AgentWorld: Language World Models for General Agents",
+  "source": "hacker_news",
+  "source_url": "https://arxiv.org/abs/2606.24597",
+  "summary": "Qwen-AgentWorld提出语言世界模型，用于构建通用智能体。",
+  "translated_summary": "Qwen-AgentWorld introduces language world models for building general agents.",
+  "tags": [
+    "language world model",
+    "general agent",
+    "Qwen"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "status": "pending",
+  "score": 0.85
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260624-022",
+  "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+  "source": "hacker_news",
+  "source_url": "https://gitlab.com/baiyibai/pico-usb-wifi",
+  "summary": "将树莓派Pico W作为USB Wi-Fi适配器使用的开源项目。",
+  "translated_summary": "A project that turns the Raspberry Pi Pico W into a USB Wi-Fi adapter, enabling wireless connectivity via USB.",
+  "tags": [
+    "Raspberry Pi Pico W",
+    "USB Wi-Fi adapter",
+    "open source"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "status": "pending",
+  "score": 0.35
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260624-023",
+  "title": "The Teensy Executable Revisited",
+  "source": "hacker_news",
+  "source_url": "https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html",
+  "summary": "一篇关于极小可执行文件的技术文章，探讨如何压缩ELF文件尺寸。",
+  "translated_summary": "A technical article revisiting techniques for creating extremely small ELF executables, exploring size optimization methods.",
+  "tags": [
+    "ELF",
+    "executable",
+    "size optimization"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "status": "pending",
+  "score": 0.3
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260624-007",
+  "title": "ollama/ollama",
+  "source": "github_trending",
+  "source_url": "https://github.com/ollama/ollama",
+  "summary": "Ollama 项目支持运行多种开源大模型，包括 Kimi、GLM、DeepSeek、Qwen 等。",
+  "translated_summary": "Ollama 是一个开源工具，支持快速部署和运行 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等多种大语言模型。",
+  "tags": [
+    "ollama",
+    "大模型",
+    "开源工具"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "status": "pending",
+  "score": 0.7
+}

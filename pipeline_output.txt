@@ -1,0 +1,929 @@
+04:48:29 INFO     pipeline  ==================================================
+04:48:29 INFO     pipeline  Pipeline start  sources=github,rss limit=20 dry_run=False
+04:48:29 INFO     pipeline  ==================================================
+04:48:29 INFO     pipeline  
+04:48:29 INFO     pipeline  ────────────────────────────────────────
+04:48:29 INFO     pipeline  Step 1/4: Collect
+04:48:29 INFO     pipeline  ────────────────────────────────────────
+04:48:29 INFO     pipeline  Collecting from: github
+04:48:29 DEBUG    httpcore.connection  connect_tcp.started host='api.github.com' port=443 local_address=None timeout=30 socket_options=None
+04:48:29 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66ba6850>
+04:48:29 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce668f3920> server_hostname='api.github.com' timeout=30
+04:48:29 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce667ede10>
+04:48:29 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'GET']>
+04:48:29 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:29 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'GET']>
+04:48:29 DEBUG    httpcore.http11  send_request_body.complete
+04:48:29 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'GET']>
+04:48:30 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Wed, 24 Jun 2026 04:48:30 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Cache-Control', b'no-cache'), (b'Vary', b'Accept, Authorization, Cookie, X-GitHub-OTP,Accept-Encoding, Accept, X-Requested-With'), (b'X-GitHub-Media-Type', b'github.v3; format=json'), (b'Link', b'<https://api.github.com/search/repositories?q=ai%2Bllm%2Bagent+in%3Areadme%2Ctopic&sort=stars&order=desc&per_page=20&page=2>; rel="next", <https://api.github.com/search/repositories?q=ai%2Bllm%2Bagent+in%3Areadme%2Ctopic&sort=stars&order=desc&per_page=20&page=50>; rel="last"'), (b'x-accepted-github-permissions', b'allows_permissionless_access=true'), (b'x-github-api-version-selected', b'2022-11-28'), (b'Access-Control-Expose-Headers', b'ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning'), (b'Access-Control-Allow-Origin', b'*'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubdomains; preload'), (b'X-Frame-Options', b'deny'), (b'X-Content-Type-Options', b'nosniff'), (b'X-XSS-Protection', b'0'), (b'Referrer-Policy', b'origin-when-cross-origin, strict-origin-when-cross-origin'), (b'Content-Security-Policy', b"default-src 'none'"), (b'Content-Encoding', b'gzip'), (b'Transfer-Encoding', b'chunked'), (b'Server', b'github.com'), (b'X-RateLimit-Limit', b'30'), (b'X-RateLimit-Remaining', b'29'), (b'X-RateLimit-Reset', b'1782276569'), (b'X-RateLimit-Used', b'1'), (b'X-RateLimit-Resource', b'search'), (b'X-GitHub-Request-Id', b'9400:3D37F6:88BC169:8A9FCF5:6A3B619D')])
+04:48:30 INFO     httpx  HTTP Request: GET https://api.github.com/search/repositories?q=ai%2Bllm%2Bagent+in%3Areadme%2Ctopic&sort=stars&order=desc&per_page=20 "HTTP/1.1 200 OK"
+04:48:30 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'GET']>
+04:48:30 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:30 DEBUG    httpcore.http11  response_closed.started
+04:48:30 DEBUG    httpcore.http11  response_closed.complete
+04:48:30 DEBUG    httpcore.connection  close.started
+04:48:30 DEBUG    httpcore.connection  close.complete
+04:48:30 DEBUG    pipeline  Collected GitHub repo: public-apis/public-apis
+04:48:30 DEBUG    pipeline  Collected GitHub repo: vinta/awesome-python
+04:48:30 DEBUG    pipeline  Collected GitHub repo: awesome-selfhosted/awesome-selfhosted
+04:48:30 DEBUG    pipeline  Collected GitHub repo: affaan-m/ECC
+04:48:30 DEBUG    pipeline  Collected GitHub repo: NousResearch/hermes-agent
+04:48:30 DEBUG    pipeline  Collected GitHub repo: avelino/awesome-go
+04:48:30 DEBUG    pipeline  Collected GitHub repo: ollama/ollama
+04:48:30 DEBUG    pipeline  Collected GitHub repo: Snailclimb/JavaGuide
+04:48:30 DEBUG    pipeline  Collected GitHub repo: langflow-ai/langflow
+04:48:30 DEBUG    pipeline  Collected GitHub repo: langgenius/dify
+04:48:30 DEBUG    pipeline  Collected GitHub repo: open-webui/open-webui
+04:48:30 DEBUG    pipeline  Collected GitHub repo: langchain-ai/langchain
+04:48:30 DEBUG    pipeline  Collected GitHub repo: firecrawl/firecrawl
+04:48:30 DEBUG    pipeline  Collected GitHub repo: ripienaar/free-for-dev
+04:48:30 DEBUG    pipeline  Collected GitHub repo: ggml-org/llama.cpp
+04:48:30 DEBUG    pipeline  Collected GitHub repo: msitarzewski/agency-agents
+04:48:30 DEBUG    pipeline  Collected GitHub repo: Shubhamsaboo/awesome-llm-apps
+04:48:30 DEBUG    pipeline  Collected GitHub repo: garrytan/gstack
+04:48:30 DEBUG    pipeline  Collected GitHub repo: microsoft/generative-ai-for-beginners
+04:48:30 DEBUG    pipeline  Collected GitHub repo: farion1231/cc-switch
+04:48:30 INFO     pipeline    Collected 20 items from github
+04:48:30 INFO     pipeline  Collecting from: rss
+04:48:30 DEBUG    httpcore.connection  connect_tcp.started host='hnrss.org' port=443 local_address=None timeout=30 socket_options=None
+04:48:30 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce668077d0>
+04:48:30 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bf5c0> server_hostname='hnrss.org' timeout=30
+04:48:30 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce668065d0>
+04:48:30 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'GET']>
+04:48:30 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:30 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'GET']>
+04:48:30 DEBUG    httpcore.http11  send_request_body.complete
+04:48:30 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'GET']>
+04:48:30 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Server', b'nginx'), (b'Date', b'Wed, 24 Jun 2026 04:48:30 GMT'), (b'Content-Type', b'application/xml; charset=utf-8'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Last-Modified', b'Wed, 24 Jun 2026 03:31:58 GMT'), (b'X-Algolia-Url', b'https://hn.algolia.com/api/v1/search_by_date?numericFilters=created_at_i%3E%3D1781671294&restrictSearchableAttributes=title&tags=front_page'), (b'Expires', b'Wed, 24 Jun 2026 04:56:34 GMT'), (b'Cache-Control', b'max-age=900'), (b'X-Cache', b'HIT')])
+04:48:30 INFO     httpx  HTTP Request: GET https://hnrss.org/frontpage "HTTP/1.1 200 OK"
+04:48:30 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'GET']>
+04:48:30 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:30 DEBUG    httpcore.http11  response_closed.started
+04:48:30 DEBUG    httpcore.http11  response_closed.complete
+04:48:30 DEBUG    httpcore.connection  close.started
+04:48:30 DEBUG    httpcore.connection  close.complete
+04:48:30 INFO     pipeline  Fetched 20 items from https://hnrss.org/frontpage
+04:48:30 INFO     pipeline    Collected 20 items from rss
+04:48:30 INFO     pipeline  Raw data saved to /home/runner/work/ai-knowledge-base/ai-knowledge-base/knowledge/raw/pipeline-raw-2026-06-24-124830.json
+04:48:30 INFO     pipeline  
+04:48:30 INFO     pipeline  ────────────────────────────────────────
+04:48:30 INFO     pipeline  Step 2/4: Analyze (40 items)
+04:48:30 INFO     pipeline  ────────────────────────────────────────
+04:48:30 INFO     model_client  Created provider: deepseek base_url=https://api.deepseek.com model=deepseek-chat
+04:48:30 INFO     pipeline  Analyzing [1/40]: public-apis/public-apis
+04:48:30 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:30 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:30 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66589350>
+04:48:30 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bda30> server_hostname='api.deepseek.com' timeout=60.0
+04:48:30 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66588ed0>
+04:48:30 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:30 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:30 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:30 DEBUG    httpcore.http11  send_request_body.complete
+04:48:30 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:31 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:31 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'fb3de2271c1f3740c530bbef9ddbc585'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'up3h10n7iq4EB3nrH_qzgxYPdB0szmfMi2ouxU_8jA6R_Wqu1WmHXQ==')])
+04:48:31 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:31 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:32 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:32 DEBUG    httpcore.http11  response_closed.started
+04:48:32 DEBUG    httpcore.http11  response_closed.complete
+04:48:32 DEBUG    httpcore.connection  close.started
+04:48:32 DEBUG    httpcore.connection  close.complete
+04:48:32 INFO     pipeline    → score=0.70 category=tool tags=['API', '开发者工具', '开源资源']
+04:48:32 INFO     pipeline  Analyzing [2/40]: vinta/awesome-python
+04:48:32 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:32 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:32 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a0fd0>
+04:48:32 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bcb90> server_hostname='api.deepseek.com' timeout=60.0
+04:48:32 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a0f90>
+04:48:32 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:32 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:32 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:32 DEBUG    httpcore.http11  send_request_body.complete
+04:48:32 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:32 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:32 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'fef9fc41d16cb0a747aa17193c5e19be'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'i2Zxl2bXeV778OTf6bfMGCka9YL2BIPnaVFN0pEaffdcpTipH6Tk_A==')])
+04:48:32 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:32 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:33 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:33 DEBUG    httpcore.http11  response_closed.started
+04:48:33 DEBUG    httpcore.http11  response_closed.complete
+04:48:33 DEBUG    httpcore.connection  close.started
+04:48:33 DEBUG    httpcore.connection  close.complete
+04:48:33 INFO     pipeline    → score=0.85 category=tool tags=['python', 'awesome-list', 'resources', 'frameworks', 'libraries']
+04:48:33 INFO     pipeline  Analyzing [3/40]: awesome-selfhosted/awesome-selfhosted
+04:48:33 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:33 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:33 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a2f50>
+04:48:33 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bccb0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:33 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a2f10>
+04:48:33 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:33 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:33 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:33 DEBUG    httpcore.http11  send_request_body.complete
+04:48:33 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:34 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:34 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'83d5410a40586837c3c0322ff880b7d0'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'Xe4AjoIBS_HHb3M-83vpswUFH2tLb27WpXEQ5M74FOND31uL3J6wWA==')])
+04:48:34 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:34 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:35 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:35 DEBUG    httpcore.http11  response_closed.started
+04:48:35 DEBUG    httpcore.http11  response_closed.complete
+04:48:35 DEBUG    httpcore.connection  close.started
+04:48:35 DEBUG    httpcore.connection  close.complete
+04:48:35 INFO     pipeline    → score=0.70 category=tool tags=['selfhosted', 'opensource', 'webapp']
+04:48:35 INFO     pipeline  Analyzing [4/40]: affaan-m/ECC
+04:48:35 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:35 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:35 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66807690>
+04:48:35 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bcb90> server_hostname='api.deepseek.com' timeout=60.0
+04:48:35 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce668068d0>
+04:48:35 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:35 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:35 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:35 DEBUG    httpcore.http11  send_request_body.complete
+04:48:35 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:35 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:35 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'21fc320ee74b28e00858470684428e7e'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'G-NCMvulfftqSXlnA05ZXlDV0JtcFUVFa4V5SXraXVdOVzGUbO-Oxw==')])
+04:48:35 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:35 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:36 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:36 DEBUG    httpcore.http11  response_closed.started
+04:48:36 DEBUG    httpcore.http11  response_closed.complete
+04:48:36 DEBUG    httpcore.connection  close.started
+04:48:36 DEBUG    httpcore.connection  close.complete
+04:48:36 INFO     pipeline    → score=0.65 category=tool tags=['AI代理', '性能优化', '编码工具']
+04:48:36 INFO     pipeline  Analyzing [5/40]: NousResearch/hermes-agent
+04:48:36 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:36 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:36 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66805e90>
+04:48:36 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bda30> server_hostname='api.deepseek.com' timeout=60.0
+04:48:36 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce674cd610>
+04:48:36 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:36 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:36 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:36 DEBUG    httpcore.http11  send_request_body.complete
+04:48:36 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:37 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:37 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'760c4f710a3e709bb4f4eb8a7303c10b'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'MsO5UG3mjLb9m0yNkqYE6hcYPcOT3i-kilZ2VuoFR-CUJEiwjGIERg==')])
+04:48:37 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:37 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:38 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:38 DEBUG    httpcore.http11  response_closed.started
+04:48:38 DEBUG    httpcore.http11  response_closed.complete
+04:48:38 DEBUG    httpcore.connection  close.started
+04:48:38 DEBUG    httpcore.connection  close.complete
+04:48:38 INFO     pipeline    → score=0.70 category=tool tags=['AI agent', 'open source', 'NousResearch']
+04:48:38 INFO     pipeline  Analyzing [6/40]: avelino/awesome-go
+04:48:38 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:38 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:38 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a3ad0>
+04:48:38 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bf5c0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:38 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a3750>
+04:48:38 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:38 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:38 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:38 DEBUG    httpcore.http11  send_request_body.complete
+04:48:38 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:38 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:38 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'52fecc617cbc9be987f0b58848ed12b9'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'DUlI9zJjuygorf9z4KWuJUu2K2JkrhAaPbdGJhNW8VPiQOvry6XibQ==')])
+04:48:38 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:38 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:39 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:39 DEBUG    httpcore.http11  response_closed.started
+04:48:39 DEBUG    httpcore.http11  response_closed.complete
+04:48:39 DEBUG    httpcore.connection  close.started
+04:48:39 DEBUG    httpcore.connection  close.complete
+04:48:39 INFO     pipeline    → score=0.85 category=tool tags=['Go', 'awesome-list', 'resources']
+04:48:39 INFO     pipeline  Analyzing [7/40]: ollama/ollama
+04:48:39 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:39 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:39 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a3b50>
+04:48:39 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd7f0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:39 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a3b90>
+04:48:39 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:39 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:39 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:39 DEBUG    httpcore.http11  send_request_body.complete
+04:48:39 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:40 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:40 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'56871a54e6c898612abe3e2f230618cd'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'-yayexupIWfSZyVrH8yI52ip_JodcO5bk8UN_51DfyjfJGtF1fo06A==')])
+04:48:40 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:40 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:41 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:41 DEBUG    httpcore.http11  response_closed.started
+04:48:41 DEBUG    httpcore.http11  response_closed.complete
+04:48:41 DEBUG    httpcore.connection  close.started
+04:48:41 DEBUG    httpcore.connection  close.complete
+04:48:41 INFO     pipeline    → score=0.70 category=tool tags=['ollama', '大模型', '开源工具']
+04:48:41 INFO     pipeline  Analyzing [8/40]: Snailclimb/JavaGuide
+04:48:41 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:41 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:41 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659d290>
+04:48:41 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd760> server_hostname='api.deepseek.com' timeout=60.0
+04:48:41 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659d250>
+04:48:41 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:41 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:41 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:41 DEBUG    httpcore.http11  send_request_body.complete
+04:48:41 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:42 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:41 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'62f825699ef9184fbbcb6ddf7492418f'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'57C2lTKaOG1-xzGONkL2Y6tLrq3En_0T7m3Uitd8mrV2LSdBO-hI5w==')])
+04:48:42 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:42 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:43 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:43 DEBUG    httpcore.http11  response_closed.started
+04:48:43 DEBUG    httpcore.http11  response_closed.complete
+04:48:43 DEBUG    httpcore.connection  close.started
+04:48:43 DEBUG    httpcore.connection  close.complete
+04:48:43 INFO     pipeline    → score=0.60 category=tool tags=['Java', '面试指南', '后端开发']
+04:48:43 INFO     pipeline  Analyzing [9/40]: langflow-ai/langflow
+04:48:43 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:43 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:43 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659ea90>
+04:48:43 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd6d0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:43 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659ea50>
+04:48:43 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:43 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:43 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:43 DEBUG    httpcore.http11  send_request_body.complete
+04:48:43 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:43 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:43 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'08024b18998e07076620fda0c582b527'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'KfmLcOvrxsYWk2ViQgcIJDBe8BS-aksRH8GQjmA6gwf60VLnpLjqEg==')])
+04:48:43 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:43 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:44 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:44 DEBUG    httpcore.http11  response_closed.started
+04:48:44 DEBUG    httpcore.http11  response_closed.complete
+04:48:44 DEBUG    httpcore.connection  close.started
+04:48:44 DEBUG    httpcore.connection  close.complete
+04:48:44 INFO     pipeline    → score=0.70 category=tool tags=['AI代理', '工作流', '开源工具']
+04:48:44 INFO     pipeline  Analyzing [10/40]: langgenius/dify
+04:48:44 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:44 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:44 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b01d0>
+04:48:44 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd5b0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:44 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b0190>
+04:48:44 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:44 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:44 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:44 DEBUG    httpcore.http11  send_request_body.complete
+04:48:44 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:44 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:44 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'468fd8a905784ad2f1a988dc009fe54b'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'0MZ5YtsbkwGSEMF9s754LaImxI6PNFZk1JRrxF5iOFCTJiN03knqhg==')])
+04:48:44 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:44 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:46 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:46 DEBUG    httpcore.http11  response_closed.started
+04:48:46 DEBUG    httpcore.http11  response_closed.complete
+04:48:46 DEBUG    httpcore.connection  close.started
+04:48:46 DEBUG    httpcore.connection  close.complete
+04:48:46 INFO     pipeline    → score=0.85 category=tool tags=['agentic workflow', 'AI platform', 'open source']
+04:48:46 INFO     pipeline  Analyzing [11/40]: open-webui/open-webui
+04:48:46 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:46 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:46 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b1cd0>
+04:48:46 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd520> server_hostname='api.deepseek.com' timeout=60.0
+04:48:46 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b1c90>
+04:48:46 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:46 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:46 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:46 DEBUG    httpcore.http11  send_request_body.complete
+04:48:46 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:46 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:46 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'9c9798ae39de7921921d5a62dc0e65c8'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'Zn8bR2Ydpy3En_-xVxotGmnHSWp3kdc09dh13dPBjtx0IAZPCj6L2g==')])
+04:48:46 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:46 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:47 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:47 DEBUG    httpcore.http11  response_closed.started
+04:48:47 DEBUG    httpcore.http11  response_closed.complete
+04:48:47 DEBUG    httpcore.connection  close.started
+04:48:47 DEBUG    httpcore.connection  close.complete
+04:48:47 INFO     pipeline    → score=0.75 category=tool tags=['AI interface', 'Ollama', 'OpenAI API', 'open source', 'user-friendly']
+04:48:47 INFO     pipeline  Analyzing [12/40]: langchain-ai/langchain
+04:48:47 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:47 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:47 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b3810>
+04:48:47 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd400> server_hostname='api.deepseek.com' timeout=60.0
+04:48:47 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b37d0>
+04:48:47 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:47 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:47 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:47 DEBUG    httpcore.http11  send_request_body.complete
+04:48:47 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:48 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:48 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'12ecd2a927667d722115d3f069c18e37'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'Y9rWGcqonE7DAGSQgOHBPJ9wUh7QtTkYoSXbx6x6rIqhuaiH1Uk5jw==')])
+04:48:48 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:48 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:49 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:49 DEBUG    httpcore.http11  response_closed.started
+04:48:49 DEBUG    httpcore.http11  response_closed.complete
+04:48:49 DEBUG    httpcore.connection  close.started
+04:48:49 DEBUG    httpcore.connection  close.complete
+04:48:49 INFO     pipeline    → score=0.85 category=tool tags=['langchain', 'agent engineering', 'LLM framework']
+04:48:49 INFO     pipeline  Analyzing [13/40]: firecrawl/firecrawl
+04:48:49 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:49 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:49 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bd1d0>
+04:48:49 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd010> server_hostname='api.deepseek.com' timeout=60.0
+04:48:49 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bd190>
+04:48:49 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:49 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:49 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:49 DEBUG    httpcore.http11  send_request_body.complete
+04:48:49 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:49 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:49 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'0812a6bdbe629575cb0e9a9c465cbe39'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'fIePHHWOg3OstmIys7lDHSDnXlprbp_fFmLxUEwsrTcPQ5TNe4Aj1g==')])
+04:48:49 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:49 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:50 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:50 DEBUG    httpcore.http11  response_closed.started
+04:48:50 DEBUG    httpcore.http11  response_closed.complete
+04:48:50 DEBUG    httpcore.connection  close.started
+04:48:50 DEBUG    httpcore.connection  close.complete
+04:48:50 INFO     pipeline    → score=0.75 category=tool tags=['web scraping', 'API', 'open source']
+04:48:50 INFO     pipeline  Analyzing [14/40]: ripienaar/free-for-dev
+04:48:50 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:50 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:50 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b1a10>
+04:48:50 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd1c0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:50 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b1d10>
+04:48:50 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:50 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:50 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:50 DEBUG    httpcore.http11  send_request_body.complete
+04:48:50 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:50 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:50 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'9f0fb9afa8249c5e48aa8092b066c855'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'DGru46hidXP22ul26sinMpRfRN4aBdh_oGZh3Evi7EcFh7mE7vuiYQ==')])
+04:48:50 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:50 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:52 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:52 DEBUG    httpcore.http11  response_closed.started
+04:48:52 DEBUG    httpcore.http11  response_closed.complete
+04:48:52 DEBUG    httpcore.connection  close.started
+04:48:52 DEBUG    httpcore.connection  close.complete
+04:48:52 INFO     pipeline    → score=0.70 category=tool tags=['free-tier', 'devops', 'SaaS']
+04:48:52 INFO     pipeline  Analyzing [15/40]: ggml-org/llama.cpp
+04:48:52 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:52 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:52 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659ff10>
+04:48:52 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd370> server_hostname='api.deepseek.com' timeout=60.0
+04:48:52 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659fe10>
+04:48:52 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:52 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:52 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:52 DEBUG    httpcore.http11  send_request_body.complete
+04:48:52 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:52 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:52 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'27e1876a1363f9147e04b04ab7f0f977'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'yupArmIIImBWEfhQ8v9ScULk-UeBIhMdXIgzbHlx6c7OtTfWTpfVHg==')])
+04:48:52 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:52 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:53 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:53 DEBUG    httpcore.http11  response_closed.started
+04:48:53 DEBUG    httpcore.http11  response_closed.complete
+04:48:53 DEBUG    httpcore.connection  close.started
+04:48:53 DEBUG    httpcore.connection  close.complete
+04:48:53 INFO     pipeline    → score=0.85 category=tool tags=['llama.cpp', 'LLM inference', 'C/C++', 'quantization', 'open source']
+04:48:53 INFO     pipeline  Analyzing [16/40]: msitarzewski/agency-agents
+04:48:53 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:53 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:53 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659d490>
+04:48:53 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd7f0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:53 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659db50>
+04:48:53 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:53 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:53 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:53 DEBUG    httpcore.http11  send_request_body.complete
+04:48:53 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:53 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:53 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'8017e86c7a1912825bd553c6008a5c56'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'nGfvlcvpKa_XbbggHLEgkTeeWa8Mk1A2rW6n_CE0jQ856JZHUQEezg==')])
+04:48:53 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:53 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:55 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:55 DEBUG    httpcore.http11  response_closed.started
+04:48:55 DEBUG    httpcore.http11  response_closed.complete
+04:48:55 DEBUG    httpcore.connection  close.started
+04:48:55 DEBUG    httpcore.connection  close.complete
+04:48:55 INFO     pipeline    → score=0.65 category=tool tags=['AI agents', 'open source', 'multi-agent system']
+04:48:55 INFO     pipeline  Analyzing [17/40]: Shubhamsaboo/awesome-llm-apps
+04:48:55 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:55 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:55 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6752e3d0>
+04:48:55 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd250> server_hostname='api.deepseek.com' timeout=60.0
+04:48:55 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659c250>
+04:48:55 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:55 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:55 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:55 DEBUG    httpcore.http11  send_request_body.complete
+04:48:55 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:55 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:55 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'900861079f1d426f20de617e29ae14a3'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'pqZIowUDCPffVxClFtvMdtbFDJJDIVvFq1DpAMbYL_GQaiS7oAEPYQ==')])
+04:48:55 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:55 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:56 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:56 DEBUG    httpcore.http11  response_closed.started
+04:48:56 DEBUG    httpcore.http11  response_closed.complete
+04:48:56 DEBUG    httpcore.connection  close.started
+04:48:56 DEBUG    httpcore.connection  close.complete
+04:48:56 INFO     pipeline    → score=0.75 category=tool tags=['AI Agent', 'RAG', 'open-source', 'LLM applications', 'GitHub']
+04:48:56 INFO     pipeline  Analyzing [18/40]: garrytan/gstack
+04:48:56 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:56 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:56 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6658a350>
+04:48:56 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bdbe0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:56 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66588510>
+04:48:56 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:56 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:56 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:56 DEBUG    httpcore.http11  send_request_body.complete
+04:48:56 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:57 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:56 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'dcdc135ea951ff97228407f9cf1fc254'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'fPzdRpBA0hmL9hJRgDuPcAhlpnG0dtABqsbEzjLX_7-tGWO64jyFlg==')])
+04:48:57 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:57 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:48:58 DEBUG    httpcore.http11  receive_response_body.complete
+04:48:58 DEBUG    httpcore.http11  response_closed.started
+04:48:58 DEBUG    httpcore.http11  response_closed.complete
+04:48:58 DEBUG    httpcore.connection  close.started
+04:48:58 DEBUG    httpcore.connection  close.complete
+04:48:58 INFO     pipeline    → score=0.65 category=tool tags=['Claude Code', 'AI工具集', '开源', '开发工作流', '角色模拟']
+04:48:58 INFO     pipeline  Analyzing [19/40]: microsoft/generative-ai-for-beginners
+04:48:58 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:48:58 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:48:58 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66807290>
+04:48:58 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bf5c0> server_hostname='api.deepseek.com' timeout=60.0
+04:48:58 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66807090>
+04:48:58 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:48:58 DEBUG    httpcore.http11  send_request_headers.complete
+04:48:58 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:48:58 DEBUG    httpcore.http11  send_request_body.complete
+04:48:58 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:48:58 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:48:58 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'8a9c1ce7ddaa9816ab1a79502fae1e58'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'QjBcBfpqk-aNgM1E8fgjsrlAE1EBUxfZpZm7WeFvMEIhnX69SBfDXQ==')])
+04:48:58 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:48:58 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:00 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:00 DEBUG    httpcore.http11  response_closed.started
+04:49:00 DEBUG    httpcore.http11  response_closed.complete
+04:49:00 DEBUG    httpcore.connection  close.started
+04:49:00 DEBUG    httpcore.connection  close.complete
+04:49:00 INFO     pipeline    → score=0.70 category=tool tags=['generative AI', 'education', 'Microsoft', 'beginners', 'course']
+04:49:00 INFO     pipeline  Analyzing [20/40]: farion1231/cc-switch
+04:49:00 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:00 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:00 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a0f90>
+04:49:00 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bcd40> server_hostname='api.deepseek.com' timeout=60.0
+04:49:00 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a2090>
+04:49:00 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:00 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:00 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:00 DEBUG    httpcore.http11  send_request_body.complete
+04:49:00 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:00 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:00 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'23ef78330c70ac37bd02e4f22be062fb'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'HamMfnXMarZil16GbXIRiT0aKI_92S9iPXF_iRyV0HdFpLqYtsrAwA==')])
+04:49:00 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:00 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:01 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:01 DEBUG    httpcore.http11  response_closed.started
+04:49:01 DEBUG    httpcore.http11  response_closed.complete
+04:49:01 DEBUG    httpcore.connection  close.started
+04:49:01 DEBUG    httpcore.connection  close.complete
+04:49:01 INFO     pipeline    → score=0.65 category=tool tags=['cross-platform', 'desktop assistant', 'AI CLI']
+04:49:01 INFO     pipeline  Analyzing [21/40]: Sakana Fugu: a multi-agent system delivered as one model
+04:49:01 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:01 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:01 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a2c90>
+04:49:01 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bda30> server_hostname='api.deepseek.com' timeout=60.0
+04:49:01 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a2f90>
+04:49:01 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:01 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:01 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:01 DEBUG    httpcore.http11  send_request_body.complete
+04:49:01 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:01 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:01 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'79b8b3f4155417850174e447e282caf2'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'ZSMPxmqkIXHUMaU-G-_OuJOC6Q2GsAqYAxkOOu5zUUaBMiJD2DoN4A==')])
+04:49:01 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:01 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:03 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:03 DEBUG    httpcore.http11  response_closed.started
+04:49:03 DEBUG    httpcore.http11  response_closed.complete
+04:49:03 DEBUG    httpcore.connection  close.started
+04:49:03 DEBUG    httpcore.connection  close.complete
+04:49:03 INFO     pipeline    → score=0.75 category=tool tags=['multi-agent', 'open-source', 'model-deployment']
+04:49:03 INFO     pipeline  Analyzing [22/40]: Raspberry Pi Pico W as USB Wi-Fi Adapter
+04:49:03 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:03 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:03 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bdd50>
+04:49:03 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bcb90> server_hostname='api.deepseek.com' timeout=60.0
+04:49:03 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bdd10>
+04:49:03 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:03 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:03 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:03 DEBUG    httpcore.http11  send_request_body.complete
+04:49:03 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:03 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:03 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'6819fcea92dda4f8558223057ece19ba'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'gD3tvy7XbaCcUhykNDTBWvrV23jSLH-uiVYu02BnbbpymXxiX_7HPA==')])
+04:49:03 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:03 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:04 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:04 DEBUG    httpcore.http11  response_closed.started
+04:49:04 DEBUG    httpcore.http11  response_closed.complete
+04:49:04 DEBUG    httpcore.connection  close.started
+04:49:04 DEBUG    httpcore.connection  close.complete
+04:49:04 INFO     pipeline    → score=0.35 category=tool tags=['Raspberry Pi Pico W', 'USB Wi-Fi adapter', 'open source']
+04:49:04 INFO     pipeline  Analyzing [23/40]: The Teensy Executable Revisited
+04:49:04 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:04 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:04 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bf050>
+04:49:04 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd910> server_hostname='api.deepseek.com' timeout=60.0
+04:49:04 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bf010>
+04:49:04 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:04 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:04 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:04 DEBUG    httpcore.http11  send_request_body.complete
+04:49:04 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:05 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:04 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'1c8662ba0605eb67f2dc2cdfa3d8bf11'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'LD8rRFUbQoweRxYt_6XDAEYifZkhTuF1eookvhSBw-HW4Z5fknhJWQ==')])
+04:49:05 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:05 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:06 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:06 DEBUG    httpcore.http11  response_closed.started
+04:49:06 DEBUG    httpcore.http11  response_closed.complete
+04:49:06 DEBUG    httpcore.connection  close.started
+04:49:06 DEBUG    httpcore.connection  close.complete
+04:49:06 INFO     pipeline    → score=0.30 category=research tags=['ELF', 'executable', 'size optimization']
+04:49:06 INFO     pipeline  Analyzing [24/40]: The war on terror primed America for autocracy
+04:49:06 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:06 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:06 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c0a10>
+04:49:06 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667be330> server_hostname='api.deepseek.com' timeout=60.0
+04:49:06 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c09d0>
+04:49:06 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:06 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:06 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:06 DEBUG    httpcore.http11  send_request_body.complete
+04:49:06 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:06 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:06 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'2bdda261b544b79bd1780120dd19bc06'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'Bji-OVI-jqL97ygSVPXmz65NUSQkVJe6dYT3L-UCcT33kdqvt9PJ9g==')])
+04:49:06 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:06 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:08 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:08 DEBUG    httpcore.http11  response_closed.started
+04:49:08 DEBUG    httpcore.http11  response_closed.complete
+04:49:08 DEBUG    httpcore.connection  close.started
+04:49:08 DEBUG    httpcore.connection  close.complete
+04:49:08 INFO     pipeline    → score=0.60 category=opinion tags=['war on terror', 'autocracy', 'America']
+04:49:08 INFO     pipeline  Analyzing [25/40]: Qwen-AgentWorld: Language World Models for General Agents
+04:49:08 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:08 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:08 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c2550>
+04:49:08 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667be2a0> server_hostname='api.deepseek.com' timeout=60.0
+04:49:08 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66805f10>
+04:49:08 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:08 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:08 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:08 DEBUG    httpcore.http11  send_request_body.complete
+04:49:08 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:08 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:08 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'06b1507eac562605cea7b9de20f5a17d'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'oEdqPBbgLCX1xNwxUufJyuYuxan_5o0zWpnPajo_zXC892ZVvvItCw==')])
+04:49:08 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:08 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:09 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:09 DEBUG    httpcore.http11  response_closed.started
+04:49:09 DEBUG    httpcore.http11  response_closed.complete
+04:49:09 DEBUG    httpcore.connection  close.started
+04:49:09 DEBUG    httpcore.connection  close.complete
+04:49:09 INFO     pipeline    → score=0.85 category=research tags=['language world model', 'general agent', 'Qwen']
+04:49:09 INFO     pipeline  Analyzing [26/40]: DiffusionBench: Towards Holistic Evaluation of Generative Diffusion Transformers
+04:49:09 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:09 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:09 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66573e10>
+04:49:09 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667be330> server_hostname='api.deepseek.com' timeout=60.0
+04:49:09 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66572990>
+04:49:09 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:09 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:09 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:09 DEBUG    httpcore.http11  send_request_body.complete
+04:49:09 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:10 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:10 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'946f188da27f3613617a03eb3ae3c4ef'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'hpAcWf5sN-yftoZBJFqPUnyk678zWKya0YdwS85gYtMymiYNk1KToA==')])
+04:49:10 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:10 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:11 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:11 DEBUG    httpcore.http11  response_closed.started
+04:49:11 DEBUG    httpcore.http11  response_closed.complete
+04:49:11 DEBUG    httpcore.connection  close.started
+04:49:11 DEBUG    httpcore.connection  close.complete
+04:49:11 INFO     pipeline    → score=0.70 category=tool tags=['diffusion transformers', 'benchmark', 'evaluation']
+04:49:11 INFO     pipeline  Analyzing [27/40]: Meta Pauses Employee-Tracking Program Following Internal Data Leak
+04:49:11 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:11 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:11 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a3ad0>
+04:49:11 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd910> server_hostname='api.deepseek.com' timeout=60.0
+04:49:11 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a1510>
+04:49:11 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:11 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:11 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:11 DEBUG    httpcore.http11  send_request_body.complete
+04:49:11 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:11 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:11 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'492f76c9eb858a3436ee00206dcec732'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'AtwZFe3OmrhpYZE93IF_WKcxkfAz8ag1oceWyyGqRO9zwVklyyeNkw==')])
+04:49:11 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:11 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:12 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:12 DEBUG    httpcore.http11  response_closed.started
+04:49:12 DEBUG    httpcore.http11  response_closed.complete
+04:49:12 DEBUG    httpcore.connection  close.started
+04:49:12 DEBUG    httpcore.connection  close.complete
+04:49:12 INFO     pipeline    → score=0.60 category=opinion tags=['Meta', '数据泄露', '员工监控']
+04:49:12 INFO     pipeline  Analyzing [28/40]: Vulnerability reports are not special anymore
+04:49:12 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:12 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:12 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce667edb50>
+04:49:12 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bcb90> server_hostname='api.deepseek.com' timeout=60.0
+04:49:12 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665a0690>
+04:49:12 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:12 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:12 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:12 DEBUG    httpcore.http11  send_request_body.complete
+04:49:12 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:13 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:13 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'8a528ea8ada676be6fc3dcbc7b1299fe'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'uuhbH8FYSEpY1A8HLqkl7j18fqen_rt8IELKj2zwQ5KmdREqCEtxmQ==')])
+04:49:13 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:13 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:14 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:14 DEBUG    httpcore.http11  response_closed.started
+04:49:14 DEBUG    httpcore.http11  response_closed.complete
+04:49:14 DEBUG    httpcore.connection  close.started
+04:49:14 DEBUG    httpcore.connection  close.complete
+04:49:14 INFO     pipeline    → score=0.65 category=opinion tags=['vulnerability', 'security', 'industry analysis']
+04:49:14 INFO     pipeline  Analyzing [29/40]: Extreme Heat conference cancelled due to extreme heat warning
+04:49:14 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:14 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:14 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659d810>
+04:49:14 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bda30> server_hostname='api.deepseek.com' timeout=60.0
+04:49:14 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659e490>
+04:49:14 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:14 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:14 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:14 DEBUG    httpcore.http11  send_request_body.complete
+04:49:14 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:14 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:14 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'4a415a635a61efb8c8041b4e5b4e644e'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'6tgu8VFe9KhMyLX64j4uK2KrT5qDugw0lNh8J2gQPZdVrrqmnxbJqA==')])
+04:49:14 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:14 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:16 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:16 DEBUG    httpcore.http11  response_closed.started
+04:49:16 DEBUG    httpcore.http11  response_closed.complete
+04:49:16 DEBUG    httpcore.connection  close.started
+04:49:16 DEBUG    httpcore.connection  close.complete
+04:49:16 INFO     pipeline    → score=0.60 category=opinion tags=['extreme heat', 'climate governance', 'event cancellation']
+04:49:16 INFO     pipeline  Analyzing [30/40]: Jerry's Map
+04:49:16 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:16 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:16 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659fb50>
+04:49:16 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bf5c0> server_hostname='api.deepseek.com' timeout=60.0
+04:49:16 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce6659f550>
+04:49:16 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:16 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:16 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:16 DEBUG    httpcore.http11  send_request_body.complete
+04:49:16 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:16 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:16 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'ec5e4936a4056aa6692d65dd10216439'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'ChWRiGke3lnSBRElTQLOp3kufh_Jt2ig9b_SO1VDt6JjPJTWl2PuIg==')])
+04:49:16 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:16 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:17 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:17 DEBUG    httpcore.http11  response_closed.started
+04:49:17 DEBUG    httpcore.http11  response_closed.complete
+04:49:17 DEBUG    httpcore.connection  close.started
+04:49:17 DEBUG    httpcore.connection  close.complete
+04:49:17 INFO     pipeline    → score=0.20 category=opinion tags=['map', 'art', 'long-term project']
+04:49:17 INFO     pipeline  Analyzing [31/40]: Show HN: RLM-based local debugger for AI agent traces
+04:49:17 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:17 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:17 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bf650>
+04:49:17 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd250> server_hostname='api.deepseek.com' timeout=60.0
+04:49:17 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665be590>
+04:49:17 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:17 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:17 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:17 DEBUG    httpcore.http11  send_request_body.complete
+04:49:17 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:18 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:17 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'4811278a8c4745f12836ee330843a7bb'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'I711gr6PkBww_iy3lxeIsLLiyz5JTkIk0VzMYG92L9bMMTRq3X6SAg==')])
+04:49:18 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:18 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:19 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:19 DEBUG    httpcore.http11  response_closed.started
+04:49:19 DEBUG    httpcore.http11  response_closed.complete
+04:49:19 DEBUG    httpcore.connection  close.started
+04:49:19 DEBUG    httpcore.connection  close.complete
+04:49:19 INFO     pipeline    → score=0.75 category=tool tags=['AI agent', 'debugging', 'open-source']
+04:49:19 INFO     pipeline  Analyzing [32/40]: Fired by Google for creating the Google workspace CLI
+04:49:19 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:19 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:19 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665be750>
+04:49:19 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd370> server_hostname='api.deepseek.com' timeout=60.0
+04:49:19 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665be850>
+04:49:19 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:19 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:19 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:19 DEBUG    httpcore.http11  send_request_body.complete
+04:49:19 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:19 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:19 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'a784ada341474d70e13bee22c9b0b986'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'qmdFv4lRb_r9SqiWo-gT62eBUkSSZVuQo2Vh_E3qVtVD3PNduqS0EQ==')])
+04:49:19 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:19 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:20 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:20 DEBUG    httpcore.http11  response_closed.started
+04:49:20 DEBUG    httpcore.http11  response_closed.complete
+04:49:20 DEBUG    httpcore.connection  close.started
+04:49:20 DEBUG    httpcore.connection  close.complete
+04:49:20 INFO     pipeline    → score=0.30 category=opinion tags=['Google', 'CLI', 'fired']
+04:49:20 INFO     pipeline  Analyzing [33/40]: In memory of the man who put red and green squiggles under words
+04:49:20 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:21 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:21 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bd050>
+04:49:21 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd130> server_hostname='api.deepseek.com' timeout=60.0
+04:49:21 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bd310>
+04:49:21 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:21 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:21 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:21 DEBUG    httpcore.http11  send_request_body.complete
+04:49:21 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:21 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:21 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'78be1349536393d7d784a39bdf966991'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'pjFPSIcPaFB_CKhwzzm8fRZgGfmqwhyfkkgIuBohXQsc82tCUxW2eQ==')])
+04:49:21 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:21 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:22 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:22 DEBUG    httpcore.http11  response_closed.started
+04:49:22 DEBUG    httpcore.http11  response_closed.complete
+04:49:22 DEBUG    httpcore.connection  close.started
+04:49:22 DEBUG    httpcore.connection  close.complete
+04:49:22 INFO     pipeline    → score=0.30 category=opinion tags=['spell check', 'grammar check', 'tribute']
+04:49:22 INFO     pipeline  Analyzing [34/40]: Swift Package Index joins Apple
+04:49:22 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:22 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:22 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b0a10>
+04:49:22 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd1c0> server_hostname='api.deepseek.com' timeout=60.0
+04:49:22 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665b0d50>
+04:49:22 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:22 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:22 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:22 DEBUG    httpcore.http11  send_request_body.complete
+04:49:22 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:22 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:22 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'e516543f73a6bc0453ac83b0c54e6e04'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'mLcJMyj17QgVwgQ-KaoeZnY1kG5qW3cuBwVavgVx_RjHet5YhTAl4A==')])
+04:49:22 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:22 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:24 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:24 DEBUG    httpcore.http11  response_closed.started
+04:49:24 DEBUG    httpcore.http11  response_closed.complete
+04:49:24 DEBUG    httpcore.connection  close.started
+04:49:24 DEBUG    httpcore.connection  close.complete
+04:49:24 INFO     pipeline    → score=0.75 category=tool tags=['Swift', 'Apple', 'package management']
+04:49:24 INFO     pipeline  Analyzing [35/40]: FUTO Swipe – A new swipe typing model
+04:49:24 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:24 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:24 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c1f10>
+04:49:24 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd5b0> server_hostname='api.deepseek.com' timeout=60.0
+04:49:24 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c2090>
+04:49:24 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:24 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:24 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:24 DEBUG    httpcore.http11  send_request_body.complete
+04:49:24 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:24 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:24 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'94cc41224ead9a7bc12d95e68f687b6a'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'C0mV9W-5i8tiK4cD7Of_Hv-PrLZBKMeTa85BxS4bsTyW0dpJp_4yRQ==')])
+04:49:24 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:24 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:25 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:25 DEBUG    httpcore.http11  response_closed.started
+04:49:25 DEBUG    httpcore.http11  response_closed.complete
+04:49:25 DEBUG    httpcore.connection  close.started
+04:49:25 DEBUG    httpcore.connection  close.complete
+04:49:25 INFO     pipeline    → score=0.65 category=tool tags=['swipe typing', 'input method', 'mobile keyboard']
+04:49:25 INFO     pipeline  Analyzing [36/40]: The worthlessness of Vitamin D is mildly exaggerated
+04:49:25 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:25 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:25 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c2a10>
+04:49:25 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd010> server_hostname='api.deepseek.com' timeout=60.0
+04:49:25 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c29d0>
+04:49:25 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:25 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:25 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:25 DEBUG    httpcore.http11  send_request_body.complete
+04:49:25 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:26 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:25 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'5ebff79321b9bcbb39ea095f1777cc17'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 de27db1efe10b9871dae1b244587c0ea.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'4fNhijk5FLZgKnYklHhvYmRUjlE_ZIJyRiZ4g2O-w_81B1Nwtg0XZA==')])
+04:49:26 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:26 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:27 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:27 DEBUG    httpcore.http11  response_closed.started
+04:49:27 DEBUG    httpcore.http11  response_closed.complete
+04:49:27 DEBUG    httpcore.connection  close.started
+04:49:27 DEBUG    httpcore.connection  close.complete
+04:49:27 INFO     pipeline    → score=0.30 category=opinion tags=['vitamin D', 'health', 'nutrition']
+04:49:27 INFO     pipeline  Analyzing [37/40]: Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX
+04:49:27 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:27 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:27 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c3cd0>
+04:49:27 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bce60> server_hostname='api.deepseek.com' timeout=60.0
+04:49:27 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665c3c90>
+04:49:27 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:27 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:27 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:27 DEBUG    httpcore.http11  send_request_body.complete
+04:49:27 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:27 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:27 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'09f1ea06a77dbd36a1931f32fc89f0e7'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b25dbab50c2d4b34d29539472626bfbe.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P1'), (b'X-Amz-Cf-Id', b'd-9TKuL_nGjp8hpCk_xJp73NzUJ0ZXGl4UEGMvfvqDAA8WHKL26J0g==')])
+04:49:27 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:27 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:29 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:29 DEBUG    httpcore.http11  response_closed.started
+04:49:29 DEBUG    httpcore.http11  response_closed.complete
+04:49:29 DEBUG    httpcore.connection  close.started
+04:49:29 DEBUG    httpcore.connection  close.complete
+04:49:29 INFO     pipeline    → score=0.75 category=tool tags=['TikZ', 'LaTeX', 'WYSIWYG', 'editor', 'open-source']
+04:49:29 INFO     pipeline  Analyzing [38/40]: The Low-Tech AI of Elden Ring
+04:49:29 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:29 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:29 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bd5d0>
+04:49:29 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd010> server_hostname='api.deepseek.com' timeout=60.0
+04:49:29 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bd790>
+04:49:29 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:29 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:29 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:29 DEBUG    httpcore.http11  send_request_body.complete
+04:49:29 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:29 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:29 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'bcc8a75ffdf6fa302223a07dcd1b3bad'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 a8580cca932297168993376684c55a04.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'w3WMLU0gYqIMODvD9SFJvjsSMafWs5pw2JMmsEOggNV2y4aymQDw9g==')])
+04:49:29 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:29 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:30 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:30 DEBUG    httpcore.http11  response_closed.started
+04:49:30 DEBUG    httpcore.http11  response_closed.complete
+04:49:30 DEBUG    httpcore.connection  close.started
+04:49:30 DEBUG    httpcore.connection  close.complete
+04:49:30 INFO     pipeline    → score=0.30 category=opinion tags=['Elden Ring', 'game AI', 'low-tech AI']
+04:49:30 INFO     pipeline  Analyzing [39/40]: The Coming Loop
+04:49:30 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:31 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:31 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bfe10>
+04:49:31 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd1c0> server_hostname='api.deepseek.com' timeout=60.0
+04:49:31 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce665bf010>
+04:49:31 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:31 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:31 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:31 DEBUG    httpcore.http11  send_request_body.complete
+04:49:31 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:31 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:31 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'47a07cd21961fdd1bcdd76f7cce47fba'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 b199cb525564b27dcd50d9bb35c846f8.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P12'), (b'X-Amz-Cf-Id', b'mMmflxgwpsPNmoNC_bTnv07jKtuxso-OTTAY3YgISAiYP01R_tULWA==')])
+04:49:31 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:31 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:32 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:32 DEBUG    httpcore.http11  response_closed.started
+04:49:32 DEBUG    httpcore.http11  response_closed.complete
+04:49:32 DEBUG    httpcore.connection  close.started
+04:49:32 DEBUG    httpcore.connection  close.complete
+04:49:32 INFO     pipeline    → score=0.70 category=opinion tags=['AI feedback loop', 'model collapse', 'AI safety']
+04:49:32 INFO     pipeline  Analyzing [40/40]: Five monitors on a Commodore 128 [video]
+04:49:32 DEBUG    model_client  POST https://api.deepseek.com/chat/completions model=deepseek-chat messages=1
+04:49:32 DEBUG    httpcore.connection  connect_tcp.started host='api.deepseek.com' port=443 local_address=None timeout=60.0 socket_options=None
+04:49:32 DEBUG    httpcore.connection  connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66589310>
+04:49:32 DEBUG    httpcore.connection  start_tls.started ssl_context=<ssl.SSLContext object at 0x7fce667bd130> server_hostname='api.deepseek.com' timeout=60.0
+04:49:32 DEBUG    httpcore.connection  start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fce66588ed0>
+04:49:32 DEBUG    httpcore.http11  send_request_headers.started request=<Request [b'POST']>
+04:49:32 DEBUG    httpcore.http11  send_request_headers.complete
+04:49:32 DEBUG    httpcore.http11  send_request_body.started request=<Request [b'POST']>
+04:49:32 DEBUG    httpcore.http11  send_request_body.complete
+04:49:32 DEBUG    httpcore.http11  receive_response_headers.started request=<Request [b'POST']>
+04:49:32 DEBUG    httpcore.http11  receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json'), (b'Transfer-Encoding', b'chunked'), (b'Connection', b'keep-alive'), (b'Date', b'Wed, 24 Jun 2026 04:49:32 GMT'), (b'Server', b'elb'), (b'Content-Encoding', b'gzip'), (b'vary', b'origin, access-control-request-method, access-control-request-headers'), (b'access-control-allow-credentials', b'true'), (b'x-ds-trace-id', b'b79d6ba5bc3ebf3825eeff34591efa80'), (b'Strict-Transport-Security', b'max-age=31536000; includeSubDomains; preload'), (b'X-Content-Type-Options', b'nosniff'), (b'X-Cache', b'Miss from cloudfront'), (b'Via', b'1.1 61bc5c2437da1cb95629df175a99fca2.cloudfront.net (CloudFront)'), (b'X-Amz-Cf-Pop', b'SFO53-P10'), (b'X-Amz-Cf-Id', b'18gjn_I0ZYQuXvO2X7M9FW38rrwZm3oT3skAryRdkhKM84-x31Dhhg==')])
+04:49:32 INFO     httpx  HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+04:49:32 DEBUG    httpcore.http11  receive_response_body.started request=<Request [b'POST']>
+04:49:34 DEBUG    httpcore.http11  receive_response_body.complete
+04:49:34 DEBUG    httpcore.http11  response_closed.started
+04:49:34 DEBUG    httpcore.http11  response_closed.complete
+04:49:34 DEBUG    httpcore.connection  close.started
+04:49:34 DEBUG    httpcore.connection  close.complete
+04:49:34 INFO     pipeline    → score=0.30 category=opinion tags=['Commodore 128', 'retro computing', 'multi-monitor']
+04:49:34 INFO     pipeline  
+04:49:34 INFO     pipeline  ────────────────────────────────────────
+04:49:34 INFO     pipeline  Step 3/4: Organize (40 items → dedup)
+04:49:34 INFO     pipeline  ────────────────────────────────────────
+04:49:34 INFO     pipeline    40 unique items after dedup
+04:49:34 INFO     pipeline  
+04:49:34 INFO     pipeline  ────────────────────────────────────────
+04:49:34 INFO     pipeline  Step 4/4: Save (40 articles)
+04:49:34 INFO     pipeline  ────────────────────────────────────────
+04:49:34 INFO     pipeline    Wrote 20260624-public-apispublic-apis.json
+04:49:34 INFO     pipeline    Wrote 20260624-vintaawesome-python.json
+04:49:34 INFO     pipeline    Wrote 20260624-awesome-selfhostedawesome-selfhosted.json
+04:49:34 INFO     pipeline    Wrote 20260624-affaan-mecc.json
+04:49:34 INFO     pipeline    Wrote 20260624-nousresearchhermes-agent.json
+04:49:34 INFO     pipeline    Wrote 20260624-avelinoawesome-go.json
+04:49:34 INFO     pipeline    Wrote 20260624-ollamaollama.json
+04:49:34 INFO     pipeline    Wrote 20260624-snailclimbjavaguide.json
+04:49:34 INFO     pipeline    Wrote 20260624-langflow-ailangflow.json
+04:49:34 INFO     pipeline    Wrote 20260624-langgeniusdify.json
+04:49:34 INFO     pipeline    Wrote 20260624-open-webuiopen-webui.json
+04:49:34 INFO     pipeline    Wrote 20260624-langchain-ailangchain.json
+04:49:34 INFO     pipeline    Wrote 20260624-firecrawlfirecrawl.json
+04:49:34 INFO     pipeline    Wrote 20260624-ripienaarfree-for-dev.json
+04:49:34 INFO     pipeline    Wrote 20260624-ggml-orgllamacpp.json
+04:49:34 INFO     pipeline    Wrote 20260624-msitarzewskiagency-agents.json
+04:49:34 INFO     pipeline    Wrote 20260624-shubhamsabooawesome-llm-apps.json
+04:49:34 INFO     pipeline    Wrote 20260624-garrytangstack.json
+04:49:34 INFO     pipeline    Wrote 20260624-microsoftgenerative-ai-for-beginners.json
+04:49:34 INFO     pipeline    Wrote 20260624-farion1231cc-switch.json
+04:49:34 INFO     pipeline    Wrote 20260624-sakana-fugu-a-multi-agent-system-delivered-as-one-.json
+04:49:34 INFO     pipeline    Wrote 20260624-raspberry-pi-pico-w-as-usb-wi-fi-adapter.json
+04:49:34 INFO     pipeline    Wrote 20260624-the-teensy-executable-revisited.json
+04:49:34 INFO     pipeline    Wrote 20260624-the-war-on-terror-primed-america-for-autocracy.json
+04:49:34 INFO     pipeline    Wrote 20260624-qwen-agentworld-language-world-models-for-general-.json
+04:49:34 INFO     pipeline    Wrote 20260624-diffusionbench-towards-holistic-evaluation-of-gene.json
+04:49:34 INFO     pipeline    Wrote 20260624-meta-pauses-employee-tracking-program-following-in.json
+04:49:34 INFO     pipeline    Wrote 20260624-vulnerability-reports-are-not-special-anymore.json
+04:49:34 INFO     pipeline    Wrote 20260624-extreme-heat-conference-cancelled-due-to-extreme-h.json
+04:49:34 INFO     pipeline    Wrote 20260624-jerrys-map.json
+04:49:34 INFO     pipeline    Wrote 20260624-show-hn-rlm-based-local-debugger-for-ai-agent-trac.json
+04:49:34 INFO     pipeline    Wrote 20260624-fired-by-google-for-creating-the-google-workspace-.json
+04:49:34 INFO     pipeline    Wrote 20260624-in-memory-of-the-man-who-put-red-and-green-squiggl.json
+04:49:34 INFO     pipeline    Wrote 20260624-swift-package-index-joins-apple.json
+04:49:34 INFO     pipeline    Wrote 20260624-futo-swipe-a-new-swipe-typing-model.json
+04:49:34 INFO     pipeline    Wrote 20260624-the-worthlessness-of-vitamin-d-is-mildly-exaggerat.json
+04:49:34 INFO     pipeline    Wrote 20260624-show-hn-tikz-editor-wysiwyg-editor-for-figures-in-.json
+04:49:34 INFO     pipeline    Wrote 20260624-the-low-tech-ai-of-elden-ring.json
+04:49:34 INFO     pipeline    Wrote 20260624-the-coming-loop.json
+04:49:34 INFO     pipeline    Wrote 20260624-five-monitors-on-a-commodore-128-video.json
+04:49:34 WARNING  pipeline  Validation issues:
+未找到匹配的文件
+
+04:49:34 INFO     pipeline    40 files written
+04:49:34 INFO     pipeline  
+04:49:34 INFO     pipeline  ==================================================
+04:49:34 INFO     pipeline  Pipeline complete  articles=40 files=40
+04:49:34 INFO     pipeline  ==================================================

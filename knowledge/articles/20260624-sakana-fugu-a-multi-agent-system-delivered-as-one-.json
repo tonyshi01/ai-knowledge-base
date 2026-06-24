@@ -1,0 +1,18 @@
+{
+  "id": "20260624-021",
+  "title": "Sakana Fugu: a multi-agent system delivered as one model",
+  "source": "hacker_news",
+  "source_url": "https://github.com/SakanaAI/fugu",
+  "summary": "SakanaAI发布Fugu，一个将多智能体系统封装为单一模型的开源项目。",
+  "translated_summary": "SakanaAI发布Fugu，一个将多智能体系统封装为单一模型的开源项目，旨在简化部署和提升效率。",
+  "tags": [
+    "multi-agent",
+    "open-source",
+    "model-deployment"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "status": "pending",
+  "score": 0.75
+}

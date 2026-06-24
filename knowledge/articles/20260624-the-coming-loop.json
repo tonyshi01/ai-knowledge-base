@@ -1,0 +1,18 @@
+{
+  "id": "20260624-039",
+  "title": "The Coming Loop",
+  "source": "hacker_news",
+  "source_url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+  "summary": "作者探讨了AI反馈循环导致模型质量下降和同质化的风险。",
+  "translated_summary": "The article discusses the risk of AI feedback loops causing model quality degradation and homogenization.",
+  "tags": [
+    "AI feedback loop",
+    "model collapse",
+    "AI safety"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "status": "pending",
+  "score": 0.7
+}
