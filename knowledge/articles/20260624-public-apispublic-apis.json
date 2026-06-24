@@ -3,7 +3,7 @@
   "title": "public-apis/public-apis",
   "source": "github_trending",
   "source_url": "https://github.com/public-apis/public-apis",
-  "summary": "GitHub上public-apis仓库整理了免费的公共API列表，方便开发者查找和使用。",
+  "summary": "GitHub上public-apis仓库整理了大量免费可用的公共API列表，方便开发者调用。",
   "translated_summary": "A collective list of free APIs for use in software and web development, curated on GitHub.",
   "tags": [
     "API",
@@ -12,7 +12,7 @@
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "collected_at": "2026-06-24T18:43:16.615221+08:00",
   "status": "pending",
   "score": 0.7
 }

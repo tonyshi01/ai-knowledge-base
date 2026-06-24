@@ -3,18 +3,18 @@
   "title": "garrytan/gstack",
   "source": "github_trending",
   "source_url": "https://github.com/garrytan/gstack",
-  "summary": "Garry Tan 开源其 Claude Code 配置，包含 23 个工具，模拟 CEO、设计师、工程经理等角色。",
-  "translated_summary": "Garry Tan 开源其 Claude Code 配置，包含 23 个工具，模拟 CEO、设计师、工程经理、发布经理、文档工程师和 QA 角色，提供完整的 AI 辅助开发工作流。",
+  "summary": "Garry Tan 开源其 Claude Code 配置，包含 23 个工具，模拟 CEO、设计师等角色。",
+  "translated_summary": "Garry Tan 开源其 Claude Code 配置，包含 23 个工具，模拟 CEO、设计师、工程经理、发布经理、文档工程师和 QA 角色。",
   "tags": [
     "Claude Code",
-    "AI工具集",
-    "开源",
-    "开发工作流",
-    "角色模拟"
+    "AI agent",
+    "toolkit",
+    "open source",
+    "workflow"
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "collected_at": "2026-06-24T18:43:16.615221+08:00",
   "status": "pending",
   "score": 0.65
 }

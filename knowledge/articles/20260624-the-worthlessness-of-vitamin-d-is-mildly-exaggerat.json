@@ -1,18 +1,18 @@
 {
-  "id": "20260624-036",
+  "id": "20260624-038",
   "title": "The worthlessness of Vitamin D is mildly exaggerated",
   "source": "hacker_news",
   "source_url": "https://dynomight.net/vitamin-d/",
-  "summary": "文章探讨了维生素D补充剂的争议，认为其价值被过度贬低，并分析了相关研究的局限性。",
-  "translated_summary": "The article discusses the controversy over vitamin D supplements, arguing that their value is mildly exaggerated in a negative direction, and analyzes the limitations of related studies.",
+  "summary": "文章探讨了维生素D补充剂的争议，认为其价值被低估，但效果有限。",
+  "translated_summary": "The article discusses the controversy around vitamin D supplements, arguing that their worth is mildly exaggerated but not entirely worthless.",
   "tags": [
     "vitamin D",
-    "health",
-    "nutrition"
+    "supplements",
+    "health research"
   ],
   "category": "opinion",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "collected_at": "2026-06-24T18:43:17.593430+08:00",
   "status": "pending",
   "score": 0.3
 }

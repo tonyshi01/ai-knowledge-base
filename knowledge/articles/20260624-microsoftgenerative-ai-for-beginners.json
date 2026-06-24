@@ -3,8 +3,8 @@
   "title": "microsoft/generative-ai-for-beginners",
   "source": "github_trending",
   "source_url": "https://github.com/microsoft/generative-ai-for-beginners",
-  "summary": "微软发布面向初学者的生成式AI课程，包含21节课程，帮助用户快速入门构建生成式AI应用。",
-  "translated_summary": "21 Lessons, Get Started Building with Generative AI",
+  "summary": "微软发布了面向初学者的生成式AI课程，包含21节课程，帮助用户快速上手构建生成式AI应用。",
+  "translated_summary": "Microsoft released a generative AI course for beginners, containing 21 lessons to help users quickly get started building generative AI applications.",
   "tags": [
     "generative AI",
     "education",
@@ -14,7 +14,7 @@
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "collected_at": "2026-06-24T18:43:16.615221+08:00",
   "status": "pending",
   "score": 0.7
 }

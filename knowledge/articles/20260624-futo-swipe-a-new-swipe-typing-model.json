@@ -1,18 +1,18 @@
 {
-  "id": "20260624-035",
+  "id": "20260624-037",
   "title": "FUTO Swipe – A new swipe typing model",
   "source": "hacker_news",
   "source_url": "https://swipe.futo.tech/",
-  "summary": "FUTO发布了一款新的滑动输入法模型，旨在提升移动设备上的打字体验。",
-  "translated_summary": "FUTO Swipe is a new swipe typing model designed to improve typing efficiency and accuracy on mobile devices.",
+  "summary": "FUTO发布了新的滑动输入模型Swipe，旨在提升移动设备上的打字体验。",
+  "translated_summary": "FUTO Swipe is a new swipe typing model designed to improve text input efficiency on mobile devices.",
   "tags": [
     "swipe typing",
     "input method",
-    "mobile keyboard"
+    "mobile"
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "collected_at": "2026-06-24T18:43:17.593430+08:00",
   "status": "pending",
-  "score": 0.65
+  "score": 0.7
 }

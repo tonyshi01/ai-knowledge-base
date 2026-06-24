@@ -3,8 +3,8 @@
   "title": "Snailclimb/JavaGuide",
   "source": "github_trending",
   "source_url": "https://github.com/Snailclimb/JavaGuide",
-  "summary": "JavaGuide是一个全面的Java面试与后端开发指南，涵盖计算机基础、数据库、分布式、高并发及AI应用开发。",
-  "translated_summary": "JavaGuide is a comprehensive Java interview and backend development guide covering computer fundamentals, databases, distributed systems, high concurrency, and AI application development.",
+  "summary": "JavaGuide 是一个全面的 Java 面试与后端通用面试指南，涵盖计算机基础、数据库、分布式、高并发、系统设计及 AI 应用开发。",
+  "translated_summary": "JavaGuide 是一个全面的 Java 面试与后端通用面试指南，涵盖计算机基础、数据库、分布式、高并发、系统设计及 AI 应用开发。",
   "tags": [
     "Java",
     "面试指南",
@@ -12,7 +12,7 @@
   ],
   "category": "tool",
   "language": "zh",
-  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "collected_at": "2026-06-24T18:43:16.615221+08:00",
   "status": "pending",
   "score": 0.6
 }

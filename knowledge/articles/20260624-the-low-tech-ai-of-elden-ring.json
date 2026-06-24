@@ -1,18 +1,18 @@
 {
-  "id": "20260624-038",
+  "id": "20260624-040",
   "title": "The Low-Tech AI of Elden Ring",
   "source": "hacker_news",
   "source_url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
-  "summary": "本文分析了《艾尔登法环》中低技术AI的设计原理及其对游戏体验的影响。",
-  "translated_summary": "This article analyzes the design principles of low-tech AI in Elden Ring and its impact on game experience.",
+  "summary": "分析《艾尔登法环》中低技术AI的设计原理与游戏体验影响。",
+  "translated_summary": "本文探讨《艾尔登法环》如何通过有限状态机和简单规则实现高效且富有挑战性的敌人AI，而非依赖复杂机器学习。",
   "tags": [
-    "Elden Ring",
     "game AI",
-    "low-tech AI"
+    "Elden Ring",
+    "finite state machine"
   ],
   "category": "opinion",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "collected_at": "2026-06-24T18:43:17.593430+08:00",
   "status": "pending",
-  "score": 0.3
+  "score": 0.65
 }

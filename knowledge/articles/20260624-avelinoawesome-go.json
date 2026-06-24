@@ -3,16 +3,18 @@
   "title": "avelino/awesome-go",
   "source": "github_trending",
   "source_url": "https://github.com/avelino/awesome-go",
-  "summary": "GitHub上最受欢迎的Go语言资源精选列表，涵盖框架、库和软件。",
-  "translated_summary": "A curated list of awesome Go frameworks, libraries and software, widely used as a reference by the Go developer community.",
+  "summary": "GitHub上最受欢迎的Go语言资源精选列表，收录高质量框架、库和软件。",
+  "translated_summary": "A curated list of awesome Go frameworks, libraries and software, maintained by the community on GitHub.",
   "tags": [
     "Go",
     "awesome-list",
+    "frameworks",
+    "libraries",
     "resources"
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "collected_at": "2026-06-24T18:43:16.615221+08:00",
   "status": "pending",
-  "score": 0.85
+  "score": 0.6
 }

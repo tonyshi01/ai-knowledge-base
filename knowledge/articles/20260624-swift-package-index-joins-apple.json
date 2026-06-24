@@ -1,10 +1,10 @@
 {
-  "id": "20260624-034",
+  "id": "20260624-036",
   "title": "Swift Package Index joins Apple",
   "source": "hacker_news",
   "source_url": "https://swiftpackageindex.com/blog/swift-package-index-joins-apple",
-  "summary": "Swift包索引项目正式加入苹果公司，以提升Swift生态系统的包管理体验。",
-  "translated_summary": "Swift Package Index joins Apple, aiming to improve package management and discovery for the Swift ecosystem.",
+  "summary": "Swift Package Index 团队加入苹果公司，以提升 Swift 包生态系统的官方支持。",
+  "translated_summary": "Swift Package Index joins Apple, bringing its package discovery and indexing expertise to improve the official Swift package ecosystem.",
   "tags": [
     "Swift",
     "Apple",
@@ -12,7 +12,7 @@
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "collected_at": "2026-06-24T18:43:17.593430+08:00",
   "status": "pending",
-  "score": 0.75
+  "score": 0.7
 }

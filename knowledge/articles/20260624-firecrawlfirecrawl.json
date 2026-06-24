@@ -3,16 +3,16 @@
   "title": "firecrawl/firecrawl",
   "source": "github_trending",
   "source_url": "https://github.com/firecrawl/firecrawl",
-  "summary": "Firecrawl 是一个开源API，用于大规模搜索、抓取和与网页交互。",
-  "translated_summary": "Firecrawl is an open-source API for searching, scraping, and interacting with the web at scale.",
+  "summary": "Firecrawl 是一个用于大规模搜索、抓取和与网页交互的 API 工具。",
+  "translated_summary": "Firecrawl is an API tool for searching, scraping, and interacting with the web at scale.",
   "tags": [
     "web scraping",
     "API",
-    "open source"
+    "data extraction"
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "collected_at": "2026-06-24T18:43:16.615221+08:00",
   "status": "pending",
-  "score": 0.75
+  "score": 0.7
 }

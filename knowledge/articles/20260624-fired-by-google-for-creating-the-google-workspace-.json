@@ -1,18 +1,18 @@
 {
-  "id": "20260624-032",
+  "id": "20260624-034",
   "title": "Fired by Google for creating the Google workspace CLI",
   "source": "hacker_news",
   "source_url": "https://twitter.com/JPoehnelt/status/2069482265953087602",
-  "summary": "一名谷歌员工因创建Google Workspace CLI工具而被公司解雇。",
+  "summary": "一名谷歌员工因创建谷歌工作区CLI工具而被解雇。",
   "translated_summary": "A Google employee was fired for creating a CLI tool for Google Workspace, sparking discussion on corporate policies and innovation.",
   "tags": [
     "Google",
     "CLI",
-    "fired"
+    "termination"
   ],
   "category": "opinion",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "collected_at": "2026-06-24T18:43:17.593430+08:00",
   "status": "pending",
-  "score": 0.3
+  "score": 0.5
 }

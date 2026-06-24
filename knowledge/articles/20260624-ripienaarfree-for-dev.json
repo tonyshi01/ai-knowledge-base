@@ -3,16 +3,16 @@
   "title": "ripienaar/free-for-dev",
   "source": "github_trending",
   "source_url": "https://github.com/ripienaar/free-for-dev",
-  "summary": "GitHub上ripienaar维护的免费开发资源列表，涵盖SaaS、PaaS和IaaS的免费层。",
+  "summary": "一个列出对DevOps和基础设施开发者有用的免费SaaS、PaaS和IaaS服务的GitHub仓库。",
   "translated_summary": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
   "tags": [
     "free-tier",
     "devops",
-    "SaaS"
+    "cloud-services"
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:29.232864+08:00",
+  "collected_at": "2026-06-24T18:43:16.615221+08:00",
   "status": "pending",
-  "score": 0.7
+  "score": 0.65
 }

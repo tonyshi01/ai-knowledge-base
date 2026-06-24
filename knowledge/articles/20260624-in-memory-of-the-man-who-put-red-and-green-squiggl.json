@@ -1,18 +1,19 @@
 {
-  "id": "20260624-033",
+  "id": "20260624-035",
   "title": "In memory of the man who put red and green squiggles under words",
   "source": "hacker_news",
   "source_url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451",
-  "summary": "纪念发明文字拼写和语法检查红色与绿色波浪线的人。",
-  "translated_summary": "In memory of the man who put red and green squiggles under words, a tribute to the inventor of spell and grammar check underlines.",
+  "summary": "纪念发明文字拼写与语法错误红色和绿色波浪线的人。",
+  "translated_summary": "In memory of the man who put red and green squiggles under words, a tribute to the inventor of spell and grammar check visual indicators.",
   "tags": [
     "spell check",
     "grammar check",
+    "Microsoft",
     "tribute"
   ],
   "category": "opinion",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "collected_at": "2026-06-24T18:43:17.593430+08:00",
   "status": "pending",
-  "score": 0.3
+  "score": 0.6
 }

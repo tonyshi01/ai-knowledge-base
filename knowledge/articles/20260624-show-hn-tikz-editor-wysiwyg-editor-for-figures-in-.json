@@ -1,20 +1,20 @@
 {
-  "id": "20260624-037",
+  "id": "20260624-039",
   "title": "Show HN: TikZ Editor – WYSIWYG editor for figures in LaTeX",
   "source": "hacker_news",
   "source_url": "https://tikz.dev/editor/",
-  "summary": "TikZ Editor 是一个开源的所见即所得编辑器，支持通过拖拽和调整大小来可视化编辑 LaTeX 图形代码。",
-  "translated_summary": "TikZ Editor is an open-source WYSIWYG editor that allows visual editing of LaTeX figure code by dragging and resizing elements, with synchronized source and rendered views.",
+  "summary": "一个开源的所见即所得TikZ编辑器，支持拖拽编辑和源码同步，由AI编码助手Codex构建。",
+  "translated_summary": "An open-source WYSIWYG TikZ editor that allows visual editing of LaTeX figures by dragging and resizing, with synchronized source code and rendered output, built almost entirely by the Codex coding agent.",
   "tags": [
     "TikZ",
     "LaTeX",
-    "WYSIWYG",
-    "editor",
-    "open-source"
+    "WYSIWYG editor",
+    "open source",
+    "AI-assisted coding"
   ],
   "category": "tool",
   "language": "en",
-  "collected_at": "2026-06-24T12:48:30.193828+08:00",
+  "collected_at": "2026-06-24T18:43:17.593430+08:00",
   "status": "pending",
   "score": 0.75
 }
