@@ -1,0 +1,18 @@
+{
+  "id": "20260623-028",
+  "title": "In praise of memcached",
+  "source": "hacker_news",
+  "source_url": "https://jchri.st/blog/in-praise-of-memcached/",
+  "summary": "一篇赞扬Memcached技术价值的文章，强调其简洁高效的设计哲学。",
+  "translated_summary": "A technical article praising Memcached's simplicity, performance, and enduring relevance in modern system design.",
+  "tags": [
+    "memcached",
+    "caching",
+    "system design"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.3
+}

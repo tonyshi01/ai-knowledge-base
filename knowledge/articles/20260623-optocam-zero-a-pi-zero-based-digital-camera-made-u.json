@@ -1,0 +1,18 @@
+{
+  "id": "20260623-033",
+  "title": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
+  "source": "hacker_news",
+  "source_url": "https://github.com/dorukkumkumoglu/optocamzero",
+  "summary": "基于树莓派Zero的开源数字相机项目，使用现成组件构建。",
+  "translated_summary": "Optocam Zero is a Pi Zero based digital camera made using off the shelf components, an open-source hardware project.",
+  "tags": [
+    "Raspberry Pi",
+    "digital camera",
+    "open source hardware"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.35
+}

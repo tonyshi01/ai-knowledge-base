@@ -1,0 +1,178 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-06-23T14:44:56.413953+08:00",
+  "item_count": 10,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 443613,
+        "forks": 48622,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-06-23T14:44:53.782562+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 304389,
+        "forks": 28136,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-06-23T14:44:53.782562+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 300703,
+        "forks": 14014,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-06-23T14:44:53.782562+08:00"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 220061,
+        "forks": 33721,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ]
+      },
+      "collected_at": "2026-06-23T14:44:53.782562+08:00"
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 200191,
+        "forks": 35653,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "clawdbot",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "moltbot",
+          "nous-research",
+          "openai",
+          "openclaw"
+        ]
+      },
+      "collected_at": "2026-06-23T14:44:53.782562+08:00"
+    },
+    {
+      "title": "The new HTTP QUERY method explained",
+      "url": "https://kreya.app/blog/new-http-query-method-explained/",
+      "description": "<p>Article URL: <a href=\"https://kreya.app/blog/new-http-query-method-explained/\">https://kreya.app/blog/new-http-query-method-explained/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48640974\">https://news.ycombinator.com/item?id=48640974</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 06:05:37 +0000"
+      },
+      "collected_at": "2026-06-23T14:44:54.864361+08:00"
+    },
+    {
+      "title": "Will It Mythos?",
+      "url": "https://swelljoe.com/post/will-it-mythos/",
+      "description": "<p>Article URL: <a href=\"https://swelljoe.com/post/will-it-mythos/\">https://swelljoe.com/post/will-it-mythos/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48640196\">https://news.ycombinator.com/item?id=48640196</a></p>\n<p>Points: 95</p>\n<p># Comments: 50</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 04:15:04 +0000"
+      },
+      "collected_at": "2026-06-23T14:44:54.864361+08:00"
+    },
+    {
+      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+      "url": "https://arxiv.org/abs/2606.03748",
+      "description": "<p>Article URL: <a href=\"https://arxiv.org/abs/2606.03748\">https://arxiv.org/abs/2606.03748</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639434\">https://news.ycombinator.com/item?id=48639434</a></p>\n<p>Points: 25</p>\n<p># Comments: 2</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 02:28:00 +0000"
+      },
+      "collected_at": "2026-06-23T14:44:54.864361+08:00"
+    },
+    {
+      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "description": "<p>Article URL: <a href=\"https://arxiv.org/abs/2606.16140\">https://arxiv.org/abs/2606.16140</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639240\">https://news.ycombinator.com/item?id=48639240</a></p>\n<p>Points: 118</p>\n<p># Comments: 42</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 02:01:25 +0000"
+      },
+      "collected_at": "2026-06-23T14:44:54.864361+08:00"
+    },
+    {
+      "title": "1,700 free online courses from top universities",
+      "url": "https://www.openculture.com/freeonlinecourses",
+      "description": "<p>Article URL: <a href=\"https://www.openculture.com/freeonlinecourses\">https://www.openculture.com/freeonlinecourses</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639184\">https://news.ycombinator.com/item?id=48639184</a></p>\n<p>Points: 152</p>\n<p># Comments: 31</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 01:54:38 +0000"
+      },
+      "collected_at": "2026-06-23T14:44:54.864361+08:00"
+    }
+  ]
+}

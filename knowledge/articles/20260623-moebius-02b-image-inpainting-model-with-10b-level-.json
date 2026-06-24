@@ -1,0 +1,18 @@
+{
+  "id": "20260623-039",
+  "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+  "source": "hacker_news",
+  "source_url": "https://hustvl.github.io/Moebius/",
+  "summary": "Moebius是一个0.2B参数的图像修复模型，性能达到10B级别。",
+  "translated_summary": "Moebius is a 0.2B parameter image inpainting model that achieves performance comparable to 10B-level models.",
+  "tags": [
+    "image inpainting",
+    "efficient model",
+    "computer vision"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.85
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260623-023",
+  "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+  "source": "hacker_news",
+  "source_url": "https://arxiv.org/abs/2606.03748",
+  "summary": "Ultralytics发布YOLO26，统一实时端到端视觉模型，提升目标检测性能。",
+  "translated_summary": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+  "tags": [
+    "YOLO26",
+    "目标检测",
+    "实时视觉模型"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.85
+}

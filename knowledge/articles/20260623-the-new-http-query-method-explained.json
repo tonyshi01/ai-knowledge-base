@@ -1,0 +1,18 @@
+{
+  "id": "20260623-021",
+  "title": "The new HTTP QUERY method explained",
+  "source": "hacker_news",
+  "source_url": "https://kreya.app/blog/new-http-query-method-explained/",
+  "summary": "本文介绍了HTTP QUERY方法的新提案，旨在优化API查询操作。",
+  "translated_summary": "This article explains the new HTTP QUERY method proposal, which aims to optimize API query operations by providing a standardized way to send query requests with a body.",
+  "tags": [
+    "HTTP",
+    "API",
+    "protocol"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.5
+}

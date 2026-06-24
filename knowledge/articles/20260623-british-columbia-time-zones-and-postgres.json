@@ -1,0 +1,18 @@
+{
+  "id": "20260623-032",
+  "title": "British Columbia, Time Zones, and Postgres",
+  "source": "hacker_news",
+  "source_url": "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+  "summary": "讨论不列颠哥伦比亚省时区变更对Postgres数据库的影响及处理方案。",
+  "translated_summary": "British Columbia, Time Zones, and Postgres",
+  "tags": [
+    "Postgres",
+    "time zone",
+    "British Columbia"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.3
+}

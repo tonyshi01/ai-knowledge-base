@@ -1,0 +1,18 @@
+{
+  "id": "20260623-027",
+  "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/daybreak-securing-the-world/",
+  "summary": "OpenAI发布GPT-5.5-Cyber模型，专注于网络安全领域的安全防护。",
+  "translated_summary": "OpenAI发布GPT-5.5-Cyber模型，专注于网络安全领域的安全防护，旨在提升AI系统在对抗性环境中的鲁棒性。",
+  "tags": [
+    "OpenAI",
+    "GPT-5.5-Cyber",
+    "网络安全"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.85
+}

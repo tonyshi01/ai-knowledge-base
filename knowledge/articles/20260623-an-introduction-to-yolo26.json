@@ -1,0 +1,18 @@
+{
+  "id": "20260623-026",
+  "title": "An Introduction to YOLO26",
+  "source": "hacker_news",
+  "source_url": "https://blog.roboflow.com/yolo26/",
+  "summary": "Roboflow发布了YOLO26的详细介绍，包括其架构改进和性能提升。",
+  "translated_summary": "An introduction to YOLO26, covering its architecture improvements and performance enhancements.",
+  "tags": [
+    "YOLO26",
+    "object detection",
+    "Roboflow"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.75
+}

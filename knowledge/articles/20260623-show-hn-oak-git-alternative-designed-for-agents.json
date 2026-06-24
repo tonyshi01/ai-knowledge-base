@@ -1,0 +1,18 @@
+{
+  "id": "20260623-038",
+  "title": "Show HN: Oak – Git alternative designed for agents",
+  "source": "hacker_news",
+  "source_url": "https://oak.space/oak/oak",
+  "summary": "Oak是一个为AI代理设计的Git替代版本控制系统，通过虚拟挂载提升并行任务处理效率。",
+  "translated_summary": "Oak is a Git alternative version control system designed for AI agents, improving parallel task processing efficiency through virtual mounts.",
+  "tags": [
+    "version control",
+    "AI agents",
+    "Git alternative"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:29.314190+08:00",
+  "status": "pending",
+  "score": 0.75
+}

@@ -1,0 +1,20 @@
+{
+  "id": "20260623-002",
+  "title": "vinta/awesome-python",
+  "source": "github_trending",
+  "source_url": "https://github.com/vinta/awesome-python",
+  "summary": "GitHub上最受欢迎的Python资源精选列表，收录了各类框架、库、工具和学习资源。",
+  "translated_summary": "An opinionated list of Python frameworks, libraries, tools, and resources, widely regarded as the go-to curated collection for Python developers.",
+  "tags": [
+    "python",
+    "awesome-list",
+    "resources",
+    "frameworks",
+    "libraries"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-23T14:46:27.966955+08:00",
+  "status": "pending",
+  "score": 0.85
+}

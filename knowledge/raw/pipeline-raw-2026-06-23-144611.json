@@ -1,0 +1,76 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-06-23T14:46:11.214204+08:00",
+  "item_count": 3,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 443613,
+        "forks": 48622,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:10.298499+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 304390,
+        "forks": 28136,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:10.298499+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 300704,
+        "forks": 14014,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:10.298499+08:00"
+    }
+  ]
+}

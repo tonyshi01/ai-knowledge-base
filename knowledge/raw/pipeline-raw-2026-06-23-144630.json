@@ -1,0 +1,691 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-06-23T14:46:30.897401+08:00",
+  "item_count": 40,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 443613,
+        "forks": 48622,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 304391,
+        "forks": 28136,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 300704,
+        "forks": 14014,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 220061,
+        "forks": 33721,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 200194,
+        "forks": 35653,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "clawdbot",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "moltbot",
+          "nous-research",
+          "openai",
+          "openclaw"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 176175,
+        "forks": 13340,
+        "language": "Go",
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "go",
+          "golang",
+          "golang-library",
+          "hacktoberfest"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 174763,
+        "forks": 16714,
+        "language": "Go",
+        "topics": [
+          "deepseek",
+          "gemma",
+          "gemma3",
+          "glm",
+          "go",
+          "golang",
+          "gpt-oss",
+          "llama",
+          "llama3",
+          "llm",
+          "llms",
+          "minimax",
+          "mistral",
+          "ollama",
+          "qwen"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "Snailclimb/JavaGuide",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 156540,
+        "forks": 46147,
+        "language": "JavaScript",
+        "topics": [
+          "agent",
+          "ai",
+          "context-engineering",
+          "deepseek",
+          "interview",
+          "java",
+          "mcp",
+          "mysql",
+          "redis",
+          "redisson",
+          "skills",
+          "springai",
+          "system-design"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 149960,
+        "forks": 9325,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "chatgpt",
+          "generative-ai",
+          "large-language-models",
+          "multiagent",
+          "react-flow"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Production-ready platform for agentic workflow development.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 146207,
+        "forks": 22993,
+        "language": "TypeScript",
+        "topics": [
+          "agent",
+          "agentic-ai",
+          "agentic-framework",
+          "agentic-workflow",
+          "ai",
+          "automation",
+          "gemini",
+          "genai",
+          "gpt",
+          "gpt-4",
+          "llm",
+          "low-code",
+          "mcp",
+          "nextjs",
+          "no-code",
+          "openai",
+          "orchestration",
+          "python",
+          "rag",
+          "workflow"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 142674,
+        "forks": 20516,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "llm",
+          "llm-ui",
+          "llm-webui",
+          "llms",
+          "mcp",
+          "ollama",
+          "ollama-webui",
+          "open-webui",
+          "openai",
+          "openapi",
+          "rag",
+          "self-hosted",
+          "ui",
+          "webui"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 139929,
+        "forks": 23206,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "deepagents",
+          "enterprise",
+          "framework",
+          "gemini",
+          "generative-ai",
+          "langchain",
+          "langgraph",
+          "llm",
+          "multiagent",
+          "open-source",
+          "openai",
+          "pydantic",
+          "python",
+          "rag",
+          "typescript"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 137637,
+        "forks": 7970,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-crawler",
+          "ai-scraping",
+          "ai-search",
+          "crawler",
+          "data-extraction",
+          "html-to-markdown",
+          "llm",
+          "markdown",
+          "scraper",
+          "scraping",
+          "web-crawler",
+          "web-data",
+          "web-data-extraction",
+          "web-scraper",
+          "web-scraping",
+          "web-search",
+          "webscraping"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 123322,
+        "forks": 13004,
+        "language": "HTML",
+        "topics": [
+          "awesome-list",
+          "free-for-developers"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 117742,
+        "forks": 19835,
+        "language": "C++",
+        "topics": [
+          "ggml"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 115361,
+        "forks": 17142,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "llms",
+          "python",
+          "rag"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 115210,
+        "forks": 18840,
+        "language": "Shell",
+        "topics": []
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 113423,
+        "forks": 16824,
+        "language": "TypeScript",
+        "topics": []
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 112232,
+        "forks": 60276,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "ai",
+          "azure",
+          "chatgpt",
+          "dall-e",
+          "generative-ai",
+          "generativeai",
+          "gpt",
+          "language-model",
+          "llms",
+          "microsoft-for-beginners",
+          "openai",
+          "prompt-engineering",
+          "semantic-search",
+          "transformers"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 106634,
+        "forks": 7048,
+        "language": "Rust",
+        "topics": [
+          "ai-tools",
+          "claude-code",
+          "codex",
+          "desktop-app",
+          "hermes",
+          "hermes-agent",
+          "mcp",
+          "minimax",
+          "omo",
+          "open-source",
+          "openclaw",
+          "openclaw-ui",
+          "opencode",
+          "provider-management",
+          "rust",
+          "skills",
+          "skills-management",
+          "tauri",
+          "typescript",
+          "wsl-support"
+        ]
+      },
+      "collected_at": "2026-06-23T14:46:27.966955+08:00"
+    },
+    {
+      "title": "The new HTTP QUERY method explained",
+      "url": "https://kreya.app/blog/new-http-query-method-explained/",
+      "description": "<p>Article URL: <a href=\"https://kreya.app/blog/new-http-query-method-explained/\">https://kreya.app/blog/new-http-query-method-explained/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48640974\">https://news.ycombinator.com/item?id=48640974</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 06:05:37 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Will It Mythos?",
+      "url": "https://swelljoe.com/post/will-it-mythos/",
+      "description": "<p>Article URL: <a href=\"https://swelljoe.com/post/will-it-mythos/\">https://swelljoe.com/post/will-it-mythos/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48640196\">https://news.ycombinator.com/item?id=48640196</a></p>\n<p>Points: 95</p>\n<p># Comments: 50</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 04:15:04 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Ultralytics YOLO26: Unified Real-Time End-to-End Vision Models",
+      "url": "https://arxiv.org/abs/2606.03748",
+      "description": "<p>Article URL: <a href=\"https://arxiv.org/abs/2606.03748\">https://arxiv.org/abs/2606.03748</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639434\">https://news.ycombinator.com/item?id=48639434</a></p>\n<p>Points: 25</p>\n<p># Comments: 2</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 02:28:00 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "VibeThinker: 3B param model that beats Opus 4.5 on reasoning with novel SFT+GRPO",
+      "url": "https://arxiv.org/abs/2606.16140",
+      "description": "<p>Article URL: <a href=\"https://arxiv.org/abs/2606.16140\">https://arxiv.org/abs/2606.16140</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639240\">https://news.ycombinator.com/item?id=48639240</a></p>\n<p>Points: 118</p>\n<p># Comments: 42</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 02:01:25 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "1,700 free online courses from top universities",
+      "url": "https://www.openculture.com/freeonlinecourses",
+      "description": "<p>Article URL: <a href=\"https://www.openculture.com/freeonlinecourses\">https://www.openculture.com/freeonlinecourses</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639184\">https://news.ycombinator.com/item?id=48639184</a></p>\n<p>Points: 152</p>\n<p># Comments: 31</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 01:54:38 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "An Introduction to YOLO26",
+      "url": "https://blog.roboflow.com/yolo26/",
+      "description": "<p>Article URL: <a href=\"https://blog.roboflow.com/yolo26/\">https://blog.roboflow.com/yolo26/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639165\">https://news.ycombinator.com/item?id=48639165</a></p>\n<p>Points: 49</p>\n<p># Comments: 12</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 01:52:20 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "OpenAI DayBreak – GPT-5.5-Cyber",
+      "url": "https://openai.com/index/daybreak-securing-the-world/",
+      "description": "<p>Article URL: <a href=\"https://openai.com/index/daybreak-securing-the-world/\">https://openai.com/index/daybreak-securing-the-world/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48639063\">https://news.ycombinator.com/item?id=48639063</a></p>\n<p>Points: 39</p>\n<p># Comments: 3</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 01:36:08 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "In praise of memcached",
+      "url": "https://jchri.st/blog/in-praise-of-memcached/",
+      "description": "<p>Article URL: <a href=\"https://jchri.st/blog/in-praise-of-memcached/\">https://jchri.st/blog/in-praise-of-memcached/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48638886\">https://news.ycombinator.com/item?id=48638886</a></p>\n<p>Points: 115</p>\n<p># Comments: 45</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Tue, 23 Jun 2026 01:15:05 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "GLM-5.2 – How to Run Locally",
+      "url": "https://unsloth.ai/docs/models/glm-5.2",
+      "description": "<p>Article URL: <a href=\"https://unsloth.ai/docs/models/glm-5.2\">https://unsloth.ai/docs/models/glm-5.2</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48636377\">https://news.ycombinator.com/item?id=48636377</a></p>\n<p>Points: 309</p>\n<p># Comments: 140</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 21:21:01 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Kyber (YC W23) Is Hiring a Head of Engineering",
+      "url": "https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering",
+      "description": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering\">https://www.ycombinator.com/companies/kyber/jobs/FGmI8mx-head-of-engineering</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48636125\">https://news.ycombinator.com/item?id=48636125</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 21:00:51 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Japanese symbols that speak without words",
+      "url": "https://arun.is/blog/japan-symbols/",
+      "description": "<p>Article URL: <a href=\"https://arun.is/blog/japan-symbols/\">https://arun.is/blog/japan-symbols/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48634803\">https://news.ycombinator.com/item?id=48634803</a></p>\n<p>Points: 161</p>\n<p># Comments: 81</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 19:22:37 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "British Columbia, Time Zones, and Postgres",
+      "url": "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+      "description": "<p>Article URL: <a href=\"https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes\">https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48634787\">https://news.ycombinator.com/item?id=48634787</a></p>\n<p>Points: 130</p>\n<p># Comments: 93</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 19:21:00 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Optocam Zero: a Pi Zero based digital camera made using off the shelf components",
+      "url": "https://github.com/dorukkumkumoglu/optocamzero",
+      "description": "<p>Article URL: <a href=\"https://github.com/dorukkumkumoglu/optocamzero\">https://github.com/dorukkumkumoglu/optocamzero</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48634778\">https://news.ycombinator.com/item?id=48634778</a></p>\n<p>Points: 155</p>\n<p># Comments: 37</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 19:19:55 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Flock-Powered Police Chiefs Stalking Women Shows Why Warrants Are Needed",
+      "url": "https://ipvm.com/reports/police-chiefs-track",
+      "description": "<p>Article URL: <a href=\"https://ipvm.com/reports/police-chiefs-track\">https://ipvm.com/reports/police-chiefs-track</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48634694\">https://news.ycombinator.com/item?id=48634694</a></p>\n<p>Points: 475</p>\n<p># Comments: 197</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 19:13:46 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Canada plans 'nuclear renaissance' with up to 10 reactors built by 2040",
+      "url": "https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509",
+      "description": "<p>Article URL: <a href=\"https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509\">https://www.cbc.ca/news/politics/federal-nuclear-strategy-9.7244509</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48634585\">https://news.ycombinator.com/item?id=48634585</a></p>\n<p>Points: 424</p>\n<p># Comments: 265</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 19:06:48 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Steam Machine launches today",
+      "url": "https://store.steampowered.com/news/group/45479024/view/685257114654870245",
+      "description": "<p><a href=\"https://store.steampowered.com/sale/steammachine\" rel=\"nofollow\">https://store.steampowered.com/sale/steammachine</a><p><a href=\"https://www.lttlabs.com/articles/2026/06/22/the-newell-nucleus-steam-machine-ltt-companion-article\" rel=\"nofollow\">https://www.lttlabs.com/articles/2026/06/22/the-newell-nucle...</a><p><a href=\"https://www.youtube.com/watch?v=66QzlDewigE\" rel=\"nofollow\">https://www.youtube.com/watch?v=66QzlDewigE</a></p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48632884\">https://news.ycombinator.com/item?id=48632884</a></p>\n<p>Points: 1440</p>\n<p># Comments: 1277</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 17:09:51 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Charge Robotics (YC S21) Is Hiring Software and Hardware Engineers",
+      "url": "https://jobs.ashbyhq.com/charge-robotics",
+      "description": "<p>Article URL: <a href=\"https://jobs.ashbyhq.com/charge-robotics\">https://jobs.ashbyhq.com/charge-robotics</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48632792\">https://news.ycombinator.com/item?id=48632792</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 17:00:17 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Show HN: Oak – Git alternative designed for agents",
+      "url": "https://oak.space/oak/oak",
+      "description": "<p>Oak is a version control system I've been working on designed for agents (<a href=\"https://oak.space\" rel=\"nofollow\">https://oak.space</a>). It improves the speed and context your agents need when working on serious projects. With virtual mounts, agents locally and in the cloud no longer need a full copy of a repo to get working. You can work on many tasks in parallel without needing to download everything or fight worktrees. Version control shouldn't waste you or your agents time. It should be fast, creative and fun to make things with agents.<p>Oak is still early in development. There's no Windows build and missing plenty of features (no CI, no issues, no comments). We still use GitHub Actions for building Oak now, but we've been fully bootstrapped on Oak with no Git backup for several months: <a href=\"https://oak.space/oak/oak\" rel=\"nofollow\">https://oak.space/oak/oak</a>.<p>Blog post: <a href=\"https://oak.space/blog#git-is-forever\" rel=\"nofollow\">https://oak.space/blog#git-is-forever</a><p>Docs: <a href=\"https://oak.space/docs\" rel=\"nofollow\">https://oak.space/docs</a></p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48631726\">https://news.ycombinator.com/item?id=48631726</a></p>\n<p>Points: 178</p>\n<p># Comments: 157</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 15:37:48 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Moebius: 0.2B image inpainting model with 10B-level performance",
+      "url": "https://hustvl.github.io/Moebius/",
+      "description": "<p>Article URL: <a href=\"https://hustvl.github.io/Moebius/\">https://hustvl.github.io/Moebius/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48630171\">https://news.ycombinator.com/item?id=48630171</a></p>\n<p>Points: 267</p>\n<p># Comments: 67</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 13:53:02 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    },
+    {
+      "title": "Chevron signs 20-year power agreement with Microsoft for West Texas data center",
+      "url": "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+      "description": "<p>Article URL: <a href=\"https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center\">https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48630029\">https://news.ycombinator.com/item?id=48630029</a></p>\n<p>Points: 140</p>\n<p># Comments: 124</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 22 Jun 2026 13:43:38 +0000"
+      },
+      "collected_at": "2026-06-23T14:46:29.314190+08:00"
+    }
+  ]
+}
