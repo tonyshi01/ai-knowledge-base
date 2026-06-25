@@ -1,0 +1,18 @@
+{
+  "id": "20260625-035",
+  "title": "RubyLLM: A Ruby framework for all major AI providers",
+  "source": "hacker_news",
+  "source_url": "https://rubyllm.com/",
+  "summary": "RubyLLM是一个支持所有主要AI提供商的Ruby框架。",
+  "translated_summary": "RubyLLM is a Ruby framework that provides unified access to all major AI providers, simplifying integration and usage.",
+  "tags": [
+    "RubyLLM",
+    "AI framework",
+    "multi-provider"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-25T18:36:35.753684+08:00",
+  "status": "pending",
+  "score": 0.65
+}

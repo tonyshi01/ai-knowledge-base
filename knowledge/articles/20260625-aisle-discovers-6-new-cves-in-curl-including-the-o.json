@@ -1,0 +1,18 @@
+{
+  "id": "20260625-021",
+  "title": "Aisle Discovers 6 New CVEs in Curl, Including the Oldest Issue Ever Reported",
+  "source": "hacker_news",
+  "source_url": "https://aisle.com/blog/aisle-discovers-6-new-cves-in-curl-including-the-oldest-issue-ever-reported",
+  "summary": "Aisle发现curl的6个新CVE漏洞，包括有史以来报告的最古老问题。",
+  "translated_summary": "Aisle discovers 6 new CVEs in curl, including the oldest issue ever reported, highlighting long-standing security vulnerabilities.",
+  "tags": [
+    "curl",
+    "CVE",
+    "security"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-25T18:36:35.753684+08:00",
+  "status": "pending",
+  "score": 0.7
+}

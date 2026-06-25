@@ -1,0 +1,18 @@
+{
+  "id": "20260625-028",
+  "title": "Mixing Visual and Textual Code",
+  "source": "hacker_news",
+  "source_url": "https://arxiv.org/abs/2603.15855",
+  "summary": "本文提出了一种混合视觉与文本代码的新方法，旨在提升AI对多模态编程的理解与生成能力。",
+  "translated_summary": "This paper proposes a novel approach to mixing visual and textual code, aiming to enhance AI's understanding and generation of multimodal programming.",
+  "tags": [
+    "visual code",
+    "textual code",
+    "multimodal AI"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-25T18:36:35.753684+08:00",
+  "status": "pending",
+  "score": 0.75
+}

@@ -1,0 +1,20 @@
+{
+  "id": "20260625-032",
+  "title": "OpenAI unveils its first custom chip, built by Broadcom",
+  "source": "hacker_news",
+  "source_url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+  "summary": "OpenAI与Broadcom合作推出首款自研AI推理芯片Jalapeno。",
+  "translated_summary": "OpenAI unveils its first custom AI inference chip, Jalapeno, developed in collaboration with Broadcom, marking a major step in hardware independence.",
+  "tags": [
+    "OpenAI",
+    "Broadcom",
+    "custom chip",
+    "Jalapeno",
+    "AI inference"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-25T18:36:35.753684+08:00",
+  "status": "pending",
+  "score": 0.92
+}
