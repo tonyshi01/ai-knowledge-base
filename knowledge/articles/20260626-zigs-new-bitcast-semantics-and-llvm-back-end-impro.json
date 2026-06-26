@@ -1,0 +1,18 @@
+{
+  "id": "20260626-038",
+  "title": "Zig's new bitCast semantics and LLVM back end improvements",
+  "source": "hacker_news",
+  "source_url": "https://ziglang.org/devlog/2026/#2026-06-25",
+  "summary": "Zig语言更新了bitCast语义并改进了LLVM后端，提升了编译效率和代码生成质量。",
+  "translated_summary": "Zig's new bitCast semantics and LLVM back end improvements enhance compilation efficiency and code generation quality.",
+  "tags": [
+    "Zig",
+    "LLVM",
+    "compiler"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.75
+}

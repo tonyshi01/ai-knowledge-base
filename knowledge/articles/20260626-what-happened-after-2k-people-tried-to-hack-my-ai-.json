@@ -1,0 +1,18 @@
+{
+  "id": "20260626-023",
+  "title": "What happened after 2k people tried to hack my AI assistant",
+  "source": "hacker_news",
+  "source_url": "https://www.fernandoi.cl/posts/hackmyclaw/",
+  "summary": "作者分享其AI助手被2000人尝试攻击后的安全事件分析与应对经验。",
+  "translated_summary": "What happened after 2k people tried to hack my AI assistant",
+  "tags": [
+    "AI安全",
+    "红队测试",
+    "漏洞分析"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.65
+}

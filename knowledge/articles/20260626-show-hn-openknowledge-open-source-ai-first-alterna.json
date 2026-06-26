@@ -1,0 +1,20 @@
+{
+  "id": "20260626-034",
+  "title": "Show HN: OpenKnowledge – open source AI-first alternative to Obsidian/Notion",
+  "source": "hacker_news",
+  "source_url": "https://github.com/inkeep/open-knowledge",
+  "summary": "OpenKnowledge 是一个开源的 AI 优先笔记工具，支持 WYSIWYG 编辑、Claude/Codex 集成和团队协作。",
+  "translated_summary": "OpenKnowledge is an open-source AI-first note-taking tool with WYSIWYG editing, direct integrations with Claude/Codex, and team collaboration features.",
+  "tags": [
+    "open-source",
+    "AI-first",
+    "note-taking",
+    "WYSIWYG",
+    "knowledge management"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.75
+}

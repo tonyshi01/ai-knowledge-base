@@ -1,0 +1,18 @@
+{
+  "id": "20260626-024",
+  "title": "Framework's 10G Ethernet module exposes USB-C's complexity",
+  "source": "hacker_news",
+  "source_url": "https://www.jeffgeerling.com/blog/2026/framework-10g-ethernet-module-usb-c-complexity/",
+  "summary": "Framework的10G以太网模块揭示了USB-C接口的复杂性和兼容性问题。",
+  "translated_summary": "Framework's 10G Ethernet module exposes the complexity and compatibility issues of USB-C interface.",
+  "tags": [
+    "Framework",
+    "USB-C",
+    "10G Ethernet"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.5
+}

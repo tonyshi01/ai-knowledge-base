@@ -1,0 +1,18 @@
+{
+  "id": "20260626-025",
+  "title": "The Garbage Collection Handbook: The Art of Automatic Memory Management (2nd Ed) (2023)",
+  "source": "hacker_news",
+  "source_url": "https://gchandbook.org/",
+  "summary": "《垃圾回收手册》第二版出版，全面介绍自动内存管理技术。",
+  "translated_summary": "The Garbage Collection Handbook (2nd Ed) is a comprehensive guide to automatic memory management techniques, covering algorithms, implementations, and modern advancements.",
+  "tags": [
+    "garbage collection",
+    "memory management",
+    "programming"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.75
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260626-030",
+  "title": "Parallel Parentheses Matching",
+  "source": "hacker_news",
+  "source_url": "https://williamdue.github.io/blog/parallel-parentheses-matching",
+  "summary": "介绍了一种并行括号匹配算法，利用GPU或并行计算提高处理效率。",
+  "translated_summary": "This article presents a parallel algorithm for parentheses matching, leveraging GPU or parallel computing to improve processing efficiency.",
+  "tags": [
+    "parallel computing",
+    "parentheses matching",
+    "algorithm"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.6
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260626-022",
+  "title": "Libre Barcode Project",
+  "source": "hacker_news",
+  "source_url": "https://graphicore.github.io/librebarcode/",
+  "summary": "Libre Barcode项目提供开源条形码字体，支持多种编码格式。",
+  "translated_summary": "Libre Barcode项目提供开源条形码字体，支持多种编码格式，便于生成和识别条形码。",
+  "tags": [
+    "开源字体",
+    "条形码",
+    "工具"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.6
+}

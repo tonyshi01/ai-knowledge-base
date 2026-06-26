@@ -1,0 +1,18 @@
+{
+  "id": "20260626-027",
+  "title": "Un-0: Generating Images with Coupled Oscillators",
+  "source": "hacker_news",
+  "source_url": "https://unconv.ai/blog/introducing-un-0-generating-images-with-coupled-oscillators/",
+  "summary": "Un-0 是一种利用耦合振荡器生成图像的新型方法，无需传统神经网络。",
+  "translated_summary": "Un-0 introduces a novel method for generating images using coupled oscillators, bypassing traditional neural network architectures.",
+  "tags": [
+    "image generation",
+    "coupled oscillators",
+    "alternative AI"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-26T18:45:48.647238+08:00",
+  "status": "pending",
+  "score": 0.75
+}
