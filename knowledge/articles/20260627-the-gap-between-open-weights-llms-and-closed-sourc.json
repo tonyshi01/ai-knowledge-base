@@ -1,0 +1,20 @@
+{
+  "id": "20260627-033",
+  "title": "The gap between open weights LLMs and closed source LLMs",
+  "source": "hacker_news",
+  "source_url": "https://blog.doubleword.ai/frontier-os-llm",
+  "summary": "分析开放权重与闭源大语言模型之间的性能差距现状。",
+  "translated_summary": "This article analyzes the current performance gap between open-weight and closed-source large language models, discussing implications for AI development and accessibility.",
+  "tags": [
+    "open weights",
+    "closed source",
+    "LLM",
+    "performance gap",
+    "AI industry"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-27T17:58:44.446864+08:00",
+  "status": "pending",
+  "score": 0.65
+}

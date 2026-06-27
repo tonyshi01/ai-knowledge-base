@@ -1,0 +1,18 @@
+{
+  "id": "20260627-005",
+  "title": "NousResearch/hermes-agent",
+  "source": "github_trending",
+  "source_url": "https://github.com/NousResearch/hermes-agent",
+  "summary": "NousResearch 发布了 hermes-agent，一个能够随着用户成长而进化的智能代理工具。",
+  "translated_summary": "NousResearch/hermes-agent is an AI agent tool that evolves with the user, designed for continuous adaptation and growth.",
+  "tags": [
+    "agent",
+    "open source",
+    "NousResearch"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-27T17:58:43.637408+08:00",
+  "status": "pending",
+  "score": 0.65
+}

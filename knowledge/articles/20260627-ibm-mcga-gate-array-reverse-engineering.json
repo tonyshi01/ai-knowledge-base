@@ -1,0 +1,18 @@
+{
+  "id": "20260627-022",
+  "title": "IBM MCGA Gate Array Reverse Engineering",
+  "source": "hacker_news",
+  "source_url": "https://github.com/schlae/IBM_MCGA",
+  "summary": "IBM MCGA门阵列逆向工程开源项目发布。",
+  "translated_summary": "IBM MCGA Gate Array Reverse Engineering",
+  "tags": [
+    "reverse engineering",
+    "IBM",
+    "hardware"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-27T17:58:44.446864+08:00",
+  "status": "pending",
+  "score": 0.3
+}

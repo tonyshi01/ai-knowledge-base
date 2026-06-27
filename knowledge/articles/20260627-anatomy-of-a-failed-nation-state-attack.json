@@ -1,0 +1,18 @@
+{
+  "id": "20260627-025",
+  "title": "Anatomy of a Failed (Nation-State?) Attack",
+  "source": "hacker_news",
+  "source_url": "https://grack.com/blog/2026/06/25/dissecting-a-failed-nation-state-attack/",
+  "summary": "分析了一次疑似国家级网络攻击的失败案例，揭示了攻击的技术细节和防御漏洞。",
+  "translated_summary": "Anatomy of a Failed (Nation-State?) Attack",
+  "tags": [
+    "cybersecurity",
+    "nation-state attack",
+    "incident analysis"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-27T17:58:44.446864+08:00",
+  "status": "pending",
+  "score": 0.6
+}

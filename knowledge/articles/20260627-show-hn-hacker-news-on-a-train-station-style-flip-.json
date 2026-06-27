@@ -1,0 +1,18 @@
+{
+  "id": "20260627-026",
+  "title": "Show HN: Hacker News on a train station-style flip board",
+  "source": "hacker_news",
+  "source_url": "https://popflame.quickish.space/hn-flipboard/",
+  "summary": "一个基于火车站翻牌风格展示Hacker News内容的趣味项目，利用Firebase API实现实时更新。",
+  "translated_summary": "A fun project displaying Hacker News content in a train station-style flip board, using Firebase API for real-time updates, built on the quickish vibe hosting service.",
+  "tags": [
+    "flip board",
+    "Hacker News",
+    "real-time"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-27T17:58:44.446864+08:00",
+  "status": "pending",
+  "score": 0.3
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260627-039",
+  "title": "Previewing GPT‑5.6 Sol: a next-generation model",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+  "summary": "OpenAI发布了GPT-5.6 Sol预览，这是一款下一代模型，并提供了系统卡和安全部署信息。",
+  "translated_summary": "OpenAI previews GPT-5.6 Sol, a next-generation model, with a system card detailing deployment safety and performance.",
+  "tags": [
+    "GPT-5.6",
+    "OpenAI",
+    "model preview"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-27T17:58:44.446864+08:00",
+  "status": "pending",
+  "score": 0.85
+}
