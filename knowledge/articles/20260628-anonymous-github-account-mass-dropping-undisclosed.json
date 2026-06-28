@@ -1,0 +1,18 @@
+{
+  "id": "20260628-034",
+  "title": "Anonymous GitHub account mass-dropping undisclosed 0-days",
+  "source": "hacker_news",
+  "source_url": "https://github.com/bikini/exploitarium",
+  "summary": "匿名GitHub账号批量发布未公开0day漏洞，引发安全社区广泛关注。",
+  "translated_summary": "An anonymous GitHub account is mass-dropping undisclosed 0-day exploits, sparking widespread concern in the security community.",
+  "tags": [
+    "0-day",
+    "GitHub",
+    "security"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.85
+}

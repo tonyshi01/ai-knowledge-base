@@ -1,0 +1,18 @@
+{
+  "id": "20260628-022",
+  "title": "Wayfinder Router: deterministic routing of queries between local and hosted LLM",
+  "source": "hacker_news",
+  "source_url": "https://github.com/itsthelore/wayfinder-router",
+  "summary": "Wayfinder Router 是一个开源工具，用于在本地和托管LLM之间确定性路由查询。",
+  "translated_summary": "Wayfinder Router is an open-source tool for deterministic routing of queries between local and hosted LLMs.",
+  "tags": [
+    "LLM",
+    "routing",
+    "open-source"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.65
+}

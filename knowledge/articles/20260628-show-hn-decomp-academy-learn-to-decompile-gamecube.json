@@ -1,0 +1,21 @@
+{
+  "id": "20260628-027",
+  "title": "Show HN: Decomp Academy – Learn to decompile GameCube games into matching C",
+  "source": "hacker_news",
+  "source_url": "https://decomp-academy.dev",
+  "summary": "Decomp Academy 是一个免费开源的交互式学习平台，教授如何将 GameCube 游戏的 PowerPC 汇编反编译为匹配的 C 代码。",
+  "translated_summary": "Decomp Academy is a free, open-source interactive platform that teaches how to decompile GameCube game PowerPC assembly into matching C code, with 250+ lessons and live compiler verification.",
+  "tags": [
+    "decompilation",
+    "GameCube",
+    "C",
+    "PowerPC",
+    "education",
+    "open-source"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.75
+}

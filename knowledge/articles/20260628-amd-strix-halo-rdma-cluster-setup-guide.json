@@ -1,0 +1,20 @@
+{
+  "id": "20260628-028",
+  "title": "AMD Strix Halo RDMA Cluster Setup Guide",
+  "source": "hacker_news",
+  "source_url": "https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md",
+  "summary": "AMD Strix Halo RDMA集群搭建指南发布，提供vLLM工具集配置步骤。",
+  "translated_summary": "AMD Strix Halo RDMA Cluster Setup Guide provides step-by-step instructions for configuring vLLM toolboxes on AMD hardware.",
+  "tags": [
+    "AMD",
+    "RDMA",
+    "vLLM",
+    "cluster",
+    "setup guide"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.65
+}

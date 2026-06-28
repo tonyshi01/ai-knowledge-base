@@ -1,0 +1,18 @@
+{
+  "id": "20260628-030",
+  "title": "Choosing a Public DNS Resolver",
+  "source": "hacker_news",
+  "source_url": "https://evilbit.de/dns-resolver-guide.html",
+  "summary": "一篇关于如何选择公共DNS解析器的技术指南，分析了隐私、安全和性能等因素。",
+  "translated_summary": "A guide on choosing a public DNS resolver, analyzing factors like privacy, security, and performance.",
+  "tags": [
+    "DNS",
+    "privacy",
+    "security"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.3
+}

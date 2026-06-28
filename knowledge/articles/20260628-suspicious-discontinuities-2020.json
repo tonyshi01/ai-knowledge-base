@@ -1,0 +1,18 @@
+{
+  "id": "20260628-036",
+  "title": "Suspicious Discontinuities (2020)",
+  "source": "hacker_news",
+  "source_url": "https://danluu.com/discontinuities/",
+  "summary": "Dan Luu 分析软件性能中可疑的不连续现象，探讨其成因与影响。",
+  "translated_summary": "Dan Luu analyzes suspicious discontinuities in software performance, exploring their causes and impacts.",
+  "tags": [
+    "software performance",
+    "discontinuities",
+    "analysis"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.5
+}

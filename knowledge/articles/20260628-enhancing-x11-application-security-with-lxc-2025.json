@@ -1,0 +1,20 @@
+{
+  "id": "20260628-031",
+  "title": "Enhancing X11 Application Security with LXC (2025)",
+  "source": "hacker_news",
+  "source_url": "https://dobrowolski.dev/article/enhancing-x11-application-security-with-lxc/",
+  "summary": "本文介绍了如何使用LXC容器增强X11应用程序的安全性，隔离图形界面应用以减少攻击面。",
+  "translated_summary": "This article discusses enhancing X11 application security using LXC containers to isolate GUI applications and reduce the attack surface.",
+  "tags": [
+    "LXC",
+    "X11",
+    "security",
+    "container",
+    "application isolation"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.65
+}

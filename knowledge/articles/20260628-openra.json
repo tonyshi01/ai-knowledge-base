@@ -1,0 +1,18 @@
+{
+  "id": "20260628-038",
+  "title": "OpenRA",
+  "source": "hacker_news",
+  "source_url": "https://www.openra.net/",
+  "summary": "OpenRA是一个开源重制经典即时战略游戏《命令与征服》的引擎项目，支持现代操作系统。",
+  "translated_summary": "OpenRA is an open-source reimplementation of the classic Command & Conquer real-time strategy game engine, supporting modern operating systems.",
+  "tags": [
+    "open-source",
+    "game-engine",
+    "command-and-conquer"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-28T18:22:42.975782+08:00",
+  "status": "pending",
+  "score": 0.7
+}
