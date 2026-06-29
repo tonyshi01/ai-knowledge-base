@@ -1,0 +1,18 @@
+{
+  "id": "20260629-030",
+  "title": "Historical memory prices 1960-2026",
+  "source": "hacker_news",
+  "source_url": "https://dam.stanford.edu/memory-prices.html",
+  "summary": "斯坦福大学发布1960-2026年历史内存价格数据，展示存储成本指数级下降趋势。",
+  "translated_summary": "Stanford University releases historical memory price data from 1960 to 2026, illustrating the exponential decline in storage costs.",
+  "tags": [
+    "memory prices",
+    "historical data",
+    "storage cost"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.7
+}

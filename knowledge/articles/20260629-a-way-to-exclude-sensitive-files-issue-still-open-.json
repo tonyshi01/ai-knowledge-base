@@ -1,0 +1,20 @@
+{
+  "id": "20260629-040",
+  "title": "A way to exclude sensitive files issue still open for OpenAI Codex",
+  "source": "hacker_news",
+  "source_url": "https://github.com/openai/codex/issues/2847",
+  "summary": "OpenAI Codex 的敏感文件排除功能请求仍为开放状态，引发社区广泛讨论。",
+  "translated_summary": "A way to exclude sensitive files issue still open for OpenAI Codex",
+  "tags": [
+    "OpenAI",
+    "Codex",
+    "sensitive files",
+    "issue",
+    "security"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.3
+}

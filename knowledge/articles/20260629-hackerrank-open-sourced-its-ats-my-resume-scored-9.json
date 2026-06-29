@@ -1,0 +1,20 @@
+{
+  "id": "20260629-026",
+  "title": "HackerRank open sourced its ATS. My resume scored 90/100. Oh wait 74. No – 88",
+  "source": "hacker_news",
+  "source_url": "https://danunparsed.com/p/hackerrank-open-source-ats",
+  "summary": "HackerRank开源了其ATS系统，作者测试简历评分波动大，引发对AI招聘可靠性的讨论。",
+  "translated_summary": "HackerRank open sourced its ATS system; the author tested resume scoring with fluctuating results, sparking discussion on AI hiring reliability.",
+  "tags": [
+    "HackerRank",
+    "ATS",
+    "AI招聘",
+    "开源",
+    "简历评分"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.75
+}

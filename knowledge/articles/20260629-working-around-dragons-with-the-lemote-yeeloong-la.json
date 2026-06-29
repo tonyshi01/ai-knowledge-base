@@ -1,0 +1,18 @@
+{
+  "id": "20260629-032",
+  "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+  "source": "hacker_news",
+  "source_url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+  "summary": "一篇关于在Lemote Yeeloong笔记本上运行OpenBSD的技术博客文章，讨论了兼容性和驱动问题。",
+  "translated_summary": "A technical blog post about running OpenBSD on the Lemote Yeeloong laptop, discussing compatibility and driver issues.",
+  "tags": [
+    "OpenBSD",
+    "Lemote Yeeloong",
+    "硬件兼容性"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.2
+}

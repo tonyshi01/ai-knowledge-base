@@ -1,0 +1,18 @@
+{
+  "id": "20260629-031",
+  "title": "GLM 5.2 beats Claude in our benchmarks",
+  "source": "hacker_news",
+  "source_url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+  "summary": "GLM 5.2在网络安全基准测试中超越Claude，引发行业关注。",
+  "translated_summary": "GLM 5.2在网络安全基准测试中超越Claude，引发行业关注。",
+  "tags": [
+    "GLM",
+    "Claude",
+    "benchmark"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.85
+}

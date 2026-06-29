@@ -1,0 +1,18 @@
+{
+  "id": "20260629-024",
+  "title": "Herdr: Agent multiplexer that lives in your terminal",
+  "source": "hacker_news",
+  "source_url": "https://github.com/ogulcancelik/herdr",
+  "summary": "Herdr 是一个终端内的 AI 代理多路复用器，用于管理和协调多个代理。",
+  "translated_summary": "Herdr is an AI agent multiplexer that lives in your terminal, designed to manage and coordinate multiple agents.",
+  "tags": [
+    "agent multiplexer",
+    "terminal tool",
+    "AI agent management"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.6
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260629-021",
+  "title": "Sandia National Labs SA3000 8085 CPU",
+  "source": "hacker_news",
+  "source_url": "https://www.cpushack.com/2026/06/03/sandia-national-labs-sa3000-8085-cpu/",
+  "summary": "桑迪亚国家实验室发布了SA3000 8085 CPU，这是一款基于8085架构的定制处理器。",
+  "translated_summary": "Sandia National Labs has released the SA3000 8085 CPU, a custom processor based on the 8085 architecture.",
+  "tags": [
+    "Sandia National Labs",
+    "SA3000",
+    "8085 CPU"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.3
+}

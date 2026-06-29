@@ -1,0 +1,19 @@
+{
+  "id": "20260629-037",
+  "title": "Dissecting Apple's Sparse Image Format (ASIF)",
+  "source": "hacker_news",
+  "source_url": "https://schamper.dev/dissecting-apples-sparse-image-format-asif/",
+  "summary": "深入分析苹果稀疏图像格式（ASIF）的技术细节与实现原理。",
+  "translated_summary": "A detailed technical analysis of Apple's Sparse Image Format (ASIF), covering its structure, compression, and usage in iOS/macOS.",
+  "tags": [
+    "Apple",
+    "image format",
+    "ASIF",
+    "reverse engineering"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.65
+}

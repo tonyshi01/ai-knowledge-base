@@ -1,0 +1,18 @@
+{
+  "id": "20260629-027",
+  "title": "Knowledge Distillation of Black-Box Large Language Models (2024)",
+  "source": "hacker_news",
+  "source_url": "https://arxiv.org/abs/2401.07013",
+  "summary": "本文探讨了黑盒大语言模型的知识蒸馏方法，旨在提升小型模型的性能。",
+  "translated_summary": "This paper explores knowledge distillation methods for black-box large language models, aiming to improve the performance of smaller models.",
+  "tags": [
+    "knowledge distillation",
+    "large language models",
+    "black-box"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.75
+}

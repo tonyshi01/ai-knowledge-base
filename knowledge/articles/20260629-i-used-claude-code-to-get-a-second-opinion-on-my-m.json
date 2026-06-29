@@ -1,0 +1,20 @@
+{
+  "id": "20260629-034",
+  "title": "I used Claude Code to get a second opinion on my MRI",
+  "source": "hacker_news",
+  "source_url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+  "summary": "作者使用Claude Code分析自己的MRI影像，展示了AI在医疗影像解读中的辅助应用。",
+  "translated_summary": "作者使用Claude Code分析自己的MRI影像，展示了AI在医疗影像解读中的辅助应用，引发了关于AI医疗诊断可靠性的广泛讨论。",
+  "tags": [
+    "Claude Code",
+    "MRI分析",
+    "AI医疗",
+    "医疗影像",
+    "辅助诊断"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.65
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260629-029",
+  "title": "Librepods: AirPods liberated",
+  "source": "hacker_news",
+  "source_url": "https://github.com/librepods-org/librepods",
+  "summary": "Librepods 是一个开源项目，旨在解放 AirPods，提供替代固件或工具以增强用户控制。",
+  "translated_summary": "Librepods is an open-source project aiming to liberate AirPods by providing alternative firmware or tools for enhanced user control.",
+  "tags": [
+    "AirPods",
+    "开源",
+    "固件"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-29T20:25:33.534595+08:00",
+  "status": "pending",
+  "score": 0.65
+}
