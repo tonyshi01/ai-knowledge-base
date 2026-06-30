@@ -1,0 +1,18 @@
+{
+  "id": "20260630-012",
+  "title": "firecrawl/firecrawl",
+  "source": "github_trending",
+  "source_url": "https://github.com/firecrawl/firecrawl",
+  "summary": "Firecrawl 是一个用于大规模搜索、抓取和与网页交互的 API 工具。",
+  "translated_summary": "Firecrawl is an API tool for searching, scraping, and interacting with the web at scale, providing developers with a powerful web data extraction solution.",
+  "tags": [
+    "web scraping",
+    "API",
+    "data extraction"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.146726+08:00",
+  "status": "pending",
+  "score": 0.65
+}

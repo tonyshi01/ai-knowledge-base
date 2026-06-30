@@ -1,0 +1,20 @@
+{
+  "id": "20260630-016",
+  "title": "ggml-org/llama.cpp",
+  "source": "github_trending",
+  "source_url": "https://github.com/ggml-org/llama.cpp",
+  "summary": "llama.cpp 是一个用C/C++实现的高性能LLM推理引擎，支持多种量化格式和硬件加速。",
+  "translated_summary": "llama.cpp is a high-performance LLM inference engine implemented in C/C++, supporting multiple quantization formats and hardware acceleration.",
+  "tags": [
+    "llama.cpp",
+    "LLM推理",
+    "C/C++",
+    "量化",
+    "开源工具"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.146726+08:00",
+  "status": "pending",
+  "score": 0.85
+}

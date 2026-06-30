@@ -1,0 +1,18 @@
+{
+  "id": "20260630-024",
+  "title": "The end of the AArch64 desktop experiment",
+  "source": "hacker_news",
+  "source_url": "https://marcin.juszkiewicz.com.pl/2026/06/26/the-end-of-the-aarch64-desktop-experiment/",
+  "summary": "作者宣布结束AArch64桌面实验，认为其生态尚未成熟。",
+  "translated_summary": "The author concludes the AArch64 desktop experiment, citing insufficient ecosystem maturity for mainstream adoption.",
+  "tags": [
+    "AArch64",
+    "desktop",
+    "ecosystem"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.5
+}

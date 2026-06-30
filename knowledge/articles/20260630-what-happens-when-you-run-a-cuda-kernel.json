@@ -1,0 +1,18 @@
+{
+  "id": "20260630-036",
+  "title": "What happens when you run a CUDA kernel?",
+  "source": "hacker_news",
+  "source_url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+  "summary": "本文详细解释了从CPU调用CUDA内核到GPU执行的全过程，包括驱动、内存管理和调度机制。",
+  "translated_summary": "This article explains the full process from CPU calling a CUDA kernel to GPU execution, including driver, memory management, and scheduling mechanisms.",
+  "tags": [
+    "CUDA",
+    "GPU",
+    "kernel execution"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.75
+}

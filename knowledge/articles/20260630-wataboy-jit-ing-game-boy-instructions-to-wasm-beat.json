@@ -1,0 +1,18 @@
+{
+  "id": "20260630-033",
+  "title": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
+  "source": "hacker_news",
+  "source_url": "https://humphri.es/blog/WATaBoy/",
+  "summary": "WATaBoy项目通过JIT编译Game Boy指令到WebAssembly，性能超越原生解释器。",
+  "translated_summary": "WATaBoy: JIT-Ing Game Boy Instructions to WASM Beats a Native Interpreter",
+  "tags": [
+    "Game Boy",
+    "WebAssembly",
+    "JIT编译"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.75
+}

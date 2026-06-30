@@ -1,0 +1,18 @@
+{
+  "id": "20260630-029",
+  "title": "Ornith-1.0: self-improving open-source models for agentic coding",
+  "source": "hacker_news",
+  "source_url": "https://github.com/deepreinforce-ai/Ornith-1",
+  "summary": "Ornith-1.0是一个开源的自我改进模型，专为智能体编码任务设计。",
+  "translated_summary": "Ornith-1.0: self-improving open-source models for agentic coding",
+  "tags": [
+    "open-source",
+    "self-improving",
+    "agentic coding"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.85
+}

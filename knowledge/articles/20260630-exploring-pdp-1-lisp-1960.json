@@ -1,0 +1,18 @@
+{
+  "id": "20260630-025",
+  "title": "Exploring PDP-1 Lisp (1960)",
+  "source": "hacker_news",
+  "source_url": "https://obsolescence.dev/pdp1-lisp-introduction.html",
+  "summary": "一篇关于1960年PDP-1 Lisp的历史回顾与技术分析文章。",
+  "translated_summary": "A historical and technical exploration of the PDP-1 Lisp implementation from 1960, detailing its design and significance in early AI research.",
+  "tags": [
+    "PDP-1",
+    "Lisp",
+    "history of AI"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.3
+}

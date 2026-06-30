@@ -1,0 +1,18 @@
+{
+  "id": "20260630-004",
+  "title": "affaan-m/ECC",
+  "source": "github_trending",
+  "source_url": "https://github.com/affaan-m/ECC",
+  "summary": "ECC是一个针对Claude Code、Codex等AI编码代理的性能优化系统，整合技能、直觉、记忆和安全功能。",
+  "translated_summary": "ECC is an agent harness performance optimization system integrating skills, instincts, memory, security, and research-first development for multiple AI coding tools.",
+  "tags": [
+    "AI agent",
+    "performance optimization",
+    "coding tools"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.146726+08:00",
+  "status": "pending",
+  "score": 0.65
+}

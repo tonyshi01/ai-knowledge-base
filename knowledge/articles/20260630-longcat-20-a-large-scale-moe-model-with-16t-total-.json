@@ -1,0 +1,18 @@
+{
+  "id": "20260630-027",
+  "title": "LongCat-2.0, a large-scale MoE model with 1.6T total and 48B Active",
+  "source": "hacker_news",
+  "source_url": "https://longcat.chat/blog/longcat-2.0/",
+  "summary": "LongCat-2.0是一个1.6T总参数、48B激活参数的大规模MoE模型发布。",
+  "translated_summary": "LongCat-2.0 is a large-scale MoE model with 1.6T total parameters and 48B active parameters, released by LongCat.",
+  "tags": [
+    "LongCat-2.0",
+    "MoE",
+    "large-scale model"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.85
+}

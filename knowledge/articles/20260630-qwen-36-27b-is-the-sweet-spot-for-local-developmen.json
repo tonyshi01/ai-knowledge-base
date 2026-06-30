@@ -1,0 +1,18 @@
+{
+  "id": "20260630-030",
+  "title": "Qwen 3.6 27B is the sweet spot for local development",
+  "source": "hacker_news",
+  "source_url": "https://quesma.com/blog/qwen-36-is-awesome/",
+  "summary": "Qwen 3.6 27B模型被认为是本地开发的最佳平衡点，兼具性能与效率。",
+  "translated_summary": "Qwen 3.6 27B is considered the sweet spot for local development, balancing performance and efficiency.",
+  "tags": [
+    "Qwen",
+    "local development",
+    "model optimization"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.75
+}

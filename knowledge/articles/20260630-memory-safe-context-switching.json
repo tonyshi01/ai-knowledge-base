@@ -1,0 +1,18 @@
+{
+  "id": "20260630-026",
+  "title": "Memory Safe Context Switching",
+  "source": "hacker_news",
+  "source_url": "https://fil-c.org/context_switches",
+  "summary": "提出了一种内存安全的上下文切换方法，旨在提高系统安全性和性能。",
+  "translated_summary": "This article proposes a memory-safe context switching method designed to improve system security and performance.",
+  "tags": [
+    "memory safety",
+    "context switching",
+    "system security"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.75
+}

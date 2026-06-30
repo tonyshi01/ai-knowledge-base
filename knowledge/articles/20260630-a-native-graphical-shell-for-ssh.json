@@ -1,0 +1,18 @@
+{
+  "id": "20260630-032",
+  "title": "A native graphical shell for SSH",
+  "source": "hacker_news",
+  "source_url": "https://probablymarcus.com/blocks/2026/06/28/native-graphical-shell-for-SSH.html",
+  "summary": "介绍了一个为SSH设计的原生图形化Shell工具，提升了远程连接的用户体验。",
+  "translated_summary": "A native graphical shell for SSH is introduced, enhancing the user experience of remote connections.",
+  "tags": [
+    "SSH",
+    "图形化Shell",
+    "远程连接"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.6
+}

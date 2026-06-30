@@ -1,0 +1,18 @@
+{
+  "id": "20260630-021",
+  "title": "I spent 6 days building my VDOM library as I hated how React handles memo",
+  "source": "hacker_news",
+  "source_url": "https://vflash.github.io/Tyaff/",
+  "summary": "开发者因不满React的memo机制，花费6天时间构建了自己的VDOM库Tyaff。",
+  "translated_summary": "I spent 6 days building my VDOM library as I hated how React handles memo",
+  "tags": [
+    "VDOM",
+    "React",
+    "memo"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.3
+}

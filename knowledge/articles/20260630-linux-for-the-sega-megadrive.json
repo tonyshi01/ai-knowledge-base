@@ -1,0 +1,18 @@
+{
+  "id": "20260630-034",
+  "title": "Linux for the Sega MegaDrive",
+  "source": "hacker_news",
+  "source_url": "https://github.com/LinuxMD/linuxmd",
+  "summary": "LinuxMD项目成功将Linux移植到Sega MegaDrive（世嘉MD）游戏主机上运行。",
+  "translated_summary": "LinuxMD项目成功将Linux移植到Sega MegaDrive（世嘉MD）游戏主机上运行，展示了复古硬件与现代操作系统的结合。",
+  "tags": [
+    "Linux",
+    "Sega MegaDrive",
+    "嵌入式系统"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-06-30T18:50:42.990599+08:00",
+  "status": "pending",
+  "score": 0.7
+}
