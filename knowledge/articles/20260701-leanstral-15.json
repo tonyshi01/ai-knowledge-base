@@ -1,0 +1,20 @@
+{
+  "id": "20260701-036",
+  "title": "Leanstral 1.5",
+  "source": "hacker_news",
+  "source_url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
+  "summary": "Mistral发布Leanstral 1.5模型，专注于高效推理与低资源部署。",
+  "translated_summary": "Mistral发布了Leanstral 1.5模型，该模型针对高效推理和低资源环境进行了优化，旨在提供更轻量级的AI解决方案。",
+  "tags": [
+    "Mistral",
+    "Leanstral 1.5",
+    "模型发布",
+    "高效推理",
+    "轻量级"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:54.475442+08:00",
+  "status": "pending",
+  "score": 0.75
+}

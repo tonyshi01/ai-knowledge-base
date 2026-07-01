@@ -1,0 +1,18 @@
+{
+  "id": "20260701-013",
+  "title": "langchain-ai/langchain",
+  "source": "github_trending",
+  "source_url": "https://github.com/langchain-ai/langchain",
+  "summary": "LangChain 是一个用于构建基于语言模型应用的代理工程平台，提供模块化工具和框架。",
+  "translated_summary": "LangChain is an agent engineering platform for building language model applications, offering modular tools and frameworks.",
+  "tags": [
+    "langchain",
+    "agent engineering",
+    "LLM framework"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:53.447482+08:00",
+  "status": "pending",
+  "score": 0.85
+}

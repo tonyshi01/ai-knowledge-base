@@ -1,0 +1,18 @@
+{
+  "id": "20260701-035",
+  "title": "I ported Kubernetes to the browser",
+  "source": "hacker_news",
+  "source_url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+  "summary": "ngrok 将 Kubernetes 移植到浏览器中运行，实现无需本地环境的集群管理。",
+  "translated_summary": "ngrok 将 Kubernetes 移植到浏览器中运行，实现无需本地环境的集群管理。",
+  "tags": [
+    "Kubernetes",
+    "browser",
+    "ngrok"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:54.475442+08:00",
+  "status": "pending",
+  "score": 0.7
+}

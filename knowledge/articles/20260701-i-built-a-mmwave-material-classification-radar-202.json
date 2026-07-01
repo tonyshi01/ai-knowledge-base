@@ -1,0 +1,20 @@
+{
+  "id": "20260701-039",
+  "title": "I built a mmWave material classification radar (2025)",
+  "source": "hacker_news",
+  "source_url": "https://gauthier-lechevalier.com/radar",
+  "summary": "作者构建了一个毫米波材料分类雷达，展示了硬件与AI结合的应用。",
+  "translated_summary": "I built a mmWave material classification radar (2025)",
+  "tags": [
+    "mmWave",
+    "radar",
+    "material classification",
+    "hardware",
+    "AI"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:54.475442+08:00",
+  "status": "pending",
+  "score": 0.65
+}

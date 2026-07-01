@@ -1,0 +1,18 @@
+{
+  "id": "20260701-026",
+  "title": "Matrix Orthogonalization Improves Memory in Recurrent Models",
+  "source": "hacker_news",
+  "source_url": "https://ayushtambde.com/blog/matrix-orthogonalization-improves-memory-in-recurrent-models/",
+  "summary": "矩阵正交化技术被证明能有效提升循环神经网络模型的记忆能力。",
+  "translated_summary": "Matrix orthogonalization improves memory in recurrent models, enhancing long-term dependency retention and gradient flow.",
+  "tags": [
+    "matrix orthogonalization",
+    "recurrent models",
+    "memory improvement"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:54.475442+08:00",
+  "status": "pending",
+  "score": 0.75
+}

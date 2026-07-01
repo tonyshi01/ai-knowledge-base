@@ -1,0 +1,20 @@
+{
+  "id": "20260701-034",
+  "title": "From brain waves to words: a new path to communication without surgery",
+  "source": "hacker_news",
+  "source_url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+  "summary": "Meta发布Brain2Qwerty模型，通过非侵入式脑电信号解码键盘输入，实现无创脑机通信。",
+  "translated_summary": "Meta发布Brain2Qwerty模型，通过非侵入式脑电信号解码键盘输入，实现无创脑机通信。",
+  "tags": [
+    "brain-computer interface",
+    "non-invasive",
+    "Meta",
+    "EEG",
+    "AI communication"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:54.475442+08:00",
+  "status": "pending",
+  "score": 0.85
+}

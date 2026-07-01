@@ -1,0 +1,18 @@
+{
+  "id": "20260701-028",
+  "title": "Single header Parser Combinators for C",
+  "source": "hacker_news",
+  "source_url": "https://github.com/steve-chavez/CParseC",
+  "summary": "一个用于C语言的单头文件解析器组合库，提供简洁的解析器构建方式。",
+  "translated_summary": "Single header Parser Combinators for C is a lightweight, header-only library for building parsers in C using combinators.",
+  "tags": [
+    "C",
+    "parser combinators",
+    "header-only library"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:54.475442+08:00",
+  "status": "pending",
+  "score": 0.55
+}

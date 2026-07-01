@@ -1,0 +1,18 @@
+{
+  "id": "20260701-038",
+  "title": "Claude Sonnet 5",
+  "source": "hacker_news",
+  "source_url": "https://www.anthropic.com/news/claude-sonnet-5",
+  "summary": "Anthropic发布了Claude Sonnet 5模型，引发广泛关注和讨论。",
+  "translated_summary": "Anthropic发布了Claude Sonnet 5模型，在Hacker News上获得1147点积分和678条评论，引发业界广泛关注。",
+  "tags": [
+    "Claude Sonnet 5",
+    "Anthropic",
+    "模型发布"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-01T19:18:54.475442+08:00",
+  "status": "pending",
+  "score": 0.85
+}
