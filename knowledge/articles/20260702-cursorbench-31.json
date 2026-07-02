@@ -1,0 +1,18 @@
+{
+  "id": "20260702-023",
+  "title": "CursorBench 3.1",
+  "source": "hacker_news",
+  "source_url": "https://cursor.com/evals",
+  "summary": "Cursor发布CursorBench 3.1评估基准，用于测试AI编码助手的性能。",
+  "translated_summary": "CursorBench 3.1 is a new evaluation benchmark released by Cursor to assess the performance of AI coding assistants.",
+  "tags": [
+    "CursorBench",
+    "AI编码助手",
+    "评估基准"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-02T18:31:21.649634+08:00",
+  "status": "pending",
+  "score": 0.75
+}

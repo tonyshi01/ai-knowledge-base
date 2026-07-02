@@ -1,0 +1,691 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-07-02T18:31:21.750605+08:00",
+  "item_count": 40,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 445944,
+        "forks": 48939,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 305922,
+        "forks": 28198,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 302315,
+        "forks": 14087,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 224837,
+        "forks": 34405,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 207647,
+        "forks": 37701,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "clawdbot",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "moltbot",
+          "nous-research",
+          "openai",
+          "openclaw"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 176932,
+        "forks": 13373,
+        "language": "Go",
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "go",
+          "golang",
+          "golang-library",
+          "hacktoberfest"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 175273,
+        "forks": 16791,
+        "language": "Go",
+        "topics": [
+          "deepseek",
+          "gemma",
+          "gemma3",
+          "glm",
+          "go",
+          "golang",
+          "gpt-oss",
+          "llama",
+          "llama3",
+          "llm",
+          "llms",
+          "minimax",
+          "mistral",
+          "ollama",
+          "qwen"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "Snailclimb/JavaGuide",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 156748,
+        "forks": 46159,
+        "language": "JavaScript",
+        "topics": [
+          "agent",
+          "ai",
+          "context-engineering",
+          "deepseek",
+          "interview",
+          "java",
+          "mcp",
+          "mysql",
+          "redis",
+          "redisson",
+          "skills",
+          "springai",
+          "system-design"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 150370,
+        "forks": 9381,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "chatgpt",
+          "generative-ai",
+          "large-language-models",
+          "multiagent",
+          "react-flow"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Production-ready platform for agentic workflow development.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 147366,
+        "forks": 23205,
+        "language": "TypeScript",
+        "topics": [
+          "agent",
+          "agentic-ai",
+          "agentic-framework",
+          "agentic-workflow",
+          "ai",
+          "automation",
+          "gemini",
+          "genai",
+          "gpt",
+          "gpt-4",
+          "llm",
+          "low-code",
+          "mcp",
+          "nextjs",
+          "no-code",
+          "openai",
+          "orchestration",
+          "python",
+          "rag",
+          "workflow"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 143783,
+        "forks": 20760,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "llm",
+          "llm-ui",
+          "llm-webui",
+          "llms",
+          "mcp",
+          "ollama",
+          "ollama-webui",
+          "open-webui",
+          "openai",
+          "openapi",
+          "rag",
+          "self-hosted",
+          "ui",
+          "webui"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 142962,
+        "forks": 8242,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-crawler",
+          "ai-scraping",
+          "ai-search",
+          "crawler",
+          "data-extraction",
+          "html-to-markdown",
+          "llm",
+          "markdown",
+          "scraper",
+          "scraping",
+          "web-crawler",
+          "web-data",
+          "web-data-extraction",
+          "web-scraper",
+          "web-scraping",
+          "web-search",
+          "webscraping"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 140724,
+        "forks": 23368,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "deepagents",
+          "enterprise",
+          "framework",
+          "gemini",
+          "generative-ai",
+          "langchain",
+          "langgraph",
+          "llm",
+          "multiagent",
+          "open-source",
+          "openai",
+          "pydantic",
+          "python",
+          "rag",
+          "typescript"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 127717,
+        "forks": 13341,
+        "language": "HTML",
+        "topics": [
+          "awesome-list",
+          "free-for-developers"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 124842,
+        "forks": 20254,
+        "language": "Shell",
+        "topics": []
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 118981,
+        "forks": 20154,
+        "language": "C++",
+        "topics": [
+          "ggml"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 118820,
+        "forks": 17686,
+        "language": "TypeScript",
+        "topics": []
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 116268,
+        "forks": 17286,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "llms",
+          "python",
+          "rag"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 112531,
+        "forks": 60448,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "ai",
+          "azure",
+          "chatgpt",
+          "dall-e",
+          "generative-ai",
+          "generativeai",
+          "gpt",
+          "language-model",
+          "llms",
+          "microsoft-for-beginners",
+          "openai",
+          "prompt-engineering",
+          "semantic-search",
+          "transformers"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 112195,
+        "forks": 7440,
+        "language": "Rust",
+        "topics": [
+          "ai-tools",
+          "claude-code",
+          "codex",
+          "desktop-app",
+          "hermes",
+          "hermes-agent",
+          "mcp",
+          "minimax",
+          "omo",
+          "open-source",
+          "openclaw",
+          "openclaw-ui",
+          "opencode",
+          "provider-management",
+          "rust",
+          "skills",
+          "skills-management",
+          "tauri",
+          "typescript",
+          "wsl-support"
+        ]
+      },
+      "collected_at": "2026-07-02T18:31:20.880967+08:00"
+    },
+    {
+      "title": "Google loses fight over record $4.7B EU antitrust fine",
+      "url": "https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html",
+      "description": "<p>Article URL: <a href=\"https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html\">https://www.cnbc.com/2026/07/02/alphabet-google-android-eu-antitrust-fine-4-1-billion-euro-appeal.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48758309\">https://news.ycombinator.com/item?id=48758309</a></p>\n<p>Points: 82</p>\n<p># Comments: 59</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 08:34:13 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "The Fall of the Theorem Economy",
+      "url": "https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy",
+      "description": "<p>Article URL: <a href=\"https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy\">https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48758048\">https://news.ycombinator.com/item?id=48758048</a></p>\n<p>Points: 43</p>\n<p># Comments: 7</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 08:01:15 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "CursorBench 3.1",
+      "url": "https://cursor.com/evals",
+      "description": "<p>Article URL: <a href=\"https://cursor.com/evals\">https://cursor.com/evals</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48756840\">https://news.ycombinator.com/item?id=48756840</a></p>\n<p>Points: 64</p>\n<p># Comments: 42</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 05:19:34 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Kimi K2.7 Code is generally available in GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/",
+      "description": "<p>Article URL: <a href=\"https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/\">https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48756602\">https://news.ycombinator.com/item?id=48756602</a></p>\n<p>Points: 161</p>\n<p># Comments: 63</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 04:32:41 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "A new Android malware from Google",
+      "url": "https://f-droid.org/2026/07/01/adv-malware.html",
+      "description": "<p>Article URL: <a href=\"https://f-droid.org/2026/07/01/adv-malware.html\">https://f-droid.org/2026/07/01/adv-malware.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755965\">https://news.ycombinator.com/item?id=48755965</a></p>\n<p>Points: 551</p>\n<p># Comments: 239</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 03:00:15 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
+      "url": "https://senior-swe-bench.snorkel.ai/",
+      "description": "<p>Article URL: <a href=\"https://senior-swe-bench.snorkel.ai/\">https://senior-swe-bench.snorkel.ai/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755928\">https://news.ycombinator.com/item?id=48755928</a></p>\n<p>Points: 91</p>\n<p># Comments: 66</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 02:55:16 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Bring back crappy forums",
+      "url": "https://tedium.co/2026/07/01/online-web-forums-retrospective/",
+      "description": "<p>Article URL: <a href=\"https://tedium.co/2026/07/01/online-web-forums-retrospective/\">https://tedium.co/2026/07/01/online-web-forums-retrospective/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755731\">https://news.ycombinator.com/item?id=48755731</a></p>\n<p>Points: 289</p>\n<p># Comments: 172</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 02:30:16 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Oomwoo, an open-source robot vacuum you build yourself",
+      "url": "https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/",
+      "description": "<p>Article URL: <a href=\"https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/\">https://makerspet.com/blog/building-an-open-source-robot-vacuum-meet-oomwoo/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48755005\">https://news.ycombinator.com/item?id=48755005</a></p>\n<p>Points: 318</p>\n<p># Comments: 59</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Thu, 02 Jul 2026 00:48:01 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "The Underhanded C Contest",
+      "url": "https://underhanded-c.org/",
+      "description": "<p>Article URL: <a href=\"https://underhanded-c.org/\">https://underhanded-c.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48754080\">https://news.ycombinator.com/item?id=48754080</a></p>\n<p>Points: 97</p>\n<p># Comments: 11</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 22:39:15 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+      "description": "<p>Article URL: <a href=\"https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/\">https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48753979\">https://news.ycombinator.com/item?id=48753979</a></p>\n<p>Points: 163</p>\n<p># Comments: 156</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 22:27:47 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "ZCode – Harness for GLM-5.2",
+      "url": "https://zcode.z.ai/en",
+      "description": "<p>Article URL: <a href=\"https://zcode.z.ai/en\">https://zcode.z.ai/en</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48753715\">https://news.ycombinator.com/item?id=48753715</a></p>\n<p>Points: 405</p>\n<p># Comments: 297</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 22:03:36 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Chip Off The Old Block",
+      "url": "https://www.astralcodexten.com/p/chip-off-the-old-block",
+      "description": "<p>Article URL: <a href=\"https://www.astralcodexten.com/p/chip-off-the-old-block\">https://www.astralcodexten.com/p/chip-off-the-old-block</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48753524\">https://news.ycombinator.com/item?id=48753524</a></p>\n<p>Points: 85</p>\n<p># Comments: 10</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 21:42:57 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Qualcomm Linux 2.0",
+      "url": "https://www.qualcomm.com/developer/blog/2026/06/qualcomm-linux-2-now-available",
+      "description": "<p>Article URL: <a href=\"https://www.qualcomm.com/developer/blog/2026/06/qualcomm-linux-2-now-available\">https://www.qualcomm.com/developer/blog/2026/06/qualcomm-linux-2-now-available</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48753069\">https://news.ycombinator.com/item?id=48753069</a></p>\n<p>Points: 108</p>\n<p># Comments: 45</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 21:01:42 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Proliferate (YC S25) Is Hiring",
+      "url": "https://www.ycombinator.com/companies/proliferate/jobs/mMHvKR9-founding-product-engineer",
+      "description": "<p>Article URL: <a href=\"https://www.ycombinator.com/companies/proliferate/jobs/mMHvKR9-founding-product-engineer\">https://www.ycombinator.com/companies/proliferate/jobs/mMHvKR9-founding-product-engineer</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48753045\">https://news.ycombinator.com/item?id=48753045</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 21:00:14 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Show HN: Searchable directory of 22k+ products from worker-owned co-ops",
+      "url": "https://www.workerowned.info/",
+      "description": "<p>Article URL: <a href=\"https://www.workerowned.info/\">https://www.workerowned.info/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48752905\">https://news.ycombinator.com/item?id=48752905</a></p>\n<p>Points: 354</p>\n<p># Comments: 67</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 20:47:41 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Weave Robotics launches Isaac 1, a $7,999 home robot with Fall 2026 deliveries",
+      "url": "https://www.weaverobotics.com/isaac-1",
+      "description": "<p><a href=\"https://runtimewire.com/article/weave-robotics-isaac-1-home-robot-launch\" rel=\"nofollow\">https://runtimewire.com/article/weave-robotics-isaac-1-home-...</a></p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48750989\">https://news.ycombinator.com/item?id=48750989</a></p>\n<p>Points: 184</p>\n<p># Comments: 261</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 18:12:18 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Learn Vim motions with an ice-cream van",
+      "url": "https://thisismodest.com/vimscoops/",
+      "description": "<p>Article URL: <a href=\"https://thisismodest.com/vimscoops/\">https://thisismodest.com/vimscoops/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48750803\">https://news.ycombinator.com/item?id=48750803</a></p>\n<p>Points: 73</p>\n<p># Comments: 19</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 18:00:07 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "What to learn to be a graphics programmer",
+      "url": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+      "description": "<p>Article URL: <a href=\"https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/\">https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48750710\">https://news.ycombinator.com/item?id=48750710</a></p>\n<p>Points: 353</p>\n<p># Comments: 180</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 17:53:44 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Ask HN: Who is hiring? (July 2026)",
+      "url": "https://news.ycombinator.com/item?id=48747976",
+      "description": "<p>Please state the location and include REMOTE for remote work, REMOTE (US)\nor similar if the country is restricted, and ONSITE when remote work is <i>not</i> an option.<p>Please only post if you personally are part of the hiring company—no\nrecruiting firms or job boards. One post per company. If it isn't a household name,\nexplain what your company does.<p>Please only post if you are actively filling a position and are committed\nto replying to applicants.<p>Commenters: please don't reply to job posts to complain about\nsomething. It's off topic here.<p>Readers: please only email if you are personally interested in the job.<p>Searchers: try <a href=\"https://nthesis.ai/public/hn-who-is-hiring\" rel=\"nofollow\">https://nthesis.ai/public/hn-who-is-hiring</a>, <a href=\"https://dheerajck.github.io/hnwhoishiring/\" rel=\"nofollow\">https://dheerajck.github.io/hnwhoishiring/</a>,\n<a href=\"http://nchelluri.github.io/hnjobs/\" rel=\"nofollow\">http://nchelluri.github.io/hnjobs/</a>, <a href=\"https://hnjobs.emilburzo.com\" rel=\"nofollow\">https://hnjobs.emilburzo.com</a>.<p>Don't miss this other fine thread: <i>Who wants to be hired?</i> <a href=\"https://news.ycombinator.com/item?id=48747975\">https://news.ycombinator.com/item?id=48747975</a></p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48747976\">https://news.ycombinator.com/item?id=48747976</a></p>\n<p>Points: 201</p>\n<p># Comments: 213</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 15:01:21 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    },
+    {
+      "title": "Ask HN: Who wants to be hired? (July 2026)",
+      "url": "https://news.ycombinator.com/item?id=48747975",
+      "description": "<p>Share your information if you are looking for work. Please use this format:<p><pre><code>  Location:\n  Remote:\n  Willing to relocate:\n  Technologies:\n  Résumé/CV:\n  Email:\n</code></pre>\nPlease only post if you are personally looking for work. Agencies, recruiters, job boards,\nand so on, are off topic here.<p>Readers: please only email these addresses to discuss work opportunities.<p>Searchers: try <a href=\"https://nthesis.ai/public/hn-wants-to-be-hired\" rel=\"nofollow\">https://nthesis.ai/public/hn-wants-to-be-hired</a>, <a href=\"https://www.wantstobehired.com\" rel=\"nofollow\">https://www.wantstobehired.com</a>.</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48747975\">https://news.ycombinator.com/item?id=48747975</a></p>\n<p>Points: 132</p>\n<p># Comments: 320</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 01 Jul 2026 15:01:21 +0000"
+      },
+      "collected_at": "2026-07-02T18:31:21.649634+08:00"
+    }
+  ]
+}

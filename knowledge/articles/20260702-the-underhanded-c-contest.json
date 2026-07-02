@@ -1,0 +1,18 @@
+{
+  "id": "20260702-029",
+  "title": "The Underhanded C Contest",
+  "source": "hacker_news",
+  "source_url": "https://underhanded-c.org/",
+  "summary": "这是一个关于C语言编程竞赛的网站，旨在展示隐蔽代码技巧。",
+  "translated_summary": "The Underhanded C Contest is a programming competition focused on writing C code that appears innocent but contains hidden malicious functionality.",
+  "tags": [
+    "C语言",
+    "编程竞赛",
+    "隐蔽代码"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-02T18:31:21.649634+08:00",
+  "status": "pending",
+  "score": 0.1
+}

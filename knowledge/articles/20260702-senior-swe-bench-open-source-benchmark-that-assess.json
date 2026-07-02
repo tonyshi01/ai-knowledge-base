@@ -1,0 +1,18 @@
+{
+  "id": "20260702-026",
+  "title": "Senior SWE-Bench: open-source benchmark that assesses agents as senior engineers",
+  "source": "hacker_news",
+  "source_url": "https://senior-swe-bench.snorkel.ai/",
+  "summary": "Senior SWE-Bench 是一个开源基准测试，用于评估 AI 代理作为高级软件工程师的能力。",
+  "translated_summary": "Senior SWE-Bench is an open-source benchmark designed to evaluate AI agents' performance as senior software engineers, focusing on complex real-world tasks.",
+  "tags": [
+    "benchmark",
+    "AI agents",
+    "software engineering"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-02T18:31:21.649634+08:00",
+  "status": "pending",
+  "score": 0.85
+}

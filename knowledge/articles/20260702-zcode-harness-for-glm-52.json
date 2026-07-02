@@ -1,0 +1,18 @@
+{
+  "id": "20260702-031",
+  "title": "ZCode – Harness for GLM-5.2",
+  "source": "hacker_news",
+  "source_url": "https://zcode.z.ai/en",
+  "summary": "ZCode发布了GLM-5.2模型的Harness工具，用于评估和测试大语言模型性能。",
+  "translated_summary": "ZCode发布了GLM-5.2模型的Harness工具，用于评估和测试大语言模型性能，在Hacker News上获得405分和297条评论。",
+  "tags": [
+    "GLM-5.2",
+    "ZCode",
+    "模型评估"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-02T18:31:21.649634+08:00",
+  "status": "pending",
+  "score": 0.7
+}

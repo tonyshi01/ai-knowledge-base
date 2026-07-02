@@ -1,0 +1,18 @@
+{
+  "id": "20260702-030",
+  "title": "Opening up 'Zero-Knowledge Proof' technology to promote privacy in age assurance",
+  "source": "hacker_news",
+  "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/opening-up-zero-knowledge-proof-technology-to-promote-privacy-in-age-assurance/",
+  "summary": "谷歌开源零知识证明技术，用于隐私保护的年龄验证。",
+  "translated_summary": "Google is open-sourcing zero-knowledge proof technology to enable privacy-preserving age verification, allowing users to prove their age without revealing personal data.",
+  "tags": [
+    "zero-knowledge proof",
+    "privacy",
+    "age verification"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-02T18:31:21.649634+08:00",
+  "status": "pending",
+  "score": 0.75
+}

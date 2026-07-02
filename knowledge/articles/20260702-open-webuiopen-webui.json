@@ -1,0 +1,20 @@
+{
+  "id": "20260702-011",
+  "title": "open-webui/open-webui",
+  "source": "github_trending",
+  "source_url": "https://github.com/open-webui/open-webui",
+  "summary": "open-webui是一个用户友好的AI界面，支持Ollama和OpenAI API等多种后端。",
+  "translated_summary": "open-webui is a user-friendly AI interface that supports multiple backends including Ollama and OpenAI API.",
+  "tags": [
+    "open-webui",
+    "AI界面",
+    "Ollama",
+    "OpenAI API",
+    "开源工具"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-02T18:31:20.880967+08:00",
+  "status": "pending",
+  "score": 0.7
+}
