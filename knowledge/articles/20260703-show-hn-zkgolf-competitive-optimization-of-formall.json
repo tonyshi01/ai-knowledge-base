@@ -1,0 +1,20 @@
+{
+  "id": "20260703-039",
+  "title": "Show HN: zkGolf – Competitive optimization of formally verified circuits",
+  "source": "hacker_news",
+  "source_url": "https://zk.golf/",
+  "summary": "zkGolf是一个通过LLM自动生成并优化零知识证明电路的竞赛平台，已实现超越人工优化的SHA256电路。",
+  "translated_summary": "zkGolf is an open competition for producing optimized, formally verified zero-knowledge circuits using LLMs, achieving a SHA256 circuit that beats the human-optimized state of the art.",
+  "tags": [
+    "zero-knowledge proofs",
+    "formal verification",
+    "LLM optimization",
+    "circuit optimization",
+    "competitive programming"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.85
+}

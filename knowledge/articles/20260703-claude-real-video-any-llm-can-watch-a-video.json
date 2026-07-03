@@ -1,0 +1,18 @@
+{
+  "id": "20260703-035",
+  "title": "Claude-real-video － any LLM can watch a video",
+  "source": "hacker_news",
+  "source_url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+  "summary": "一个开源项目，通过将视频转换为帧序列，使任何LLM都能像观看视频一样处理视频内容。",
+  "translated_summary": "Claude-real-video is an open-source tool that converts videos into frame sequences, enabling any LLM to process and understand video content like watching a video.",
+  "tags": [
+    "video understanding",
+    "LLM",
+    "open-source tool"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.65
+}

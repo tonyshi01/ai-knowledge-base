@@ -1,0 +1,20 @@
+{
+  "id": "20260703-024",
+  "title": "14× faster embeddings: how we rebuilt the ONNX path in Manticore",
+  "source": "hacker_news",
+  "source_url": "https://manticoresearch.com/blog/onnx-embeddings-speedup/",
+  "summary": "Manticore Search 通过重构 ONNX 路径实现了 14 倍的嵌入向量生成加速。",
+  "translated_summary": "Manticore Search rebuilt its ONNX path to achieve 14× faster embeddings, improving vector search performance significantly.",
+  "tags": [
+    "ONNX",
+    "embeddings",
+    "Manticore Search",
+    "performance optimization",
+    "vector search"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.7
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260703-038",
+  "title": "This is my attempt to get Vulkan going on NetBSD",
+  "source": "hacker_news",
+  "source_url": "https://github.com/segaboy/vulkan-netbsd",
+  "summary": "开发者尝试在NetBSD系统上移植Vulkan图形API，项目已在GitHub开源。",
+  "translated_summary": "This is my attempt to get Vulkan going on NetBSD",
+  "tags": [
+    "Vulkan",
+    "NetBSD",
+    "graphics"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.45
+}

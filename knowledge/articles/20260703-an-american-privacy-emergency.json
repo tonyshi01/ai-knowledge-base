@@ -1,0 +1,18 @@
+{
+  "id": "20260703-027",
+  "title": "An American Privacy Emergency",
+  "source": "hacker_news",
+  "source_url": "https://scottaaronson.blog/?p=9902",
+  "summary": "美国人口普查局禁止在统计产品中使用噪声注入技术，引发隐私紧急讨论。",
+  "translated_summary": "An American Privacy Emergency discusses the Census Bureau's ban on noise infusion in statistical products, sparking debate on privacy and data accuracy.",
+  "tags": [
+    "privacy",
+    "census",
+    "noise infusion"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.7
+}

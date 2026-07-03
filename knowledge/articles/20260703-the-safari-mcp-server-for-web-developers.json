@@ -1,0 +1,20 @@
+{
+  "id": "20260703-025",
+  "title": "The Safari MCP server for web developers",
+  "source": "hacker_news",
+  "source_url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+  "summary": "苹果WebKit团队发布了Safari MCP服务器，为网页开发者提供新的调试和开发工具。",
+  "translated_summary": "Apple's WebKit team introduces the Safari MCP server, a new tool for web developers to enhance debugging and development workflows.",
+  "tags": [
+    "Safari",
+    "MCP",
+    "web development",
+    "WebKit",
+    "developer tools"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.7
+}

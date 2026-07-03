@@ -1,0 +1,20 @@
+{
+  "id": "20260703-029",
+  "title": "crustc: entirety of `rustc`, translated to C",
+  "source": "hacker_news",
+  "source_url": "https://github.com/FractalFir/crustc",
+  "summary": "一个将整个rustc编译器翻译成C语言的开源项目，旨在提高兼容性和性能。",
+  "translated_summary": "crustc项目将整个Rust编译器（rustc）翻译为C语言，以提升跨平台兼容性和执行效率。",
+  "tags": [
+    "rustc",
+    "编译器",
+    "C语言",
+    "翻译",
+    "开源"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.75
+}

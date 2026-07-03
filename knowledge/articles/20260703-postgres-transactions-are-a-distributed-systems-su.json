@@ -1,0 +1,18 @@
+{
+  "id": "20260703-037",
+  "title": "Postgres transactions are a distributed systems superpower",
+  "source": "hacker_news",
+  "source_url": "https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data",
+  "summary": "文章探讨了Postgres事务作为分布式系统超能力的优势，强调工作流状态与数据共置的重要性。",
+  "translated_summary": "Postgres transactions are a distributed systems superpower, highlighting the importance of co-locating workflow state with your data for consistency and performance.",
+  "tags": [
+    "Postgres",
+    "distributed systems",
+    "workflow state"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-03T18:28:51.397510+08:00",
+  "status": "pending",
+  "score": 0.75
+}
