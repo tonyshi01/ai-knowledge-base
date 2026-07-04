@@ -1,0 +1,18 @@
+{
+  "id": "20260704-040",
+  "title": "FreeBSD ate my RAM",
+  "source": "hacker_news",
+  "source_url": "https://crocidb.com/post/freebsd-ate-my-ram/",
+  "summary": "文章讨论了FreeBSD操作系统占用大量内存的问题，分析了可能的原因和影响。",
+  "translated_summary": "The article discusses the issue of FreeBSD consuming a large amount of RAM, analyzing possible causes and impacts.",
+  "tags": [
+    "FreeBSD",
+    "memory",
+    "operating system"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.3
+}

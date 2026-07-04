@@ -1,0 +1,18 @@
+{
+  "id": "20260704-032",
+  "title": "Steam Controller Auto-Charge – pilot to magnetic charging puck using CV",
+  "source": "hacker_news",
+  "source_url": "https://github.com/FossPrime/Steam-Controller-Auto-Charge",
+  "summary": "一个利用计算机视觉引导磁吸充电底座自动对准Steam控制器的开源项目。",
+  "translated_summary": "A pilot project using computer vision to automatically align a magnetic charging puck with a Steam Controller.",
+  "tags": [
+    "computer vision",
+    "steam controller",
+    "charging"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.3
+}

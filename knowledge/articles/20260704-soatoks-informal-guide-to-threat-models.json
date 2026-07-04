@@ -1,0 +1,18 @@
+{
+  "id": "20260704-028",
+  "title": "Soatok's Informal Guide to Threat Models",
+  "source": "hacker_news",
+  "source_url": "https://soatok.blog/2026/06/30/soatoks-informal-guide-to-threat-models/",
+  "summary": "Soatok 发布了一份关于威胁模型的非正式指南，帮助理解安全设计中的威胁分析。",
+  "translated_summary": "Soatok's informal guide to threat models provides a practical and accessible introduction to understanding and applying threat modeling in security design.",
+  "tags": [
+    "threat model",
+    "security",
+    "guide"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.5
+}

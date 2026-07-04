@@ -1,0 +1,18 @@
+{
+  "id": "20260704-024",
+  "title": "Agentic coding notes from Galapagos Island",
+  "source": "hacker_news",
+  "source_url": "https://danluu.com/ai-coding/#appendix-agentic-loops-and-writing-this-post",
+  "summary": "Dan Luu 分享了使用 AI 代理循环进行编码的实践经验与观察。",
+  "translated_summary": "Dan Luu shares practical notes on using agentic loops for AI-assisted coding, including observations on effectiveness and limitations.",
+  "tags": [
+    "agentic coding",
+    "AI-assisted development",
+    "coding tools"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.75
+}

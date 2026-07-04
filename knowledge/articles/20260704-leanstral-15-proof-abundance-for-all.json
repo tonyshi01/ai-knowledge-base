@@ -1,0 +1,20 @@
+{
+  "id": "20260704-033",
+  "title": "Leanstral 1.5: Proof abundance for all",
+  "source": "hacker_news",
+  "source_url": "https://mistral.ai/news/leanstral-1-5/",
+  "summary": "Mistral发布Leanstral 1.5模型，旨在通过形式化验证和Lean证明助手提升AI推理的数学严谨性。",
+  "translated_summary": "Mistral发布Leanstral 1.5模型，旨在通过形式化验证和Lean证明助手提升AI推理的数学严谨性。",
+  "tags": [
+    "Mistral",
+    "Leanstral",
+    "形式化验证",
+    "数学推理",
+    "AI模型"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.85
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260704-034",
+  "title": "Performance per dollar is getting faster and cheaper",
+  "source": "hacker_news",
+  "source_url": "https://www.wafer.ai/blog/glm52-amd",
+  "summary": "GLM-52在AMD硬件上的性能成本比持续提升，AI推理效率加速改善。",
+  "translated_summary": "Performance per dollar is getting faster and cheaper, with GLM-52 on AMD hardware showing improved cost efficiency for AI inference.",
+  "tags": [
+    "GLM-52",
+    "AMD",
+    "cost efficiency"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.65
+}

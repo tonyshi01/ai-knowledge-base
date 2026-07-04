@@ -1,0 +1,20 @@
+{
+  "id": "20260704-038",
+  "title": "Espionage Against the European Parliament",
+  "source": "hacker_news",
+  "source_url": "https://citizenlab.ca/research/member-of-committee-investigating-spyware-hacked-with-pegasus/",
+  "summary": "欧洲议会调查间谍软件的委员会成员遭Pegasus黑客攻击。",
+  "translated_summary": "European Parliament committee investigating spyware had its members hacked with Pegasus, raising serious security concerns.",
+  "tags": [
+    "Pegasus",
+    "spyware",
+    "European Parliament",
+    "cybersecurity",
+    "espionage"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.85
+}

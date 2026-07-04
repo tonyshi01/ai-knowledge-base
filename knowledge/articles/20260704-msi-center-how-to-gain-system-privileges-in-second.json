@@ -1,0 +1,18 @@
+{
+  "id": "20260704-027",
+  "title": "MSI Center – How to gain SYSTEM privileges in seconds",
+  "source": "hacker_news",
+  "source_url": "https://mrbruh.com/msicenter/",
+  "summary": "MSI Center软件存在漏洞，可被利用在数秒内获取系统最高权限。",
+  "translated_summary": "MSI Center software contains a vulnerability that allows attackers to gain SYSTEM privileges in seconds.",
+  "tags": [
+    "MSI Center",
+    "privilege escalation",
+    "security vulnerability"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-04T18:02:25.698014+08:00",
+  "status": "pending",
+  "score": 0.75
+}
