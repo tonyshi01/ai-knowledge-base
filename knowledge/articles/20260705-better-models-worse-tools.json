@@ -1,0 +1,18 @@
+{
+  "id": "20260705-040",
+  "title": "Better Models: Worse Tools",
+  "source": "hacker_news",
+  "source_url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+  "summary": "文章探讨了AI模型能力提升反而导致工具实用性下降的现象，分析了模型进步与工具效能之间的悖论。",
+  "translated_summary": "The article explores the paradox where better AI models lead to worse tools, analyzing how model improvements can reduce practical utility.",
+  "tags": [
+    "AI models",
+    "tool usability",
+    "paradox"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-05T18:05:23.453267+08:00",
+  "status": "pending",
+  "score": 0.75
+}

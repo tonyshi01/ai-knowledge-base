@@ -1,0 +1,19 @@
+{
+  "id": "20260705-039",
+  "title": "GPT-5.5 Codex reasoning-token clustering may be leading to degraded performance",
+  "source": "hacker_news",
+  "source_url": "https://github.com/openai/codex/issues/30364",
+  "summary": "OpenAI Codex问题报告指出GPT-5.5的推理token聚类可能导致性能下降。",
+  "translated_summary": "OpenAI Codex issue report suggests that GPT-5.5's reasoning token clustering may be causing degraded performance.",
+  "tags": [
+    "GPT-5.5",
+    "Codex",
+    "performance degradation",
+    "reasoning token clustering"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-05T18:05:23.453267+08:00",
+  "status": "pending",
+  "score": 0.65
+}

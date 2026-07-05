@@ -1,0 +1,18 @@
+{
+  "id": "20260705-010",
+  "title": "langgenius/dify",
+  "source": "github_trending",
+  "source_url": "https://github.com/langgenius/dify",
+  "summary": "Dify是一个生产就绪的智能体工作流开发平台，提供可视化工具和API支持。",
+  "translated_summary": "Dify is a production-ready platform for agentic workflow development, offering visual tools and API support.",
+  "tags": [
+    "agentic workflow",
+    "development platform",
+    "open source"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-05T18:05:22.684768+08:00",
+  "status": "pending",
+  "score": 0.85
+}

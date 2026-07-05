@@ -1,0 +1,18 @@
+{
+  "id": "20260705-022",
+  "title": "Web-based cryptography is always snake oil",
+  "source": "hacker_news",
+  "source_url": "https://www.devever.net/~hl/webcrypto",
+  "summary": "文章指出基于Web的加密技术本质上不可靠，存在安全漏洞和信任问题。",
+  "translated_summary": "Web-based cryptography is always snake oil, arguing that cryptographic operations in the browser are fundamentally insecure due to untrusted environments and lack of true randomness.",
+  "tags": [
+    "web security",
+    "cryptography",
+    "browser security"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-05T18:05:23.453267+08:00",
+  "status": "pending",
+  "score": 0.65
+}

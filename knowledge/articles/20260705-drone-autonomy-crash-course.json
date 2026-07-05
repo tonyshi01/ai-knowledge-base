@@ -1,0 +1,18 @@
+{
+  "id": "20260705-037",
+  "title": "Drone Autonomy Crash Course",
+  "source": "hacker_news",
+  "source_url": "https://www.cggonzalez.com/blog/index.html",
+  "summary": "一篇关于无人机自主飞行的技术教程，涵盖核心概念与实践方法。",
+  "translated_summary": "A crash course on drone autonomy covering core concepts, algorithms, and practical implementation for autonomous flight.",
+  "tags": [
+    "drone autonomy",
+    "crash course",
+    "tutorial"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-05T18:05:23.453267+08:00",
+  "status": "pending",
+  "score": 0.55
+}

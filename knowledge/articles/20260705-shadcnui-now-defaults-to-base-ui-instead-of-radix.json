@@ -1,0 +1,20 @@
+{
+  "id": "20260705-029",
+  "title": "Shadcn/UI now defaults to Base UI instead of Radix",
+  "source": "hacker_news",
+  "source_url": "https://ui.shadcn.com/docs/changelog",
+  "summary": "Shadcn/UI 默认组件库从 Radix 切换为 Base UI。",
+  "translated_summary": "Shadcn/UI now defaults to Base UI instead of Radix, a significant change in its component library.",
+  "tags": [
+    "shadcn/ui",
+    "base ui",
+    "radix",
+    "component library",
+    "frontend"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-05T18:05:23.453267+08:00",
+  "status": "pending",
+  "score": 0.6
+}

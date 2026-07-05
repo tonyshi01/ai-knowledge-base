@@ -1,0 +1,18 @@
+{
+  "id": "20260705-033",
+  "title": "The Log Is the Agent",
+  "source": "hacker_news",
+  "source_url": "https://arxiv.org/abs/2605.21997",
+  "summary": "提出将日志作为智能体核心的新范式，强调日志在AI代理系统中的作用。",
+  "translated_summary": "The Log Is the Agent proposes a new paradigm where logs serve as the core of AI agent systems, emphasizing their role in tracking and improving agent behavior.",
+  "tags": [
+    "agent",
+    "logging",
+    "AI system"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-05T18:05:23.453267+08:00",
+  "status": "pending",
+  "score": 0.75
+}
