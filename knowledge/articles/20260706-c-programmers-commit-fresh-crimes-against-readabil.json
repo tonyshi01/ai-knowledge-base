@@ -1,0 +1,18 @@
+{
+  "id": "20260706-021",
+  "title": "C programmers commit fresh crimes against readability",
+  "source": "hacker_news",
+  "source_url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
+  "summary": "文章批评C语言程序员编写难以阅读的代码，强调代码可读性的重要性。",
+  "translated_summary": "C programmers commit fresh crimes against readability, highlighting the ongoing issue of obfuscated code in C programming.",
+  "tags": [
+    "C语言",
+    "代码可读性",
+    "编程风格"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-06T19:58:03.957123+08:00",
+  "status": "pending",
+  "score": 0.3
+}

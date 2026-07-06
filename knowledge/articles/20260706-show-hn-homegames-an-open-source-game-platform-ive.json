@@ -1,0 +1,18 @@
+{
+  "id": "20260706-035",
+  "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+  "source": "hacker_news",
+  "source_url": "https://homegames.io",
+  "summary": "一个开源游戏平台，支持在浏览器中编辑和发布简单游戏，所有代码开源。",
+  "translated_summary": "An open-source game platform that allows you to play, edit, and publish simple JavaScript games directly in the browser, with all source code available on GitHub.",
+  "tags": [
+    "open-source",
+    "game-platform",
+    "browser-editor"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-06T19:58:03.957123+08:00",
+  "status": "pending",
+  "score": 0.65
+}

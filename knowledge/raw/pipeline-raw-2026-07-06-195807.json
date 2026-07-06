@@ -1,0 +1,691 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-07-06T19:58:07.265735+08:00",
+  "item_count": 40,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 447056,
+        "forks": 49099,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 306609,
+        "forks": 28223,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 303192,
+        "forks": 14141,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 226504,
+        "forks": 34643,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 210052,
+        "forks": 38439,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "clawdbot",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "moltbot",
+          "nous-research",
+          "openai",
+          "openclaw"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "avelino/awesome-go",
+      "url": "https://github.com/avelino/awesome-go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 177324,
+        "forks": 13394,
+        "language": "Go",
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "go",
+          "golang",
+          "golang-library",
+          "hacktoberfest"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "ollama/ollama",
+      "url": "https://github.com/ollama/ollama",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 175581,
+        "forks": 16860,
+        "language": "Go",
+        "topics": [
+          "deepseek",
+          "gemma",
+          "gemma3",
+          "glm",
+          "go",
+          "golang",
+          "gpt-oss",
+          "llama",
+          "llama3",
+          "llm",
+          "llms",
+          "minimax",
+          "mistral",
+          "ollama",
+          "qwen"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "Snailclimb/JavaGuide",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 156832,
+        "forks": 46166,
+        "language": "JavaScript",
+        "topics": [
+          "agent",
+          "ai",
+          "context-engineering",
+          "deepseek",
+          "interview",
+          "java",
+          "mcp",
+          "mysql",
+          "redis",
+          "redisson",
+          "skills",
+          "springai",
+          "system-design"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "langflow-ai/langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 151233,
+        "forks": 9447,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "chatgpt",
+          "generative-ai",
+          "large-language-models",
+          "multiagent",
+          "react-flow"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Production-ready platform for agentic workflow development.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 147888,
+        "forks": 23289,
+        "language": "TypeScript",
+        "topics": [
+          "agent",
+          "agentic-ai",
+          "agentic-framework",
+          "agentic-workflow",
+          "ai",
+          "automation",
+          "gemini",
+          "genai",
+          "gpt",
+          "gpt-4",
+          "llm",
+          "low-code",
+          "mcp",
+          "nextjs",
+          "no-code",
+          "openai",
+          "orchestration",
+          "python",
+          "rag",
+          "workflow"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 145593,
+        "forks": 8383,
+        "language": "TypeScript",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "ai-crawler",
+          "ai-scraping",
+          "ai-search",
+          "crawler",
+          "data-extraction",
+          "html-to-markdown",
+          "llm",
+          "markdown",
+          "scraper",
+          "scraping",
+          "web-crawler",
+          "web-data",
+          "web-data-extraction",
+          "web-scraper",
+          "web-scraping",
+          "web-search",
+          "webscraping"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 144401,
+        "forks": 20868,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "llm",
+          "llm-ui",
+          "llm-webui",
+          "llms",
+          "mcp",
+          "ollama",
+          "ollama-webui",
+          "open-webui",
+          "openai",
+          "openapi",
+          "rag",
+          "self-hosted",
+          "ui",
+          "webui"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "langchain-ai/langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "description": "The agent engineering platform.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 141083,
+        "forks": 23447,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "deepagents",
+          "enterprise",
+          "framework",
+          "gemini",
+          "generative-ai",
+          "langchain",
+          "langgraph",
+          "llm",
+          "multiagent",
+          "open-source",
+          "openai",
+          "pydantic",
+          "python",
+          "rag",
+          "typescript"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "ripienaar/free-for-dev",
+      "url": "https://github.com/ripienaar/free-for-dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 128571,
+        "forks": 13415,
+        "language": "HTML",
+        "topics": [
+          "awesome-list",
+          "free-for-developers"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "msitarzewski/agency-agents",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 127848,
+        "forks": 20758,
+        "language": "Shell",
+        "topics": []
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 119864,
+        "forks": 17880,
+        "language": "TypeScript",
+        "topics": []
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 119436,
+        "forks": 20285,
+        "language": "C++",
+        "topics": [
+          "ggml"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 116607,
+        "forks": 17344,
+        "language": "Python",
+        "topics": [
+          "agents",
+          "llms",
+          "python",
+          "rag"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 113821,
+        "forks": 7589,
+        "language": "Rust",
+        "topics": [
+          "ai-tools",
+          "claude-code",
+          "codex",
+          "desktop-app",
+          "hermes",
+          "hermes-agent",
+          "mcp",
+          "minimax",
+          "omo",
+          "open-source",
+          "openclaw",
+          "openclaw-ui",
+          "opencode",
+          "provider-management",
+          "rust",
+          "skills",
+          "skills-management",
+          "tauri",
+          "typescript",
+          "wsl-support"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "microsoft/generative-ai-for-beginners",
+      "url": "https://github.com/microsoft/generative-ai-for-beginners",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 112689,
+        "forks": 60527,
+        "language": "Jupyter Notebook",
+        "topics": [
+          "ai",
+          "azure",
+          "chatgpt",
+          "dall-e",
+          "generative-ai",
+          "generativeai",
+          "gpt",
+          "language-model",
+          "llms",
+          "microsoft-for-beginners",
+          "openai",
+          "prompt-engineering",
+          "semantic-search",
+          "transformers"
+        ]
+      },
+      "collected_at": "2026-07-06T19:58:03.120332+08:00"
+    },
+    {
+      "title": "C programmers commit fresh crimes against readability",
+      "url": "https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981",
+      "description": "<p>Article URL: <a href=\"https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981\">https://www.theregister.com/offbeat/2026/07/05/c-programmers-commit-fresh-crimes-against-readability/5265981</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48803347\">https://news.ycombinator.com/item?id=48803347</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 11:44:39 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "\"Software Engineering\" Is Not Engineering",
+      "url": "https://web.archive.org/web/20050615235108/http://www.geocities.com/tablizer/science.htm",
+      "description": "<p>Article URL: <a href=\"https://web.archive.org/web/20050615235108/http://www.geocities.com/tablizer/science.htm\">https://web.archive.org/web/20050615235108/http://www.geocities.com/tablizer/science.htm</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48803338\">https://news.ycombinator.com/item?id=48803338</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 11:42:46 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "How the U.S. Engineered Its Sovereignty",
+      "url": "https://spectrum.ieee.org/us-engineered-sovereignty",
+      "description": "<p>Article URL: <a href=\"https://spectrum.ieee.org/us-engineered-sovereignty\">https://spectrum.ieee.org/us-engineered-sovereignty</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48802971\">https://news.ycombinator.com/item?id=48802971</a></p>\n<p>Points: 4</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 10:49:29 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "X402, a static blog monetization excercise",
+      "url": "https://shtein.me/posts/x402-poc/",
+      "description": "<p>Article URL: <a href=\"https://shtein.me/posts/x402-poc/\">https://shtein.me/posts/x402-poc/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48802885\">https://news.ycombinator.com/item?id=48802885</a></p>\n<p>Points: 3</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 10:37:58 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Show HN: Paint the Earth on a live, interactive globe (collaborative art.)",
+      "url": "https://earth.tattoo",
+      "description": "<p>Earth.tattoo divides the earth into 510 million 16x16 pixel \"tiles\" that you can own and paint as you like. You can claim one free tile per hour.</p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48802818\">https://news.ycombinator.com/item?id=48802818</a></p>\n<p>Points: 6</p>\n<p># Comments: 2</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 10:28:32 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Vacuum at the Page Level",
+      "url": "https://boringsql.com/posts/vacuum-at-the-page-level/",
+      "description": "<p>Article URL: <a href=\"https://boringsql.com/posts/vacuum-at-the-page-level/\">https://boringsql.com/posts/vacuum-at-the-page-level/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48802660\">https://news.ycombinator.com/item?id=48802660</a></p>\n<p>Points: 5</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 10:02:08 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Real-time map of Great Britain's rail network",
+      "url": "https://www.map.signalbox.io",
+      "description": "<p>Article URL: <a href=\"https://www.map.signalbox.io\">https://www.map.signalbox.io</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48802535\">https://news.ycombinator.com/item?id=48802535</a></p>\n<p>Points: 142</p>\n<p># Comments: 56</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 09:38:36 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Generate parametric, manufacturable 3D models in seconds",
+      "url": "https://kyrall.com/",
+      "description": "<p>Article URL: <a href=\"https://kyrall.com/\">https://kyrall.com/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48801488\">https://news.ycombinator.com/item?id=48801488</a></p>\n<p>Points: 45</p>\n<p># Comments: 36</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 07:04:33 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Building relationships with customers through support didn't turn out as hoped",
+      "url": "https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support",
+      "description": "<p>Article URL: <a href=\"https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support\">https://www.uncommonapps.nyc/p/castro-podcasts-things-i-got-wrong-support</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48799929\">https://news.ycombinator.com/item?id=48799929</a></p>\n<p>Points: 184</p>\n<p># Comments: 110</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 02:06:49 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "GPT-5.6 Sol Ultra will be in Codex",
+      "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
+      "description": "<p><a href=\"https://x.com/haider1/status/2073695124220006575\" rel=\"nofollow\">https://x.com/haider1/status/2073695124220006575</a>, <a href=\"https://xcancel.com/haider1/status/2073695124220006575\" rel=\"nofollow\">https://xcancel.com/haider1/status/2073695124220006575</a></p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48799614\">https://news.ycombinator.com/item?id=48799614</a></p>\n<p>Points: 320</p>\n<p># Comments: 267</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Mon, 06 Jul 2026 01:04:03 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "The Private Capture of Public Genius",
+      "url": "https://www.wysr.xyz/p/the-private-capture-of-public-genius",
+      "description": "<p>Article URL: <a href=\"https://www.wysr.xyz/p/the-private-capture-of-public-genius\">https://www.wysr.xyz/p/the-private-capture-of-public-genius</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48799178\">https://news.ycombinator.com/item?id=48799178</a></p>\n<p>Points: 120</p>\n<p># Comments: 69</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 23:52:20 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Has_not_been_viewed_much",
+      "url": "https://iamwillwang.com/notes/has-not-been-viewed-much/",
+      "description": "<p>Article URL: <a href=\"https://iamwillwang.com/notes/has-not-been-viewed-much/\">https://iamwillwang.com/notes/has-not-been-viewed-much/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48799155\">https://news.ycombinator.com/item?id=48799155</a></p>\n<p>Points: 350</p>\n<p># Comments: 92</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 23:49:00 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
+      "url": "https://arxiv.org/abs/2605.20049",
+      "description": "<p>Article URL: <a href=\"https://arxiv.org/abs/2605.20049\">https://arxiv.org/abs/2605.20049</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48798815\">https://news.ycombinator.com/item?id=48798815</a></p>\n<p>Points: 149</p>\n<p># Comments: 78</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 23:03:55 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Composite Video on the NES: Why's it so wobbly?",
+      "url": "https://nicole.express/2026/phase-altering-by-line.html",
+      "description": "<p>Article URL: <a href=\"https://nicole.express/2026/phase-altering-by-line.html\">https://nicole.express/2026/phase-altering-by-line.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48798247\">https://news.ycombinator.com/item?id=48798247</a></p>\n<p>Points: 99</p>\n<p># Comments: 7</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 21:45:17 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Show HN: Homegames. An open-source game platform I've been making for 8 years",
+      "url": "https://homegames.io",
+      "description": "<p>I'm making a platform for simple open source games you can play anywhere.<p>Games are all just JavaScript classes and you can read the source of every game on the platform.<p>I started working on initial \"games\" (mostly rendering tests) in 2018 and eventually built all of the platform stuff around it to make it easy to share games.<p>There's also an in-browser editor available for you to make and publish games all from the browser.<p>Would love some feedback on the games and studio features as well as the platform overall. All of the code is available at <a href=\"https://github.com/homegamesio\" rel=\"nofollow\">https://github.com/homegamesio</a></p>\n<hr>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48798153\">https://news.ycombinator.com/item?id=48798153</a></p>\n<p>Points: 190</p>\n<p># Comments: 48</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 21:32:44 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Completing a computer science degree on Coursera",
+      "url": "https://notesbylex.com/completing-a-computer-science-degree-on-coursera",
+      "description": "<p>Article URL: <a href=\"https://notesbylex.com/completing-a-computer-science-degree-on-coursera\">https://notesbylex.com/completing-a-computer-science-degree-on-coursera</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48798061\">https://news.ycombinator.com/item?id=48798061</a></p>\n<p>Points: 227</p>\n<p># Comments: 143</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 21:20:49 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "OpenPrinter",
+      "url": "https://www.opentools.studio/",
+      "description": "<p>Article URL: <a href=\"https://www.opentools.studio/\">https://www.opentools.studio/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48797916\">https://news.ycombinator.com/item?id=48797916</a></p>\n<p>Points: 924</p>\n<p># Comments: 231</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 21:03:06 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "Delta flight hit by firework while landing at Midway Airport on Fourth of July",
+      "url": "https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/",
+      "description": "<p>Article URL: <a href=\"https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/\">https://www.nbcchicago.com/news/local/delta-flight-hit-by-firework-while-landing-at-midway-airport-on-fourth-of-july/3957451/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48797141\">https://news.ycombinator.com/item?id=48797141</a></p>\n<p>Points: 136</p>\n<p># Comments: 248</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 19:22:51 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "New AI tutor achieves 0.71-1.30 SD effect size in Dartmouth course [pdf]",
+      "url": "https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf",
+      "description": "<p>Article URL: <a href=\"https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf\">https://intextbooks.science.uu.nl/workshop2026/files/itb26_s1s2.pdf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48796817\">https://news.ycombinator.com/item?id=48796817</a></p>\n<p>Points: 167</p>\n<p># Comments: 104</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 18:47:43 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    },
+    {
+      "title": "The future of Flipper Zero development",
+      "url": "https://blog.flipper.net/future-of-flipper-zero-development/",
+      "description": "<p>Article URL: <a href=\"https://blog.flipper.net/future-of-flipper-zero-development/\">https://blog.flipper.net/future-of-flipper-zero-development/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48796552\">https://news.ycombinator.com/item?id=48796552</a></p>\n<p>Points: 353</p>\n<p># Comments: 150</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Sun, 05 Jul 2026 18:22:00 +0000"
+      },
+      "collected_at": "2026-07-06T19:58:03.957123+08:00"
+    }
+  ]
+}

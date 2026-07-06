@@ -1,0 +1,18 @@
+{
+  "id": "20260706-033",
+  "title": "Does code cleanliness affect coding agents? A controlled minimal-pair study",
+  "source": "hacker_news",
+  "source_url": "https://arxiv.org/abs/2605.20049",
+  "summary": "一项控制变量研究探讨代码整洁度对编码智能体性能的影响。",
+  "translated_summary": "A controlled minimal-pair study investigates whether code cleanliness affects the performance of coding agents.",
+  "tags": [
+    "coding agents",
+    "code quality",
+    "empirical study"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-06T19:58:03.957123+08:00",
+  "status": "pending",
+  "score": 0.75
+}

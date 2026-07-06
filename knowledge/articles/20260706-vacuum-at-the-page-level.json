@@ -1,0 +1,18 @@
+{
+  "id": "20260706-026",
+  "title": "Vacuum at the Page Level",
+  "source": "hacker_news",
+  "source_url": "https://boringsql.com/posts/vacuum-at-the-page-level/",
+  "summary": "本文介绍了PostgreSQL中页面级VACUUM的实现原理与优化方法。",
+  "translated_summary": "This article explains the implementation and optimization of page-level VACUUM in PostgreSQL.",
+  "tags": [
+    "PostgreSQL",
+    "VACUUM",
+    "database optimization"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-06T19:58:03.957123+08:00",
+  "status": "pending",
+  "score": 0.65
+}

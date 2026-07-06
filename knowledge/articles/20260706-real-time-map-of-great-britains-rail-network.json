@@ -1,0 +1,19 @@
+{
+  "id": "20260706-027",
+  "title": "Real-time map of Great Britain's rail network",
+  "source": "hacker_news",
+  "source_url": "https://www.map.signalbox.io",
+  "summary": "一个展示英国铁路网络实时运行状态的交互式地图工具。",
+  "translated_summary": "A real-time interactive map displaying the live status of Great Britain's rail network, including train positions and station information.",
+  "tags": [
+    "real-time map",
+    "rail network",
+    "Great Britain",
+    "interactive tool"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-06T19:58:03.957123+08:00",
+  "status": "pending",
+  "score": 0.65
+}

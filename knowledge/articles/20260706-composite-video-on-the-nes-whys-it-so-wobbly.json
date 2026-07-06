@@ -1,0 +1,18 @@
+{
+  "id": "20260706-034",
+  "title": "Composite Video on the NES: Why's it so wobbly?",
+  "source": "hacker_news",
+  "source_url": "https://nicole.express/2026/phase-altering-by-line.html",
+  "summary": "分析NES复合视频信号抖动原因的技术文章。",
+  "translated_summary": "本文深入探讨了NES游戏机复合视频输出中常见的画面抖动现象，从信号相位和扫描线角度解释了技术原理。",
+  "tags": [
+    "NES",
+    "composite video",
+    "retro computing"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-06T19:58:03.957123+08:00",
+  "status": "pending",
+  "score": 0.4
+}

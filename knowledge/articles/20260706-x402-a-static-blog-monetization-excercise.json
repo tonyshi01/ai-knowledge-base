@@ -1,0 +1,18 @@
+{
+  "id": "20260706-024",
+  "title": "X402, a static blog monetization excercise",
+  "source": "hacker_news",
+  "source_url": "https://shtein.me/posts/x402-poc/",
+  "summary": "X402是一个静态博客货币化实验项目，探索通过微支付等方式为内容创作者提供收入。",
+  "translated_summary": "X402 is a static blog monetization exercise exploring micropayments and other methods to generate revenue for content creators.",
+  "tags": [
+    "monetization",
+    "static blog",
+    "micropayments"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-06T19:58:03.957123+08:00",
+  "status": "pending",
+  "score": 0.3
+}
