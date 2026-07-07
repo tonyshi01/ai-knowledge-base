@@ -1,0 +1,18 @@
+{
+  "id": "20260707-021",
+  "title": "Microsoft Can Track Users via a Windows Device ID",
+  "source": "hacker_news",
+  "source_url": "https://www.pcmag.com/news/a-hackers-arrest-reveals-microsoft-can-track-users-via-a-windows-device",
+  "summary": "微软通过Windows设备ID追踪用户，黑客被捕事件揭露了该追踪机制。",
+  "translated_summary": "A hacker's arrest reveals Microsoft can track users via a Windows device ID, raising privacy concerns.",
+  "tags": [
+    "Microsoft",
+    "privacy",
+    "tracking"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.5
+}

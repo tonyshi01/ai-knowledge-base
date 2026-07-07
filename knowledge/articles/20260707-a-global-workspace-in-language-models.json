@@ -1,0 +1,20 @@
+{
+  "id": "20260707-038",
+  "title": "A global workspace in language models",
+  "source": "hacker_news",
+  "source_url": "https://www.anthropic.com/research/global-workspace",
+  "summary": "Anthropic研究揭示语言模型中存在类似全局工作空间的机制，促进信息整合与推理。",
+  "translated_summary": "Anthropic's research reveals a global workspace mechanism in language models that facilitates information integration and reasoning.",
+  "tags": [
+    "language models",
+    "global workspace",
+    "Anthropic",
+    "cognitive architecture",
+    "AI research"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.85
+}

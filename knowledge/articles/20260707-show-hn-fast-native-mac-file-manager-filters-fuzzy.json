@@ -1,0 +1,22 @@
+{
+  "id": "20260707-022",
+  "title": "Show HN: Fast, native Mac file manager (filters, fuzzy find, 9 MB, no Electron)",
+  "source": "hacker_news",
+  "source_url": "https://whimfiles.com",
+  "summary": "一款基于.NET/C#和AppKit的原生macOS文件管理器，支持模糊搜索、双面板、批量重命名和图片转换，体积仅9MB。",
+  "translated_summary": "A native macOS file manager built with .NET/C# and AppKit, featuring fuzzy search, dual-pane view, batch rename, image conversion, and a 9 MB footprint.",
+  "tags": [
+    "file manager",
+    "macOS",
+    "native app",
+    "fuzzy search",
+    "batch rename",
+    "image conversion",
+    "privacy-first"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.65
+}

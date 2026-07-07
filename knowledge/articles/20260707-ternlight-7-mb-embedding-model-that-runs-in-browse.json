@@ -1,0 +1,18 @@
+{
+  "id": "20260707-028",
+  "title": "Ternlight – 7 MB embedding model that runs in browser (WASM)",
+  "source": "hacker_news",
+  "source_url": "https://ternlight-demo.vercel.app/",
+  "summary": "Ternlight是一个7MB的嵌入模型，可在浏览器中通过WASM运行。",
+  "translated_summary": "Ternlight is a 7 MB embedding model that runs in the browser via WASM.",
+  "tags": [
+    "embedding model",
+    "WASM",
+    "browser inference"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.75
+}

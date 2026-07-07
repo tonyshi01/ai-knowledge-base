@@ -1,0 +1,18 @@
+{
+  "id": "20260707-030",
+  "title": "OpenSSH 10.4/10.4p1 Released",
+  "source": "hacker_news",
+  "source_url": "https://www.openssh.org/txt/release-10.4",
+  "summary": "OpenSSH 10.4/10.4p1 版本发布，包含安全修复和功能改进。",
+  "translated_summary": "OpenSSH 10.4/10.4p1 正式发布，带来了多项安全修复、新功能以及性能改进，建议用户及时更新。",
+  "tags": [
+    "OpenSSH",
+    "安全更新",
+    "版本发布"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.6
+}

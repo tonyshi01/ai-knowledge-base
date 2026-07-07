@@ -1,0 +1,18 @@
+{
+  "id": "20260707-034",
+  "title": "Pruning RAG context down to what the answer actually needs",
+  "source": "hacker_news",
+  "source_url": "https://www.kapa.ai/blog/how-we-prune-rag-context",
+  "summary": "Kapa.ai 提出了一种修剪 RAG 上下文的方法，仅保留回答所需的关键信息，以提升效率和准确性。",
+  "translated_summary": "Kapa.ai proposes a method to prune RAG context to only the information needed for the answer, improving efficiency and accuracy.",
+  "tags": [
+    "RAG",
+    "context pruning",
+    "retrieval augmented generation"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.75
+}

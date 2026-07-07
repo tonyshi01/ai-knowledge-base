@@ -1,0 +1,18 @@
+{
+  "id": "20260707-037",
+  "title": "OpenWrt One – Open Hardware Router",
+  "source": "hacker_news",
+  "source_url": "https://openwrt.org/toh/openwrt/one",
+  "summary": "OpenWrt One是一款开源硬件路由器，旨在提供灵活、安全的网络解决方案。",
+  "translated_summary": "OpenWrt One is an open hardware router designed to provide flexible and secure networking solutions.",
+  "tags": [
+    "OpenWrt",
+    "开源硬件",
+    "路由器"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.7
+}

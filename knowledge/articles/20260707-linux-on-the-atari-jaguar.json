@@ -1,0 +1,18 @@
+{
+  "id": "20260707-036",
+  "title": "Linux on the Atari Jaguar",
+  "source": "hacker_news",
+  "source_url": "https://cakehonolulu.github.io/linux-for-jaguar/",
+  "summary": "将Linux移植到Atari Jaguar游戏主机上的项目。",
+  "translated_summary": "A project to port Linux to the Atari Jaguar game console, enabling modern OS capabilities on retro hardware.",
+  "tags": [
+    "Linux",
+    "Atari Jaguar",
+    "retro computing"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.4
+}

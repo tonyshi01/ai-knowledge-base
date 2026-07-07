@@ -1,0 +1,18 @@
+{
+  "id": "20260707-033",
+  "title": "M/PC – A Concatenative OS",
+  "source": "hacker_news",
+  "source_url": "https://wiki.xxiivv.com/site/m_pc.html",
+  "summary": "M/PC是一个基于串联式编程的操作系统设计，强调简洁和模块化。",
+  "translated_summary": "M/PC is a concatenative operating system design that emphasizes simplicity and modularity, offering a unique approach to system architecture.",
+  "tags": [
+    "operating system",
+    "concatenative programming",
+    "modular design"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-07T18:49:20.621432+08:00",
+  "status": "pending",
+  "score": 0.5
+}
