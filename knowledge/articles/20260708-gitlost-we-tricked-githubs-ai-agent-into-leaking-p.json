@@ -1,0 +1,18 @@
+{
+  "id": "20260708-023",
+  "title": "GitLost: We Tricked GitHub's AI Agent into Leaking Private Repos",
+  "source": "hacker_news",
+  "source_url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+  "summary": "研究人员发现GitHub的AI助手存在漏洞，可被诱导泄露私有仓库内容。",
+  "translated_summary": "Researchers discovered a vulnerability in GitHub's AI assistant that can be tricked into leaking private repository contents.",
+  "tags": [
+    "AI安全",
+    "GitHub",
+    "漏洞利用"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.85
+}

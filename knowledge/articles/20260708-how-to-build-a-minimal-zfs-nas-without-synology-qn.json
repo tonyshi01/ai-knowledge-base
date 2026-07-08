@@ -1,0 +1,18 @@
+{
+  "id": "20260708-024",
+  "title": "How to Build a Minimal ZFS NAS Without Synology, QNAP, TrueNAS (2024)",
+  "source": "hacker_news",
+  "source_url": "https://neil.computer/notes/how-to-setup-minimal-zfs-nas-without-truenas/",
+  "summary": "一篇2024年技术教程，指导如何不使用商业NAS系统构建最小化ZFS网络附加存储。",
+  "translated_summary": "A 2024 tutorial on building a minimal ZFS NAS without commercial systems like Synology, QNAP, or TrueNAS.",
+  "tags": [
+    "ZFS",
+    "NAS",
+    "DIY"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.3
+}

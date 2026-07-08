@@ -1,0 +1,18 @@
+{
+  "id": "20260708-007",
+  "title": "ollama/ollama",
+  "source": "github_trending",
+  "source_url": "https://github.com/ollama/ollama",
+  "summary": "Ollama 更新支持 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等模型，简化本地模型运行。",
+  "translated_summary": "Ollama 更新支持 Kimi-K2.6、GLM-5.1、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等模型，简化本地模型运行。",
+  "tags": [
+    "ollama",
+    "模型部署",
+    "开源工具"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:25.999251+08:00",
+  "status": "pending",
+  "score": 0.7
+}

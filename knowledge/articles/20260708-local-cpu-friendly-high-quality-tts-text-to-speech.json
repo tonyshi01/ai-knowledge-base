@@ -1,0 +1,20 @@
+{
+  "id": "20260708-033",
+  "title": "Local, CPU-Friendly, High-Quality TTS (Text-to-Speech) with Kokoro",
+  "source": "hacker_news",
+  "source_url": "https://ariya.io/2026/03/local-cpu-friendly-high-quality-tts-text-to-speech-with-kokoro/",
+  "summary": "介绍Kokoro TTS模型，可在本地CPU上高效运行，提供高质量文本转语音能力。",
+  "translated_summary": "Kokoro is a local, CPU-friendly, high-quality text-to-speech model that runs efficiently on consumer hardware without GPU.",
+  "tags": [
+    "TTS",
+    "Kokoro",
+    "CPU-friendly",
+    "text-to-speech",
+    "local AI"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.75
+}

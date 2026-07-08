@@ -1,0 +1,18 @@
+{
+  "id": "20260708-026",
+  "title": "LineageOS Statistics",
+  "source": "hacker_news",
+  "source_url": "https://stats.lineageos.org",
+  "summary": "LineageOS 统计页面展示了该开源操作系统的设备安装数据。",
+  "translated_summary": "LineageOS statistics page shows device installation data for the open-source operating system.",
+  "tags": [
+    "LineageOS",
+    "开源",
+    "操作系统"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.3
+}

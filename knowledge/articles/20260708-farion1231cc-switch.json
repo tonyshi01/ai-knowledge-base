@@ -1,0 +1,18 @@
+{
+  "id": "20260708-019",
+  "title": "farion1231/cc-switch",
+  "source": "github_trending",
+  "source_url": "https://github.com/farion1231/cc-switch",
+  "summary": "cc-switch 是一个跨平台桌面助手，支持多种AI编码代理工具的统一管理。",
+  "translated_summary": "cc-switch is a cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent, providing unified management.",
+  "tags": [
+    "cross-platform",
+    "AI assistant",
+    "developer tools"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:25.999251+08:00",
+  "status": "pending",
+  "score": 0.65
+}

@@ -1,0 +1,20 @@
+{
+  "id": "20260708-037",
+  "title": "Jim's TrueType QR Code Font",
+  "source": "hacker_news",
+  "source_url": "https://github.com/jimparis/qr-font",
+  "summary": "Jim发布了TrueType QR码字体，可将文本渲染为可扫描的QR码。",
+  "translated_summary": "Jim's TrueType QR Code Font is a font that renders text as scannable QR codes, combining typography with functional barcode generation.",
+  "tags": [
+    "QR code",
+    "font",
+    "TrueType",
+    "open source",
+    "tool"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.65
+}

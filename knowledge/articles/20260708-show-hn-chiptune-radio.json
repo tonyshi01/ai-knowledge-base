@@ -1,0 +1,18 @@
+{
+  "id": "20260708-027",
+  "title": "Show HN: Chiptune Radio",
+  "source": "hacker_news",
+  "source_url": "https://chiptune-radio.alephvoid.com/",
+  "summary": "一个自动生成芯片音乐并持续广播的在线电台项目。",
+  "translated_summary": "I built a chiptune song generator and its broadcasting algorithmically generated chiptune music.",
+  "tags": [
+    "chiptune",
+    "music generation",
+    "radio"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.3
+}

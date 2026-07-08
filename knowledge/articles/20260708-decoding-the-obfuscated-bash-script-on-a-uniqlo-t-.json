@@ -1,0 +1,18 @@
+{
+  "id": "20260708-021",
+  "title": "Decoding the obfuscated bash script on a Uniqlo t-shirt",
+  "source": "hacker_news",
+  "source_url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+  "summary": "一篇关于解码优衣库T恤上混淆的Bash脚本的技术分析文章。",
+  "translated_summary": "Decoding the obfuscated bash script on a Uniqlo t-shirt, revealing a self-evaluating script supplied by Akamai via retail stores.",
+  "tags": [
+    "bash",
+    "obfuscation",
+    "security"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.3
+}

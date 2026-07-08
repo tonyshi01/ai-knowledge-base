@@ -1,0 +1,20 @@
+{
+  "id": "20260708-038",
+  "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+  "source": "hacker_news",
+  "source_url": "https://github.com/rowboatlabs/rowboat",
+  "summary": "Rowboat 是一个开源、本地优先的 Claude Desktop 替代品，提供邮件、会议、笔记、浏览器和并行编码等工作界面。",
+  "translated_summary": "Rowboat is an open-source, local-first alternative to Claude Desktop that integrates email, meeting notes, browser, parallel coding, and customizable work surfaces with a knowledge graph.",
+  "tags": [
+    "open-source",
+    "local-first",
+    "Claude Desktop alternative",
+    "knowledge graph",
+    "agent orchestration"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.82
+}

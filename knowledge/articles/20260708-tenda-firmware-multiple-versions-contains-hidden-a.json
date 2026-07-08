@@ -1,0 +1,20 @@
+{
+  "id": "20260708-028",
+  "title": "Tenda firmware (multiple versions) contains hidden authentication backdoor",
+  "source": "hacker_news",
+  "source_url": "https://kb.cert.org/vuls/id/213560",
+  "summary": "Tenda固件存在隐藏认证后门漏洞，影响多个版本。",
+  "translated_summary": "Tenda firmware (multiple versions) contains hidden authentication backdoor, posing security risks to users.",
+  "tags": [
+    "Tenda",
+    "firmware",
+    "backdoor",
+    "vulnerability",
+    "security"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-08T18:10:27.082133+08:00",
+  "status": "pending",
+  "score": 0.85
+}
