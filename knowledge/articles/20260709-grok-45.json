@@ -1,0 +1,18 @@
+{
+  "id": "20260709-035",
+  "title": "Grok 4.5",
+  "source": "hacker_news",
+  "source_url": "https://x.ai/news/grok-4-5",
+  "summary": "xAI发布了Grok 4.5模型，在Hacker News上获得651分和995条评论，引发广泛讨论。",
+  "translated_summary": "xAI has released Grok 4.5, a new AI model that garnered 651 points and 995 comments on Hacker News, sparking extensive discussion.",
+  "tags": [
+    "Grok 4.5",
+    "xAI",
+    "model release"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.85
+}

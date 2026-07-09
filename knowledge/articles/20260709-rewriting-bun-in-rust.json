@@ -1,0 +1,19 @@
+{
+  "id": "20260709-029",
+  "title": "Rewriting Bun in Rust",
+  "source": "hacker_news",
+  "source_url": "https://bun.com/blog/bun-in-rust",
+  "summary": "Bun团队宣布将Bun运行时从Zig重写为Rust，以提升性能和安全性。",
+  "translated_summary": "Bun团队宣布将Bun运行时从Zig重写为Rust，以提升性能和安全性。",
+  "tags": [
+    "Bun",
+    "Rust",
+    "runtime",
+    "rewrite"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.85
+}

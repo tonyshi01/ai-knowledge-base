@@ -1,0 +1,20 @@
+{
+  "id": "20260709-023",
+  "title": "Why developers are ditching GitHub for Codeberg and self-hosting alternatives",
+  "source": "hacker_news",
+  "source_url": "https://www.howtogeek.com/why-developers-are-ditching-github-for-codeberg-and-self-hosting-alternatives/",
+  "summary": "开发者因对微软收购GitHub后的隐私和垄断担忧，转向Codeberg和自托管平台。",
+  "translated_summary": "Developers are increasingly moving away from GitHub to alternatives like Codeberg and self-hosted solutions due to concerns over privacy, vendor lock-in, and Microsoft's ownership.",
+  "tags": [
+    "GitHub",
+    "Codeberg",
+    "self-hosting",
+    "developer tools",
+    "open source"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.65
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260709-027",
+  "title": "Remote Attestation",
+  "source": "hacker_news",
+  "source_url": "https://www.liamcvw.com/p/remote-attestation",
+  "summary": "远程证明技术原理与应用的深度分析文章。",
+  "translated_summary": "Remote Attestation is a deep dive into the principles and applications of remote attestation technology, covering security, trust, and verification mechanisms.",
+  "tags": [
+    "remote attestation",
+    "security",
+    "trusted computing"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.65
+}

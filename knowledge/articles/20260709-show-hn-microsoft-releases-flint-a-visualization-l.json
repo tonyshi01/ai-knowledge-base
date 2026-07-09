@@ -1,0 +1,20 @@
+{
+  "id": "20260709-036",
+  "title": "Show HN: Microsoft releases Flint, a visualization language for AI agents",
+  "source": "hacker_news",
+  "source_url": "https://microsoft.github.io/flint-chart/#/",
+  "summary": "微软发布Flint，一种专为AI代理设计的可视化中间语言，通过语义类型规范和布局优化引擎提升图表生成可靠性和质量。",
+  "translated_summary": "Microsoft releases Flint, a visualization intermediate language for AI agents, featuring semantic-type specification and layout optimization for reliable, high-quality chart generation.",
+  "tags": [
+    "Microsoft",
+    "Flint",
+    "visualization language",
+    "AI agents",
+    "open source"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.85
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260709-003",
+  "title": "awesome-selfhosted/awesome-selfhosted",
+  "source": "github_trending",
+  "source_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+  "summary": "一个精选的自由软件网络服务和自托管Web应用列表，帮助用户在自己的服务器上部署服务。",
+  "translated_summary": "A curated list of free software network services and web applications that can be hosted on your own servers, covering various categories like analytics, automation, and communication.",
+  "tags": [
+    "self-hosting",
+    "open-source",
+    "software-list"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:18.373892+08:00",
+  "status": "pending",
+  "score": 0.75
+}

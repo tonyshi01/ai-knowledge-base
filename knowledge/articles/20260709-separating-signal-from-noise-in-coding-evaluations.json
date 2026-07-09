@@ -1,0 +1,18 @@
+{
+  "id": "20260709-031",
+  "title": "Separating signal from noise in coding evaluations",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+  "summary": "OpenAI发布关于如何从编码评估中分离信号与噪声的研究文章。",
+  "translated_summary": "OpenAI发布文章，探讨在编码评估中如何有效区分真正有用的信号与干扰性的噪声，以提升评估准确性。",
+  "tags": [
+    "coding evaluation",
+    "signal vs noise",
+    "OpenAI"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.7
+}

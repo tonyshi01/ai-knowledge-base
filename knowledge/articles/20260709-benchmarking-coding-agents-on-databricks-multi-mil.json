@@ -1,0 +1,19 @@
+{
+  "id": "20260709-030",
+  "title": "Benchmarking coding agents on Databricks' multi-million line codebase",
+  "source": "hacker_news",
+  "source_url": "https://www.databricks.com/blog/benchmarking-coding-agents-databricks-multi-million-line-codebase",
+  "summary": "Databricks在百万行级代码库上基准测试了多种编码代理的性能。",
+  "translated_summary": "Databricks在百万行级代码库上基准测试了多种编码代理的性能。",
+  "tags": [
+    "coding agents",
+    "benchmarking",
+    "Databricks",
+    "large codebase"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.75
+}

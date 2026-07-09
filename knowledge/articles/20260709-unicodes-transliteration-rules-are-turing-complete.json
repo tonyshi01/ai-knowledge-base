@@ -1,0 +1,18 @@
+{
+  "id": "20260709-040",
+  "title": "Unicode's transliteration rules are Turing-complete",
+  "source": "hacker_news",
+  "source_url": "https://seriot.ch/computation/uts35/",
+  "summary": "Unicode的转写规则被证明是图灵完备的，具有理论计算能力。",
+  "translated_summary": "Unicode's transliteration rules are proven to be Turing-complete, demonstrating unexpected computational power in a text encoding standard.",
+  "tags": [
+    "Unicode",
+    "Turing-complete",
+    "transliteration"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.75
+}

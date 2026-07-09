@@ -1,0 +1,18 @@
+{
+  "id": "20260709-037",
+  "title": "GPT‑Live",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/introducing-gpt-live/",
+  "summary": "OpenAI发布了GPT-Live，一个实时交互的AI模型。",
+  "translated_summary": "OpenAI has introduced GPT-Live, a real-time interactive AI model that enhances user engagement.",
+  "tags": [
+    "OpenAI",
+    "GPT-Live",
+    "real-time AI"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.85
+}

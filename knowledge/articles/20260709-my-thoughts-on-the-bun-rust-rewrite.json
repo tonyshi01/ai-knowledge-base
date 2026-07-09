@@ -1,0 +1,18 @@
+{
+  "id": "20260709-022",
+  "title": "My Thoughts on the Bun Rust Rewrite",
+  "source": "hacker_news",
+  "source_url": "https://andrewkelley.me/post/my-thoughts-bun-rust-rewrite.html",
+  "summary": "作者对Bun使用Rust重写的个人看法和思考。",
+  "translated_summary": "My Thoughts on the Bun Rust Rewrite",
+  "tags": [
+    "Bun",
+    "Rust",
+    "rewrite"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.5
+}

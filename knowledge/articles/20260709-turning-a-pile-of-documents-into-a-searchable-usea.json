@@ -1,0 +1,18 @@
+{
+  "id": "20260709-032",
+  "title": "Turning a pile of documents into a searchable useable knowledge base",
+  "source": "hacker_news",
+  "source_url": "https://github.com/linuxrebel/DocuBrowser",
+  "summary": "一个将文档集合转化为可搜索知识库的开源工具，基于AI技术实现。",
+  "translated_summary": "A tool that turns a pile of documents into a searchable, usable knowledge base, leveraging AI for indexing and retrieval.",
+  "tags": [
+    "knowledge base",
+    "document search",
+    "open source tool"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-09T18:48:19.166303+08:00",
+  "status": "pending",
+  "score": 0.65
+}
