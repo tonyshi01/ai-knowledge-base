@@ -1,0 +1,18 @@
+{
+  "id": "20260710-031",
+  "title": "Hy3",
+  "source": "hacker_news",
+  "source_url": "https://hy.tencent.com/research/hy3",
+  "summary": "腾讯发布Hy3，一种新的AI模型或技术，在Hacker News上获得480分和100条评论。",
+  "translated_summary": "Tencent releases Hy3, a new AI model or technology, receiving 480 points and 100 comments on Hacker News.",
+  "tags": [
+    "Tencent",
+    "Hy3",
+    "AI model"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.7
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260710-027",
+  "title": "Interview with Mitchell Hashimoto about Ghostty and Zig",
+  "source": "hacker_news",
+  "source_url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+  "summary": "Mitchell Hashimoto 在访谈中讨论了 Ghostty 终端模拟器与 Zig 编程语言的设计理念和开发经验。",
+  "translated_summary": "Mitchell Hashimoto discusses the design philosophy and development experience of the Ghostty terminal emulator and the Zig programming language in this interview.",
+  "tags": [
+    "Ghostty",
+    "Zig",
+    "terminal emulator"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.5
+}

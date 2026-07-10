@@ -1,0 +1,20 @@
+{
+  "id": "20260710-026",
+  "title": "Building a real-time AI tutor for 5-year-olds",
+  "source": "hacker_news",
+  "source_url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+  "summary": "Ello 构建了实时AI导师，通过流式解释器和异步规划器实现4-9岁儿童的教学。",
+  "translated_summary": "Ello has built a real-time AI tutor for children aged 4-9, using a streaming interpreter and asynchronous planner to teach reading, math, and ESL at conversation speed.",
+  "tags": [
+    "AI tutor",
+    "real-time",
+    "children education",
+    "streaming interpreter",
+    "asynchronous planner"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.75
+}

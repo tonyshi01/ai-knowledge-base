@@ -1,0 +1,18 @@
+{
+  "id": "20260710-033",
+  "title": "TLS certificates for internal services done right",
+  "source": "hacker_news",
+  "source_url": "https://tuxnet.dev/posts/tls-for-internal-services/",
+  "summary": "本文介绍了如何正确为内部服务配置TLS证书，包括证书管理、自动化续期和安全最佳实践。",
+  "translated_summary": "This article explains how to properly configure TLS certificates for internal services, covering certificate management, automated renewal, and security best practices.",
+  "tags": [
+    "TLS",
+    "internal services",
+    "certificate management"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.65
+}

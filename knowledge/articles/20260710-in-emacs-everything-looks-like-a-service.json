@@ -1,0 +1,18 @@
+{
+  "id": "20260710-021",
+  "title": "In Emacs, Everything Looks Like a Service",
+  "source": "hacker_news",
+  "source_url": "http://yummymelon.com/devnull/in-emacs-everything-looks-like-a-service.html",
+  "summary": "一篇关于Emacs中服务化设计理念的技术文章。",
+  "translated_summary": "In Emacs, Everything Looks Like a Service discusses the service-oriented design philosophy within the Emacs ecosystem.",
+  "tags": [
+    "Emacs",
+    "service-oriented",
+    "software design"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.3
+}

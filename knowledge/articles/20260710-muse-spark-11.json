@@ -1,0 +1,20 @@
+{
+  "id": "20260710-035",
+  "title": "Muse Spark 1.1",
+  "source": "hacker_news",
+  "source_url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+  "summary": "Meta发布Muse Spark 1.1，一个具有代理能力的AI模型，并开始对其API收费。",
+  "translated_summary": "Meta has released Muse Spark 1.1, an agentic AI model, and has started charging for its API usage.",
+  "tags": [
+    "Muse Spark",
+    "Meta",
+    "agentic AI",
+    "API",
+    "monetization"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.85
+}

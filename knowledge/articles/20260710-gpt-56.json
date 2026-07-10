@@ -1,0 +1,18 @@
+{
+  "id": "20260710-028",
+  "title": "GPT-5.6",
+  "source": "hacker_news",
+  "source_url": "https://openai.com/index/gpt-5-6/",
+  "summary": "OpenAI发布了GPT-5.6模型，并提供了部署安全文档和开发者指南。",
+  "translated_summary": "OpenAI has released GPT-5.6, with deployment safety documentation and developer guides available.",
+  "tags": [
+    "GPT-5.6",
+    "OpenAI",
+    "模型发布"
+  ],
+  "category": "model_release",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.95
+}

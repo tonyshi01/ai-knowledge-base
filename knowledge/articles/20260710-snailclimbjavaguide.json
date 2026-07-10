@@ -1,0 +1,18 @@
+{
+  "id": "20260710-008",
+  "title": "Snailclimb/JavaGuide",
+  "source": "github_trending",
+  "source_url": "https://github.com/Snailclimb/JavaGuide",
+  "summary": "JavaGuide 是一个涵盖 Java 面试、后端技术及 AI 应用开发的综合指南项目。",
+  "translated_summary": "JavaGuide is a comprehensive guide covering Java interviews, backend technologies, and AI application development.",
+  "tags": [
+    "Java",
+    "面试指南",
+    "后端开发"
+  ],
+  "category": "tool",
+  "language": "zh",
+  "collected_at": "2026-07-10T18:46:30.418291+08:00",
+  "status": "pending",
+  "score": 0.5
+}

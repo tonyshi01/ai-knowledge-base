@@ -1,0 +1,18 @@
+{
+  "id": "20260710-030",
+  "title": "Launch HN: Context.dev (YC S26) – API to get structured data from any website",
+  "source": "hacker_news",
+  "source_url": "https://www.context.dev",
+  "summary": "Context.dev 是一个 API 服务，可从任何网站提取结构化数据，支持 Markdown、截图、JSON 等输出。",
+  "translated_summary": "Context.dev is an API that extracts structured data from any website, providing clean Markdown, screenshots, JSON, and brand context for developers and agents.",
+  "tags": [
+    "web scraping",
+    "structured data API",
+    "developer tools"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-10T18:46:31.218561+08:00",
+  "status": "pending",
+  "score": 0.75
+}
