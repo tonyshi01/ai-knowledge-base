@@ -1,0 +1,18 @@
+{
+  "id": "20260711-026",
+  "title": "An update on residential proxies and the scraper situation",
+  "source": "hacker_news",
+  "source_url": "https://lwn.net/SubscriberLink/1080822/990a8a5e2d379085/",
+  "summary": "文章讨论了住宅代理和爬虫的现状，分析了其对网站访问和数据抓取的影响。",
+  "translated_summary": "An update on residential proxies and the scraper situation, discussing their impact on web access and data scraping.",
+  "tags": [
+    "residential proxies",
+    "web scraping",
+    "data access"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-11T17:20:42.793592+08:00",
+  "status": "pending",
+  "score": 0.5
+}

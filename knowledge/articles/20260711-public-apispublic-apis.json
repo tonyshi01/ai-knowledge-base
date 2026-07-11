@@ -1,0 +1,18 @@
+{
+  "id": "20260711-001",
+  "title": "public-apis/public-apis",
+  "source": "github_trending",
+  "source_url": "https://github.com/public-apis/public-apis",
+  "summary": "GitHub上收集了大量免费公开API的列表仓库，方便开发者查找和使用。",
+  "translated_summary": "A collective list of free APIs for use in software and web development, curated on GitHub.",
+  "tags": [
+    "API",
+    "开源",
+    "开发者工具"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-11T17:20:42.164162+08:00",
+  "status": "pending",
+  "score": 0.6
+}

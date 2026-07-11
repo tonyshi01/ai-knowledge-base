@@ -1,0 +1,19 @@
+{
+  "id": "20260711-033",
+  "title": "QuadRF can spot drones and see WiFi through my wall",
+  "source": "hacker_news",
+  "source_url": "https://www.jeffgeerling.com/blog/2026/quadrf-can-spot-drones-and-see-wifi-through-my-wall/",
+  "summary": "QuadRF 是一种能够探测无人机和穿透墙壁感知 WiFi 信号的射频技术。",
+  "translated_summary": "QuadRF can spot drones and see WiFi through my wall, demonstrating advanced RF sensing capabilities.",
+  "tags": [
+    "QuadRF",
+    "drone detection",
+    "WiFi sensing",
+    "RF technology"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-11T17:20:42.793592+08:00",
+  "status": "pending",
+  "score": 0.75
+}

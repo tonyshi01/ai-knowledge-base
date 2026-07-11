@@ -1,0 +1,18 @@
+{
+  "id": "20260711-036",
+  "title": "After 7 years in production, Scarf has reluctantly moved away from Haskell",
+  "source": "hacker_news",
+  "source_url": "https://avi.press/posts/2026-07-10-after-7-years-in-production-scarf-has-reluctantly-moved-away-from-haskell.html",
+  "summary": "Scarf在7年后因生态和招聘问题从Haskell迁移到其他语言。",
+  "translated_summary": "After 7 years in production, Scarf has reluctantly moved away from Haskell due to ecosystem and hiring challenges.",
+  "tags": [
+    "Haskell",
+    "migration",
+    "production"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-11T17:20:42.793592+08:00",
+  "status": "pending",
+  "score": 0.6
+}
