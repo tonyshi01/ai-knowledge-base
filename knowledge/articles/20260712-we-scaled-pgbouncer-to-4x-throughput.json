@@ -1,0 +1,18 @@
+{
+  "id": "20260712-037",
+  "title": "We scaled PgBouncer to 4x throughput",
+  "source": "hacker_news",
+  "source_url": "https://clickhouse.com/blog/pgbouncer-clickhouse-managed-postgres",
+  "summary": "ClickHouse团队通过优化将PgBouncer的吞吐量提升了4倍。",
+  "translated_summary": "ClickHouse团队通过优化将PgBouncer的吞吐量提升了4倍，用于其托管PostgreSQL服务。",
+  "tags": [
+    "PgBouncer",
+    "ClickHouse",
+    "性能优化"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-12T17:45:10.217054+08:00",
+  "status": "pending",
+  "score": 0.7
+}

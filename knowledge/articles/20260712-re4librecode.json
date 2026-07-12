@@ -1,0 +1,20 @@
+{
+  "id": "20260712-001",
+  "title": "re4/LibreCode",
+  "source": "github_trending",
+  "source_url": "https://github.com/re4/LibreCode",
+  "summary": "LibreCode 是一个开源的类 Cursor 编程与逆向工程界面，基于 Ollama 构建。",
+  "translated_summary": "LibreCode is an open-source coding and reversing interface similar to Cursor, built on top of Ollama.",
+  "tags": [
+    "open-source",
+    "coding assistant",
+    "reverse engineering",
+    "Ollama",
+    "IDE"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-12T17:45:09.542447+08:00",
+  "status": "pending",
+  "score": 0.65
+}

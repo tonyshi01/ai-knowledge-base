@@ -1,0 +1,18 @@
+{
+  "id": "20260712-026",
+  "title": "A dock that wakes up reliably",
+  "source": "hacker_news",
+  "source_url": "https://fabiensanglard.net/tb4/index.html",
+  "summary": "一篇关于如何设计一个可靠唤醒的扩展坞的技术文章。",
+  "translated_summary": "A dock that wakes up reliably is a technical article discussing the design and implementation of a docking station that consistently and dependably wakes from sleep or standby mode.",
+  "tags": [
+    "docking station",
+    "hardware design",
+    "reliability"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-12T17:45:10.217054+08:00",
+  "status": "pending",
+  "score": 0.3
+}

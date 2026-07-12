@@ -1,0 +1,18 @@
+{
+  "id": "20260712-025",
+  "title": "The Energetic Costs of Cellular Computation (2012)",
+  "source": "hacker_news",
+  "source_url": "https://arxiv.org/abs/1203.5426",
+  "summary": "2012年论文分析细胞计算的能量成本，探讨生物信息处理的物理极限。",
+  "translated_summary": "The Energetic Costs of Cellular Computation (2012) analyzes the energy costs of cellular information processing, exploring the physical limits of biological computation.",
+  "tags": [
+    "cellular computation",
+    "energy costs",
+    "biological information processing"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-12T17:45:10.217054+08:00",
+  "status": "pending",
+  "score": 0.65
+}

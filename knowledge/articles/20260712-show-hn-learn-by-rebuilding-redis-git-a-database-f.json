@@ -1,0 +1,18 @@
+{
+  "id": "20260712-039",
+  "title": "Show HN: Learn by rebuilding Redis, Git, a database from scratch",
+  "source": "hacker_news",
+  "source_url": "https://shipthatcode.com",
+  "summary": "一个通过从零重建Redis、Git和数据库等经典系统来学习编程的教程网站。",
+  "translated_summary": "A tutorial website that teaches programming by rebuilding classic systems like Redis, Git, and a database from scratch.",
+  "tags": [
+    "hands-on learning",
+    "system design",
+    "programming tutorials"
+  ],
+  "category": "tool",
+  "language": "en",
+  "collected_at": "2026-07-12T17:45:10.217054+08:00",
+  "status": "pending",
+  "score": 0.75
+}

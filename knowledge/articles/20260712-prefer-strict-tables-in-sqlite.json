@@ -1,0 +1,18 @@
+{
+  "id": "20260712-032",
+  "title": "Prefer strict tables in SQLite",
+  "source": "hacker_news",
+  "source_url": "https://evanhahn.com/prefer-strict-tables-in-sqlite/",
+  "summary": "文章推荐在SQLite中使用严格表模式以提高数据完整性和类型安全性。",
+  "translated_summary": "The article recommends using strict table mode in SQLite to improve data integrity and type safety.",
+  "tags": [
+    "SQLite",
+    "数据库",
+    "最佳实践"
+  ],
+  "category": "opinion",
+  "language": "en",
+  "collected_at": "2026-07-12T17:45:10.217054+08:00",
+  "status": "pending",
+  "score": 0.65
+}

@@ -1,0 +1,18 @@
+{
+  "id": "20260712-035",
+  "title": "UPI: Anatomy of a Payment Transaction",
+  "source": "hacker_news",
+  "source_url": "https://timeseriesofindia.com/economy/reads/upi-architecture/",
+  "summary": "文章详细解析了UPI支付交易的架构与流程，包括参与者、交易步骤和技术细节。",
+  "translated_summary": "This article provides a detailed analysis of the UPI payment transaction architecture, including participants, transaction steps, and technical details.",
+  "tags": [
+    "UPI",
+    "payment architecture",
+    "transaction flow"
+  ],
+  "category": "research",
+  "language": "en",
+  "collected_at": "2026-07-12T17:45:10.217054+08:00",
+  "status": "pending",
+  "score": 0.6
+}
