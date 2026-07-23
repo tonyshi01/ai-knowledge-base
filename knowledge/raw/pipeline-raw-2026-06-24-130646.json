@@ -1,0 +1,106 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-06-24T13:06:46.186322+08:00",
+  "item_count": 6,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 443820,
+        "forks": 48654,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-06-24T13:06:43.728228+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 304523,
+        "forks": 28141,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-06-24T13:06:43.728228+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 300845,
+        "forks": 14018,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-06-24T13:06:43.728228+08:00"
+    },
+    {
+      "title": "Sakana Fugu: a multi-agent system delivered as one model",
+      "url": "https://github.com/SakanaAI/fugu",
+      "description": "<p>Article URL: <a href=\"https://github.com/SakanaAI/fugu\">https://github.com/SakanaAI/fugu</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654765\">https://news.ycombinator.com/item?id=48654765</a></p>\n<p>Points: 6</p>\n<p># Comments: 1</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 03:31:58 +0000"
+      },
+      "collected_at": "2026-06-24T13:06:44.644823+08:00"
+    },
+    {
+      "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+      "url": "https://gitlab.com/baiyibai/pico-usb-wifi",
+      "description": "<p>Article URL: <a href=\"https://gitlab.com/baiyibai/pico-usb-wifi\">https://gitlab.com/baiyibai/pico-usb-wifi</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654676\">https://news.ycombinator.com/item?id=48654676</a></p>\n<p>Points: 17</p>\n<p># Comments: 3</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 03:17:47 +0000"
+      },
+      "collected_at": "2026-06-24T13:06:44.644823+08:00"
+    },
+    {
+      "title": "The Teensy Executable Revisited",
+      "url": "https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html",
+      "description": "<p>Article URL: <a href=\"https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html\">https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654411\">https://news.ycombinator.com/item?id=48654411</a></p>\n<p>Points: 12</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 02:30:13 +0000"
+      },
+      "collected_at": "2026-06-24T13:06:44.644823+08:00"
+    }
+  ]
+}

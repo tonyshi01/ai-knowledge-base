@@ -1,0 +1,178 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-06-24T17:39:55.538185+08:00",
+  "item_count": 10,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 443872,
+        "forks": 48658,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-06-24T17:39:52.955449+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 304563,
+        "forks": 28142,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-06-24T17:39:52.955449+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 300879,
+        "forks": 14020,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-06-24T17:39:52.955449+08:00"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 220845,
+        "forks": 33815,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ]
+      },
+      "collected_at": "2026-06-24T17:39:52.955449+08:00"
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 201447,
+        "forks": 35969,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "clawdbot",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "moltbot",
+          "nous-research",
+          "openai",
+          "openclaw"
+        ]
+      },
+      "collected_at": "2026-06-24T17:39:52.955449+08:00"
+    },
+    {
+      "title": "Ashby (YC W19) Is Hiring EMEA Engineers Who Can Design",
+      "url": "https://www.ashbyhq.com/careers?ashby_jid=87b96eef-edc1-4de4-adb6-d460126d02f8&amp;utm_source=hn",
+      "description": "<p>Article URL: <a href=\"https://www.ashbyhq.com/careers?ashby_jid=87b96eef-edc1-4de4-adb6-d460126d02f8&utm_source=hn\">https://www.ashbyhq.com/careers?ashby_jid=87b96eef-edc1-4de4-adb6-d460126d02f8&utm_source=hn</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48656219\">https://news.ycombinator.com/item?id=48656219</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 07:01:21 +0000"
+      },
+      "collected_at": "2026-06-24T17:39:54.050845+08:00"
+    },
+    {
+      "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+      "url": "https://gitlab.com/baiyibai/pico-usb-wifi",
+      "description": "<p>Article URL: <a href=\"https://gitlab.com/baiyibai/pico-usb-wifi\">https://gitlab.com/baiyibai/pico-usb-wifi</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654676\">https://news.ycombinator.com/item?id=48654676</a></p>\n<p>Points: 127</p>\n<p># Comments: 37</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 03:17:47 +0000"
+      },
+      "collected_at": "2026-06-24T17:39:54.050845+08:00"
+    },
+    {
+      "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+      "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
+      "description": "<p>Article URL: <a href=\"https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf\">https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654465\">https://news.ycombinator.com/item?id=48654465</a></p>\n<p>Points: 90</p>\n<p># Comments: 32</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 02:38:47 +0000"
+      },
+      "collected_at": "2026-06-24T17:39:54.050845+08:00"
+    },
+    {
+      "title": "The Teensy Executable Revisited",
+      "url": "https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html",
+      "description": "<p>Article URL: <a href=\"https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html\">https://www.muppetlabs.com/~breadbox/software/tiny/revisit.html</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654411\">https://news.ycombinator.com/item?id=48654411</a></p>\n<p>Points: 37</p>\n<p># Comments: 3</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 02:30:13 +0000"
+      },
+      "collected_at": "2026-06-24T17:39:54.050845+08:00"
+    },
+    {
+      "title": "Qwen-AgentWorld: Language World Models for General Agents",
+      "url": "https://arxiv.org/abs/2606.24597",
+      "description": "<p>Article URL: <a href=\"https://arxiv.org/abs/2606.24597\">https://arxiv.org/abs/2606.24597</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654351\">https://news.ycombinator.com/item?id=48654351</a></p>\n<p>Points: 100</p>\n<p># Comments: 27</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 02:21:47 +0000"
+      },
+      "collected_at": "2026-06-24T17:39:54.050845+08:00"
+    }
+  ]
+}

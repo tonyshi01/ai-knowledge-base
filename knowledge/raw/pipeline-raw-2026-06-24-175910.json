@@ -1,0 +1,178 @@
+{
+  "source": "pipeline",
+  "collected_at": "2026-06-24T17:59:10.213056+08:00",
+  "item_count": 10,
+  "items": [
+    {
+      "title": "public-apis/public-apis",
+      "url": "https://github.com/public-apis/public-apis",
+      "description": "A collective list of free APIs",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 443878,
+        "forks": 48659,
+        "language": "Python",
+        "topics": [
+          "api",
+          "apis",
+          "dataset",
+          "development",
+          "free",
+          "list",
+          "lists",
+          "open-source",
+          "public",
+          "public-api",
+          "public-apis",
+          "resources",
+          "software"
+        ]
+      },
+      "collected_at": "2026-06-24T17:59:07.202797+08:00"
+    },
+    {
+      "title": "vinta/awesome-python",
+      "url": "https://github.com/vinta/awesome-python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 304565,
+        "forks": 28143,
+        "language": "Python",
+        "topics": [
+          "awesome",
+          "collections",
+          "python",
+          "python-frameworks",
+          "python-libraries",
+          "python-tools"
+        ]
+      },
+      "collected_at": "2026-06-24T17:59:07.202797+08:00"
+    },
+    {
+      "title": "awesome-selfhosted/awesome-selfhosted",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 300882,
+        "forks": 14020,
+        "language": null,
+        "topics": [
+          "awesome",
+          "awesome-list",
+          "cloud",
+          "free-software",
+          "hosting",
+          "privacy",
+          "self-hosted",
+          "selfhosted"
+        ]
+      },
+      "collected_at": "2026-06-24T17:59:07.202797+08:00"
+    },
+    {
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 220851,
+        "forks": 33816,
+        "language": "JavaScript",
+        "topics": [
+          "ai-agents",
+          "anthropic",
+          "claude",
+          "claude-code",
+          "developer-tools",
+          "llm",
+          "mcp",
+          "productivity"
+        ]
+      },
+      "collected_at": "2026-06-24T17:59:07.202797+08:00"
+    },
+    {
+      "title": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "source": "github_trending",
+      "metadata": {
+        "stars": 201468,
+        "forks": 35970,
+        "language": "Python",
+        "topics": [
+          "ai",
+          "ai-agent",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "claude",
+          "claude-code",
+          "clawdbot",
+          "codex",
+          "hermes",
+          "hermes-agent",
+          "llm",
+          "moltbot",
+          "nous-research",
+          "openai",
+          "openclaw"
+        ]
+      },
+      "collected_at": "2026-06-24T17:59:07.202797+08:00"
+    },
+    {
+      "title": "We're making Bunny DNS free: because a faster internet won't build itself",
+      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+      "description": "<p>Article URL: <a href=\"https://bunny.net/blog/were-making-bunny-dns-free/\">https://bunny.net/blog/were-making-bunny-dns-free/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48657030\">https://news.ycombinator.com/item?id=48657030</a></p>\n<p>Points: 41</p>\n<p># Comments: 11</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 08:50:41 +0000"
+      },
+      "collected_at": "2026-06-24T17:59:08.179597+08:00"
+    },
+    {
+      "title": "Grok Build 0.1: Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/grok-build-0-1-06-16",
+      "description": "<p>Article URL: <a href=\"https://artificialanalysis.ai/models/grok-build-0-1-06-16\">https://artificialanalysis.ai/models/grok-build-0-1-06-16</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48656943\">https://news.ycombinator.com/item?id=48656943</a></p>\n<p>Points: 5</p>\n<p># Comments: 2</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 08:41:07 +0000"
+      },
+      "collected_at": "2026-06-24T17:59:08.179597+08:00"
+    },
+    {
+      "title": "Ashby (YC W19) Is Hiring EMEA Engineers Who Can Design",
+      "url": "https://www.ashbyhq.com/careers?ashby_jid=87b96eef-edc1-4de4-adb6-d460126d02f8&amp;utm_source=hn",
+      "description": "<p>Article URL: <a href=\"https://www.ashbyhq.com/careers?ashby_jid=87b96eef-edc1-4de4-adb6-d460126d02f8&utm_source=hn\">https://www.ashbyhq.com/careers?ashby_jid=87b96eef-edc1-4de4-adb6-d460126d02f8&utm_source=hn</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48656219\">https://news.ycombinator.com/item?id=48656219</a></p>\n<p>Points: 0</p>\n<p># Comments: 0</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 07:01:21 +0000"
+      },
+      "collected_at": "2026-06-24T17:59:08.179597+08:00"
+    },
+    {
+      "title": "Raspberry Pi Pico W as USB Wi-Fi Adapter",
+      "url": "https://gitlab.com/baiyibai/pico-usb-wifi",
+      "description": "<p>Article URL: <a href=\"https://gitlab.com/baiyibai/pico-usb-wifi\">https://gitlab.com/baiyibai/pico-usb-wifi</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654676\">https://news.ycombinator.com/item?id=48654676</a></p>\n<p>Points: 137</p>\n<p># Comments: 44</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 03:17:47 +0000"
+      },
+      "collected_at": "2026-06-24T17:59:08.179597+08:00"
+    },
+    {
+      "title": "\"Fix\" MacBook Neo Cursor Lag: Record 1 Pixel of the Screen Every 10 Seconds",
+      "url": "https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf",
+      "description": "<p>Article URL: <a href=\"https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf\">https://gist.github.com/retroplasma/ec21767d0a8380c7ea9c2fbee1c7d6bf</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=48654465\">https://news.ycombinator.com/item?id=48654465</a></p>\n<p>Points: 96</p>\n<p># Comments: 37</p>",
+      "source": "hacker_news",
+      "metadata": {
+        "published": "Wed, 24 Jun 2026 02:38:47 +0000"
+      },
+      "collected_at": "2026-06-24T17:59:08.179597+08:00"
+    }
+  ]
+}

@@ -20,3 +20,6 @@ venv/
 # Environment
 .env
 .env.local
+
+# Logs
+logs/
